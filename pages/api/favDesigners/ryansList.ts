@@ -54,7 +54,7 @@ export const ryansList: PersonList = {
     }
   },
   'Vlaada Chvátil': {
-    personImageName: 'vlaada-chvátil',
+    personImageName: 'vlaada-chvtil',
     sequence: 2,
     games: {
       'Codenames': {
@@ -170,7 +170,7 @@ export const ryansList: PersonList = {
       'Dûhr: The Lesser Houses': {
         gameArtists: 'Reza Afshar, Jonathan Guzi',
         gameDesigners: 'Jim Felli',
-        gameImageName: 'dûhr-the-lesser-houses',
+        gameImageName: 'dhr-the-lesser-houses',
         gamePublisher: 'Devious Weasel Games',
         yearPublished: '2018',
       },

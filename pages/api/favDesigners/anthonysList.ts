@@ -159,7 +159,7 @@ export const anthonysList: PersonList = {
       'Bärenpark': {
         gameArtists: 'Klemens Franz',
         gameDesigners: 'Phil Walker-Harding',
-        gameImageName: 'bärenpark',
+        gameImageName: 'brenpark',
         gamePublisher: 'Lookout Games',
         yearPublished: '2017',
       },
