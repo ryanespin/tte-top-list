@@ -1,105 +1,14 @@
-import { GameItemProps, PersonItemProps } from "@/components/TopListItem";
-
-export type PersonList = {
-  [key: string]: PersonItemProps;
-}
+import { PersonList } from "@/components/elements/TopListItem";
+import { designersList } from "../../gameData";
 
 export const chrisList: PersonList = {
   'Shem Phillips': {
-    personImageName: 'shem-phillips',
+    ...designersList['Shem Phillips'],
     sequence: 1,
-    games: {
-      'Architects of the West Kingdom': {
-        gameArtists: 'Mihajlo Dimitrievski',
-        gameDesigners: 'S J Macdonald, Shem Phillips',
-        gameImageName: 'architects-of-the-west-kingdom',
-        gamePublisher: 'Garphill Games',
-        yearPublished: '2018',
-      },
-      'Paladins of the West Kingdom': {
-        gameArtists: 'Mihajlo Dimitrievski',
-        gameDesigners: 'S J Macdonald, Shem Phillips',
-        gameImageName: 'paladins-of-the-west-kingdom',
-        gamePublisher: 'Garphill Games, Renegade Game Studios',
-        yearPublished: '2019',
-      },
-      'Raiders of the North Sea': {
-        gameArtists: 'Mihajlo Dimitrievski',
-        gameDesigners: 'Shem Phillips',
-        gameImageName: 'raiders-of-the-north-sea',
-        gamePublisher: 'Garphill Games',
-        yearPublished: '2015',
-      },
-      'Raiders of Scythia': {
-        gameArtists: 'Shem Phillips',
-        gameDesigners: 'Shem Phillips',
-        gameImageName: 'raiders-of-scythia',
-        gamePublisher: 'Garphill Games',
-        yearPublished: '2020',
-      },
-      'Viscounts of the West Kingdom': {
-        gameArtists: 'Mihajlo Dimitrievski',
-        gameDesigners: 'S J Macdonald, Shem Phillips',
-        gameImageName: 'viscounts-of-the-west-kingdom',
-        gamePublisher: 'Garphill Games',
-        yearPublished: '2020',
-      },
-      'Wayfarers of the South Tigris': {
-        gameArtists: 'Mihajlo Dimitrievski',
-        gameDesigners: 'S J Macdonald, Shem Phillips',
-        gameImageName: 'wayfarers-of-the-south-tigris',
-        gamePublisher: 'Garphill Games',
-        yearPublished: '2022',
-      },
-    }
   },
   'David Thompson': {
-    personImageName: 'david-thompson',
+    ...designersList['David Thompson'],
     sequence: 2,
-    games: {
-      'By Stealth and Sea': {
-        gameArtists: 'David Thompson',
-        gameDesigners: 'Nicola Saggini, David Thompson',
-        gameImageName: 'by-stealth-and-sea',
-        gamePublisher: 'Dan Verssen Games (DVG)',
-        yearPublished: '2020',
-      },
-      'Resist!': {
-        gameArtists: 'Albert Monteys',
-        gameDesigners: 'Trevor Benjamin, Roger Tankersley, David Thompson',
-        gameImageName: 'resist',
-        gamePublisher: 'Salt & Pepper Games',
-        yearPublished: '2022',
-      },
-      'Sniper Elite: The Board Game': {
-        gameArtists: 'Jose David Lanza Cebrian, Edouard Grould, Ed Savage',
-        gameDesigners: 'Roger Tankersley, David Thompson',
-        gameImageName: 'sniper-elite-the-board-game',
-        gamePublisher: 'Rebellion Unplugged',
-        yearPublished: '2022',
-      },
-      'Switch & Signal': {
-        gameArtists: 'Claus Stephan, Antje Stephan',
-        gameDesigners: 'David Thompson',
-        gameImageName: 'switch-signal',
-        gamePublisher: 'KOSMOS',
-        yearPublished: '2020',
-      },
-      'Undaunted: Stalingrad': {
-        gameArtists: 'Roland MacDonald',
-        gameDesigners: 'Trevor Benjamin, David Thompson',
-        gameImageName: 'undaunted-stalingrad',
-        gamePublisher: 'Osprey Games',
-        yearPublished: '2022',
-      },
-      'War Chest': {
-        gameArtists: 'Brigette Indelicato',
-        gameDesigners: 'Trevor Benjamin, David Thompson',
-        gameImageName: 'war-chest',
-        gamePublisher: 'Alderac Entertainment Group',
-        yearPublished: '2018',
-      },
-    }
   },
   'Jamey Stegmaier': {
     personImageName: 'jamey-stegmaier',

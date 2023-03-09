@@ -1,8 +1,4 @@
-import { GameItemProps, PersonItemProps } from "@/components/TopListItem";
-
-export type PersonList = {
-  [key: string]: PersonItemProps;
-}
+import { PersonList } from "@/components/elements/TopListItem";
 
 export const anthonysList: PersonList = {
   'Bruno Cathala': {

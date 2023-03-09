@@ -1,16 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import { Collapse, Flex, Heading, HStack, Spacer, useDisclosure, VStack } from '@chakra-ui/react'
-import { TopListItem } from '@/components/TopListItem'
-import { ryansList } from './api/ryansList'
-import { chrisList } from './api/chrisList'
-import { anthonysList } from './api/anthonysList'
+import { Card, CardBody, CardHeader, Container, Flex, Heading, Link as ChakraLink, List, ListItem, UnorderedList } from '@chakra-ui/react'
+import { DefaultLayout } from '@/components/layouts/Default'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const { isOpen, onToggle } = useDisclosure()
   return (
     <>
       <Head>
@@ -19,97 +15,57 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Flex flexDirection="column" height="100vh" width="100vw">
-        <HStack bg="white" p={4}>
-          <Image alt="Tabletop Express Logo" src="/ttexpress-circle-logo.png" height={60} onClick={onToggle} width={60} />
-          <Heading>Tabletop Express</Heading>
-          <Spacer />
-          <Heading>Favorite 2 Player Games</Heading>
-        </HStack>
-        <Flex flex={1} maxHeight="calc(100vh - 92px)">
-            <VStack
-              bg="blue.600"
-              css={{
-                '&::-webkit-scrollbar': {
-                  display: 'none'
-                }
-              }}
-              display={isOpen ? 'flex' : 'none'}
-              overflow="auto"
-              p={4}
-              width="100%"
-            >
-              {Object.entries(chrisList).map(([gameName, gameInfo]) => (
-                <TopListItem
-                  key={gameName}
-                  colorScheme="blue"
-                  gameArtists={gameInfo.gameArtists}
-                  gameDesigners={gameInfo.gameDesigners}
-                  gameImageName={gameInfo.gameImageName}
-                  gameName={gameName}
-                  gamePublisher={gameInfo.gamePublisher}
-                  sequence={gameInfo.sequence}
-                  title="Chris' Pick"
-                  yearPublished={gameInfo.yearPublished}
-                />
-              ))}
-            </VStack>
-          <VStack
-            bg="red.600"
-            css={{
-              '&::-webkit-scrollbar': {
-                display: 'none'
-              }
-            }}
-            overflow="auto"
-            p={4}
-            width="100%"
-          >
-            {Object.entries(ryansList).map(([gameName, gameInfo]) => (
-              <TopListItem
-                key={gameName}
-                colorScheme="red"
-                gameArtists={gameInfo.gameArtists}
-                gameDesigners={gameInfo.gameDesigners}
-                gameImageName={gameInfo.gameImageName}
-                gameName={gameName}
-                gamePublisher={gameInfo.gamePublisher}
-                sequence={gameInfo.sequence}
-                title="Ryan's Pick"
-                yearPublished={gameInfo.yearPublished}
-              />
-            ))}
-          </VStack>
-          <VStack
-            bg="purple.600"
-            css={{
-              '&::-webkit-scrollbar': {
-                display: 'none'
-              }
-            }}
-            overflow="auto"
-            p={4}
-            width="100%"
-          >
-          {Object.entries(anthonysList).map(([gameName, gameInfo]) => (
-            <TopListItem
-              key={gameName}
-              colorScheme="purple"
-              gameArtists={gameInfo.gameArtists}
-              gameDesigners={gameInfo.gameDesigners}
-              gameImageName={gameInfo.gameImageName}
-              gameName={gameName}
-              gamePublisher={gameInfo.gamePublisher}
-              imageBoxExtension={gameInfo.imageBoxExtension}
-              imageExtension={gameInfo.imageExtension}
-              sequence={gameInfo.sequence}
-              title="Anthony's Pick"
-              yearPublished={gameInfo.yearPublished}
-            />
-          ))}
-          </VStack>
-        </Flex>
-      </Flex>
+      <DefaultLayout pageTitle="Directory">
+        <Container maxWidth="container.xl" my={4}>
+          <Flex flexWrap="wrap" gap={4}>
+            <Card>
+              <CardHeader>
+                <Heading>Call Aboard 2023</Heading>
+              </CardHeader>
+              <CardBody>
+                <UnorderedList>
+                  <ListItem>
+                    <ChakraLink as={Link} href="/fav2PlayerGames2023">Favorite 2 Player Games 2023</ChakraLink>
+                  </ListItem>
+                  <ListItem>
+                    <ChakraLink as={Link} href="/favDesigners2023">Favorite Designers 2023</ChakraLink>
+                  </ListItem>
+                </UnorderedList>
+              </CardBody>
+            </Card>
+            <Card>
+              <CardHeader>
+                <Heading>Favorite Lists 2023</Heading>
+              </CardHeader>
+              <CardBody>
+                <UnorderedList>
+                  <ListItem>
+                    <ChakraLink as={Link} href="/fav2PlayerGames2023">Favorite 2 Player Games 2023</ChakraLink>
+                  </ListItem>
+                  <ListItem>
+                    <ChakraLink as={Link} href="/favDesigners2023">Favorite Designers 2023</ChakraLink>
+                  </ListItem>
+                </UnorderedList>
+              </CardBody>
+            </Card>
+            <Card>
+              <CardHeader>
+                <Heading>Top Lists 2023</Heading>
+              </CardHeader>
+              <CardBody>
+                <UnorderedList>
+                  <ListItem>
+                    <ChakraLink as={Link} href="/top20Chris2023">Chris Barrows</ChakraLink>
+                  </ListItem>
+                </UnorderedList>
+              </CardBody>
+            </Card>
+          </Flex>
+          <Heading>
+
+          </Heading>
+        </Container>
+      </DefaultLayout>
     </>
   )
 }

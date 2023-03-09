@@ -3,7 +3,6 @@ import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, D
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faIndustry, faPaintbrush, faPen } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
-import { GameList } from '@/pages/api/anthonysList';
 
 export interface ItemBaseProps {
   sequence?: number;
@@ -24,6 +23,14 @@ export interface PersonItemProps extends ItemBaseProps {
   games?: GameList;
   personName?: string;
   personImageName?: string;
+}
+
+export type GameList = {
+  [key: string]: GameItemProps;
+}
+
+export type PersonList = {
+  [key: string]: PersonItemProps;
 }
 
 interface TopListItemProps extends CardProps, GameItemProps, PersonItemProps {
