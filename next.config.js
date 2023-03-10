@@ -1,8 +1,11 @@
 // next.config.js
-const isProd = process.env.NODE_ENV === 'production'
+const repo = 'tte-top-list'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}`
 
 module.exports = {
-  assetPrefix: isProd ? '/tte-top-list/' : '',
+  assetPrefix: assetPrefix,
+  basePath: basePath,
   images: {
     unoptimized: true,
   },
