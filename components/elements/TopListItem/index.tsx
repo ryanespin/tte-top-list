@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, Icon, IconButton, Image as ChakraImage, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, VStack } from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faIndustry, faPaintbrush, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faIndustry, faPaintbrush, faPen } from '@fortawesome/pro-solid-svg-icons';
 import Image from 'next/image';
 
 export interface ItemBaseProps {
