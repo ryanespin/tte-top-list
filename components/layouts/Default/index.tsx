@@ -11,7 +11,7 @@ export const DefaultLayout: React.FC<DefaultLayoutProps> = (props: DefaultLayout
   return (
     <Flex flexDirection="column" height="100vh" width="100vw">
       <HStack bg="white" p={4}>
-        <Image alt="Tabletop Express Logo" src="/ttexpress-circle-logo.png" height={60} width={60} />
+        <Image alt="Tabletop Express Logo" src="./ttexpress-circle-logo.png" height={60} width={60} />
         <Heading>Tabletop Express</Heading>
         <Spacer />
         <Heading>{pageTitle}</Heading>
