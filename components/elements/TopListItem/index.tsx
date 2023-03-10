@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, Icon, IconButton, Image as ChakraImage, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, VStack } from '@chakra-ui/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faIndustry, faPaintbrush, faPen } from '@fortawesome/pro-solid-svg-icons';
 import Image from 'next/image';
 
 export interface ItemBaseProps {
@@ -92,19 +90,19 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
             {itemType === 'game' && (
               <Box ml={12} mt={2}>
                 <Flex gap={2}>
-                  <Icon as={FontAwesomeIcon} icon={faPen} mt={1} />
+                  <Icon as="i" className="fa-regular fa-pen" mt={1} />
                   <Text noOfLines={1}>{gameDesigners}</Text>
                 </Flex>
                 <Flex gap={2}>
-                  <Icon as={FontAwesomeIcon} icon={faPaintbrush} mt={1} />
+                <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
                   <Text noOfLines={1}>{gameArtists}</Text>
                 </Flex>
                 <Flex gap={2}>
-                  <Icon as={FontAwesomeIcon} icon={faCalendar} mt={1} />
+                  <Icon as="i" className="fa-regular fa-calendar" mt={1} />
                   <Text noOfLines={1}>{yearPublished}</Text>
                 </Flex>
                 <Flex gap={2}>
-                  <Icon as={FontAwesomeIcon} icon={faIndustry} mt={1} />
+                  <Icon as="i" className="fa-regular fa-industry" mt={1} />
                   <Text noOfLines={1}>{gamePublisher}</Text>
                 </Flex>
               </Box>
@@ -162,19 +160,19 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                 {itemType === 'game' && (
                   <Flex borderLeftWidth={1} flexDirection="column" fontSize="sm" maxWidth="50%" px={4}>
                     <Flex gap={2}>
-                      <Icon as={FontAwesomeIcon} icon={faPen} mt={1} />
+                      <Icon as="i" className="fa-regular fa-pen" mt={1} />
                       <Text noOfLines={1}>{gameDesigners}</Text>
                     </Flex>
                     <Flex alignItems="flex-start" gap={2}>
-                      <Icon as={FontAwesomeIcon} icon={faPaintbrush} mt={1} />
+                      <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
                       <Text noOfLines={1}>{gameArtists}</Text>
                     </Flex>
                     <Flex gap={2}>
-                      <Icon as={FontAwesomeIcon} icon={faCalendar} mt={1} />
+                      <Icon as="i" className="fa-regular fa-calendar" mt={1} />
                       <Text noOfLines={1}>{yearPublished}</Text>
                     </Flex>
                     <Flex gap={2}>
-                      <Icon as={FontAwesomeIcon} icon={faIndustry} mt={1} />
+                      <Icon as="i" className="fa-regular fa-industry" mt={1} />
                       <Text noOfLines={1}>{gamePublisher}</Text>
                     </Flex>
                   </Flex>
@@ -208,19 +206,19 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           </Heading>
                           <Flex flexDirection="column" fontSize="sm">
                             <Flex gap={2}>
-                              <Icon as={FontAwesomeIcon} icon={faPen} mt={1} />
+                             <Icon as="i" className="fa-regular fa-pen" mt={1} />
                               <Text noOfLines={1}>{gameInfo.gameDesigners}</Text>
                             </Flex>
                             <Flex alignItems="flex-start" gap={2}>
-                              <Icon as={FontAwesomeIcon} icon={faPaintbrush} mt={1} />
+                              <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
                               <Text noOfLines={1}>{gameInfo.gameArtists}</Text>
                             </Flex>
                             <Flex gap={2}>
-                              <Icon as={FontAwesomeIcon} icon={faCalendar} mt={1} />
+                              <Icon as="i" className="fa-regular fa-calendar" mt={1} />
                               <Text noOfLines={1}>{gameInfo.yearPublished}</Text>
                             </Flex>
                             <Flex gap={2}>
-                              <Icon as={FontAwesomeIcon} icon={faIndustry} mt={1} />
+                              <Icon as="i" className="fa-regular fa-industry" mt={1} />
                               <Text noOfLines={1}>{gameInfo.gamePublisher}</Text>
                             </Flex>
                           </Flex>

@@ -1143,74 +1143,6 @@
   "resolved" "https://registry.npmjs.org/@fontsource/krona-one/-/krona-one-4.5.11.tgz"
   "version" "4.5.11"
 
-"@fortawesome/fontawesome-common-types@6.3.0":
-  "integrity" "sha512-4BC1NMoacEBzSXRwKjZ/X/gmnbp/HU5Qqat7E8xqorUtBFZS+bwfGH5/wqOC2K6GV0rgEobp3OjGRMa5fK9pFg=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/fontawesome-common-types/-/6.3.0/fontawesome-common-types-6.3.0.tgz"
-  "version" "6.3.0"
-
-"@fortawesome/fontawesome-svg-core@^6.3.0", "@fortawesome/fontawesome-svg-core@~1 || ~6":
-  "integrity" "sha512-uz9YifyKlixV6AcKlOX8WNdtF7l6nakGyLYxYaCa823bEBqyj/U2ssqtctO38itNEwXb8/lMzjdoJ+aaJuOdrw=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/fontawesome-svg-core/-/6.3.0/fontawesome-svg-core-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/pro-duotone-svg-icons@^6.3.0":
-  "integrity" "sha512-aMTITCiM3s1y+ywpYhg7tAuRb6UNo11FspZwRcyAVuxveRo8sa7TPUZD8NlqsgTULWjjeg8BJ78yB4vQN3JfxQ=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/pro-duotone-svg-icons/-/6.3.0/pro-duotone-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/pro-light-svg-icons@^6.3.0":
-  "integrity" "sha512-hNvvz3aAzDdzvEvL5lNKNIG2Yv/iPy6+g0oL/Y54Qhu+Ba+yi1BGfzRv54F6JwCWgglZeJ9WjN4Bhr8cLxp+hQ=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/pro-light-svg-icons/-/6.3.0/pro-light-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/pro-regular-svg-icons@^6.3.0":
-  "integrity" "sha512-hECySYDlfHKz+/s9QSJxjFZUIBV3U78x6v5QYhyYWSpIyBbk93i2u+p9J3b8AlvnABL6ENmxF/5Kg3WgLUwShw=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/pro-regular-svg-icons/-/6.3.0/pro-regular-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/pro-solid-svg-icons@^6.3.0":
-  "integrity" "sha512-i5jPB+xDhZbOsujruT9lnRbmcE/gO9/9GC5uvfSiQOTclkkforGqg2Hv5hOfGzH+d7UMhyI4cpcESBttuogTBw=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/pro-solid-svg-icons/-/6.3.0/pro-solid-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/pro-thin-svg-icons@^6.3.0":
-  "integrity" "sha512-rzYBG4scMkNdcN8bZF2IQ67GgxCklJPh3sMS0/p5EAM6+1mpTTxIZBgGsE3abVsr1tWF2R75hdTWpwrkFaGPIQ=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/pro-thin-svg-icons/-/6.3.0/pro-thin-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/react-fontawesome@^0.2.0":
-  "integrity" "sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/react-fontawesome/-/0.2.0/react-fontawesome-0.2.0.tgz"
-  "version" "0.2.0"
-  dependencies:
-    "prop-types" "^15.8.1"
-
-"@fortawesome/sharp-regular-svg-icons@^6.3.0":
-  "integrity" "sha512-XLplEDO8BUtqoU8mFYzIhuEmvzBc1fifumVT8DorZZetxGAvICvIUOXwPFbidOlUGsTjUNqTU6mzOXYWVlaFIA=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/sharp-regular-svg-icons/-/6.3.0/sharp-regular-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
-"@fortawesome/sharp-solid-svg-icons@^6.3.0":
-  "integrity" "sha512-voJDPLqkfVpevlmJYAXLrJbqCSNNXdFIcjlQu/GuApa0TnqnPznxavCK2aF8AQX/U2WQotNx9rShYclzc7jueA=="
-  "resolved" "https://npm.fontawesome.com/@fortawesome/sharp-solid-svg-icons/-/6.3.0/sharp-solid-svg-icons-6.3.0.tgz"
-  "version" "6.3.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.3.0"
-
 "@humanwhocodes/config-array@^0.11.8":
   "integrity" "sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"
@@ -3366,7 +3298,7 @@
     "invariant" "^2.2.4"
     "tslib" "^2.0.0"
 
-"react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.3", "react@>=16.8.0", "react@>=18", "react@18.2.0":
+"react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@>=18", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
