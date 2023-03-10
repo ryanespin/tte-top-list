@@ -22,8 +22,7 @@ jobs:
 
       - name: Build
         run: |
-          npm config set '//npm.fontawesome.com/:_authToken' "${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}"
-          npm ci --ignore-scripts
+          npm ci
           npm run build
           npm run export
 
