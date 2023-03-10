@@ -41,10 +41,10 @@ export default function Home() {
               <CardBody>
                 <UnorderedList>
                   <ListItem>
-                    <ChakraLink as={Link} href="/fav2PlayerGames2023">Favorite 2 Player Games 2023</ChakraLink>
+                    <ChakraLink as={Link} href="./fav2PlayerGames2023">Favorite 2 Player Games 2023</ChakraLink>
                   </ListItem>
                   <ListItem>
-                    <ChakraLink as={Link} href="/favDesigners2023">Favorite Designers 2023</ChakraLink>
+                    <ChakraLink as={Link} href="./favDesigners2023">Favorite Designers 2023</ChakraLink>
                   </ListItem>
                 </UnorderedList>
               </CardBody>
@@ -56,7 +56,7 @@ export default function Home() {
               <CardBody>
                 <UnorderedList>
                   <ListItem>
-                    <ChakraLink as={Link} href="/top20Chris2023">Chris Barrows</ChakraLink>
+                    <ChakraLink as={Link} href="./top20Chris2023">Chris Barrows</ChakraLink>
                     Brian
                   </ListItem>
                 </UnorderedList>
