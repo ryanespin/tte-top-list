@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import { Flex } from '@chakra-ui/react'
+import { Flex, Grid, SimpleGrid } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { briansList } from './api/listData/top202023/briansList'
@@ -16,8 +16,8 @@ export default function FavDesigners2023() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DefaultLayout bg="green.600" pageTitle="Favorite Designers" p={4}>
-        <Flex flexWrap="wrap" gap={4} width="100%" alignItems="flex-start">
+      <DefaultLayout bg="green.600" pageTitle="Brian's Top 20" width="100%">
+        <SimpleGrid columns={[1, null, 2, null, 3, 4 ]} overflow="auto" p={4} spacing={4} width="100%">
           {Object.entries(briansList).map(([gameName, gameInfo]) => (
             <TopListItem
               key={gameName}
@@ -30,11 +30,11 @@ export default function FavDesigners2023() {
               height="fit-content"
               sequence={gameInfo.sequence}
               title="Brian's Pick"
-              width="480px"
               yearPublished={gameInfo.yearPublished}
+              width="auto"
             />
           ))}
-          </Flex>
+        </SimpleGrid>
       </DefaultLayout>
     </>
   )

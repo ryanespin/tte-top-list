@@ -63,6 +63,23 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
 
   const itemName = itemType === 'game' ? gameName : personName;
 
+  const credits = (
+    <>
+      <Flex gap={2}>
+        <Text noOfLines={1}>✍️ {gameDesigners}</Text>
+      </Flex>
+      <Flex gap={2}>
+        <Text noOfLines={1}>🎨 {gameArtists}</Text>
+      </Flex>
+      <Flex gap={2}>
+        <Text noOfLines={1}>📅 {yearPublished}</Text>
+      </Flex>
+      <Flex gap={2}>
+        <Text noOfLines={1}>🏭 {gamePublisher}</Text>
+      </Flex>
+    </>
+  )
+
   return (
     <Card width="100%" {...otherProps}>
       <CardBody display="flex">
@@ -89,23 +106,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
           <Collapse in={isOpen} animateOpacity>
             {itemType === 'game' && (
               <Box ml={12} mt={2}>
-                <Flex gap={2}>
-                  <i className="fa-regular fa-pen"></i>
-                  <Icon as="i" className="fa-regular fa-pen" mt={1} />
-                  <Text noOfLines={1}>{gameDesigners}ZZZ</Text>
-                </Flex>
-                <Flex gap={2}>
-                <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
-                  <Text noOfLines={1}>{gameArtists}</Text>
-                </Flex>
-                <Flex gap={2}>
-                  <Icon as="i" className="fa-regular fa-calendar" mt={1} />
-                  <Text noOfLines={1}>{yearPublished}</Text>
-                </Flex>
-                <Flex gap={2}>
-                  <Icon as="i" className="fa-regular fa-industry" mt={1} />
-                  <Text noOfLines={1}>{gamePublisher}</Text>
-                </Flex>
+                {credits}
               </Box>
             )}
             {itemType === 'person' && games && (
@@ -133,17 +134,18 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
         <Collapse in={isOpen} animateOpacity>
           <>
             <Button
-              height="min-content"
+              height="100%"
               width="150px"
               onClick={onOpen}
               padding={0}
               variant="ghost"
+              position="relative"
             >
               <Image
                 alt={`Picture of ${itemName}`}
                 src={`./${itemType === 'game' ? `gameImages/${gameImageName}-box.` : `personImages/${personImageName}.`}${imageBoxExtension}`}
-                height={150}
-                width={150}
+                fill
+                style={{ objectFit: 'contain' }}
               />
             </Button>
             <Drawer
@@ -171,34 +173,20 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                   </Box>
                   {itemType === 'game' && (
                     <Flex borderLeftWidth={1} flexDirection="column" fontSize="sm" maxWidth="50%" px={4}>
-                      <Flex gap={2}>
-                        <Icon as="i" className="fa-regular fa-pen" mt={1} />
-                        <Text noOfLines={1}>{gameDesigners}</Text>
-                      </Flex>
-                      <Flex alignItems="flex-start" gap={2}>
-                        <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
-                        <Text noOfLines={1}>{gameArtists}</Text>
-                      </Flex>
-                      <Flex gap={2}>
-                        <Icon as="i" className="fa-regular fa-calendar" mt={1} />
-                        <Text noOfLines={1}>{yearPublished}</Text>
-                      </Flex>
-                      <Flex gap={2}>
-                        <Icon as="i" className="fa-regular fa-industry" mt={1} />
-                        <Text noOfLines={1}>{gamePublisher}</Text>
-                      </Flex>
+                      {credits}
                     </Flex>
                   )}
                 </DrawerHeader>
                 <DrawerBody>
                   {itemType === 'game' && (
-                    <Image
-                      alt={`Picture of ${itemName}`}
-                      src={`./gameImages/${gameImageName}-1.${imageExtension}`}
-                      height={56*16}
-                      style={{ width: '100%' }}
-                      width={56*16}
-                    />
+                    <Box width="100%" height="100%" position="relative">
+                      <Image
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-1.${imageExtension}`}
+                        fill
+                        style={{ objectFit: 'contain' }}
+                      />
+                    </Box>
                   )}
                   {itemType === 'person' && games && (
                     <>
@@ -217,22 +205,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                               {gameName}
                             </Heading>
                             <Flex flexDirection="column" fontSize="sm">
-                              <Flex gap={2}>
-                              <Icon as="i" className="fa-regular fa-pen" mt={1} />
-                                <Text noOfLines={1}>{gameInfo.gameDesigners}</Text>
-                              </Flex>
-                              <Flex alignItems="flex-start" gap={2}>
-                                <Icon as="i" className="fa-regular fa-paintbrush" mt={1} />
-                                <Text noOfLines={1}>{gameInfo.gameArtists}</Text>
-                              </Flex>
-                              <Flex gap={2}>
-                                <Icon as="i" className="fa-regular fa-calendar" mt={1} />
-                                <Text noOfLines={1}>{gameInfo.yearPublished}</Text>
-                              </Flex>
-                              <Flex gap={2}>
-                                <Icon as="i" className="fa-regular fa-industry" mt={1} />
-                                <Text noOfLines={1}>{gameInfo.gamePublisher}</Text>
-                              </Flex>
+                              {credits}
                             </Flex>
                           </Box>
                           <Box height="150px" position="relative" width="250px">

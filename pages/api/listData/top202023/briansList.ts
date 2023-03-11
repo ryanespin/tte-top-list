@@ -79,7 +79,7 @@ export const briansList: GameList = {
     sequence: 19,
   },
   'Pokémon Trading Card Game': {
-    ...gamesList['Gloomhaven: Jaws of the Lion'],
+    ...gamesList['Pokémon Trading Card Game'],
     sequence: 20,
   },
 }
