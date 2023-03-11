@@ -2,6 +2,45 @@ import { PersonList } from "@/components/elements/TopListItem";
 import gamesList from "./games";
 
 const designersList: PersonList = {
+  'Andreas Steiger': {
+    personImageName: 'andreas-steiger',
+    games: {
+      'Targi': gamesList['Targi'],
+    }
+  },
+  'Antoine Bauza': {
+    personImageName: 'antoine-bauza',
+    games: {
+      '7 Wonders': gamesList['7 Wonders'],
+      '7 Wonders Duel': gamesList['7 Wonders Duel'],
+      'Draftosaurus': gamesList['Draftosaurus'],
+      'Ghost Stories': gamesList['Ghost Stories'],
+      'Hanabi': gamesList['Hanabi'],
+      'Takenoko': gamesList['Takenoko'],
+    }
+  },
+  'Ben Pinchback & Matt Riddle': {
+    personImageName: 'ben-pinchback-matt-riddle',
+    games: {
+      'Fleet': gamesList['Fleet'],
+      'Fleet: The Dice Game': gamesList['Fleet: The Dice Game'],
+      'Piepmatz': gamesList['Piepmatz'],
+      'Stellar': gamesList['Stellar'],
+      'Three Sisters': gamesList['Three Sisters'],
+      'Wasteland Express Delivery Service': gamesList['Wasteland Express Delivery Service'],
+    }
+  },
+  'Bruno Cathala': {
+    personImageName: 'bruno-cathala',
+    games: {
+      '7 Wonders Duel': gamesList['7 Wonders Duel'],
+      'Five Tribes': gamesList['Five Tribes'],
+      'Kingdomino Duel': gamesList['Kingdomino Duel'],
+      'Raptor': gamesList['Raptor'],
+      'Sobek: 2 Players': gamesList['Sobek: 2 Players'],
+      'Splendor Duel': gamesList['Splendor Duel'],
+    }
+  },
   'David Thompson': {
     personImageName: 'david-thompson',
     games: {
@@ -11,6 +50,26 @@ const designersList: PersonList = {
       'Switch & Signal': gamesList['Switch & Signal'],
       'Undaunted: Stalingrad': gamesList['Undaunted: Stalingrad'],
       'War Chest': gamesList['War Chest'],
+    }
+  },
+  'Elizabeth Hargrave': {
+    personImageName: 'elizabeth-hargrave',
+    games: {
+      'The Fox Experiment': gamesList['The Fox Experiment'],
+      'Mariposas':  gamesList['Mariposas'],
+      'Tussie Mussie': gamesList['Tussie Mussie'],
+      'Wingspan': gamesList['Wingspan'],
+    }
+  },
+  'Jamey Stegmaier': {
+    personImageName: 'jamey-stegmaier',
+    games: {
+      'Charterstone': gamesList['Charterstone'],
+      'Euphoria: Build a Better Dystopia': gamesList['Euphoria: Build a Better Dystopia'],
+      'Red Rising': gamesList['Red Rising'],
+      'Scythe': gamesList['Scythe'],
+      'Tapestry': gamesList['Tapestry'],
+      'Viticulture Essential Edition': gamesList['Viticulture Essential Edition'],
     }
   },
   'Jim Felli': {
@@ -33,6 +92,17 @@ const designersList: PersonList = {
       'Railways of the World': gamesList['Railways of the World'],
       'Steam': gamesList['Steam'],
       'A Study in Emerald': gamesList['A Study in Emerald'],
+    }
+  },
+  'Phil Walker-Harding': {
+    personImageName: 'phil-walker-harding',
+    games: {
+      'Bärenpark': gamesList['Bärenpark'],
+      'Cacao': gamesList['Cacao'],
+      'Gizmos': gamesList['Gizmos'],
+      'Imhotep': gamesList['Imhotep'],
+      'Silver & Gold': gamesList['Silver & Gold'],
+      'Sushi Go Party!': gamesList['Sushi Go Party!'],
     }
   },
   'Shem Phillips': {
