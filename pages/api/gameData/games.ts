@@ -78,6 +78,13 @@ const gamesList: GameList = {
     gamePublisher: 'Lookout Games',
     yearPublished: '2017',
   },
+  'Battlestar Galactica': {
+    gameArtists: 'Kevin Childress, Brian Schomburg, WiL Springer',
+    gameDesigners: 'Corey Konieczka',
+    gameImageName: 'battlestar-galactica',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2008',
+  },
   'Bemused': {
     gameArtists: 'Tani Pettit, Naomi Robinson',
     gameDesigners: 'Jim Felli',
@@ -133,6 +140,13 @@ const gamesList: GameList = {
     gameImageName: 'cascadia',
     gamePublisher: 'Flatout, AEG',
     yearPublished: '2021',
+  },
+  'The Castles of Burgundy': {
+    gameArtists: 'Julien Delval, Harald Lieske',
+    gameDesigners: 'Stefan Feld',
+    gameImageName: 'castles-of-burgundy',
+    gamePublisher: 'alea, Ravensburger',
+    yearPublished: '2011',
   },
   'Caverna: The Cave Farmers': {
     gameArtists: 'Javier González Cava, Klemens Franz',
@@ -294,6 +308,13 @@ const gamesList: GameList = {
     gamePublisher: 'CMON Global Limited',
     yearPublished: '2018',
   },
+  "Hadrian's Wall": {
+    gameArtists: 'Sam Phillips',
+    gameDesigners: 'Bobby Hill',
+    gameImageName: 'hadrians-wall',
+    gamePublisher: 'Garphill Games',
+    yearPublished: '2021',
+  },
   'Hanabi': {
     gameArtists: 'Antoine Bauza, Gérald Guerlais, Albertine Ralenti',
     gameDesigners: 'Antoine Bauza',
@@ -307,6 +328,13 @@ const gamesList: GameList = {
     gameImageName: 'imhotep',
     gamePublisher: 'KOSMOS',
     yearPublished: '2016',
+  },
+  'Imperial Settlers: Empires of the North': {
+    gameArtists: 'Grzegorz Bobrowski, Roman Kucharski',
+    gameDesigners: 'Joanna Kijanka, Ignacy Trzewiczek',
+    gameImageName: 'imperial-settlers-empires-of-the-north',
+    gamePublisher: 'Portal Games',
+    yearPublished: '2019',
   },
   'Jaipur': {
     gameArtists: 'Vincent Dutrait, Alexandre Roche',
@@ -348,6 +376,13 @@ const gamesList: GameList = {
     gameImageName: 'lost-cities',
     gamePublisher: 'KOSMOS',
     yearPublished: '1999',
+  },
+  'Lost Ruins of Arnak': {
+    gameArtists: 'Ondřej Hrdina, Jiří Kůs, Jakub Politzer, František Sedláček, Milan Vavroň',
+    gameDesigners: 'Elwen, Mín',
+    gameImageName: 'lost-ruins-of-arnak',
+    gamePublisher: 'Czech Games Edition',
+    yearPublished: '2020',
   },
   'Mage Knight Board Game': {
     gameArtists: 'J. Lonnee, Chris Raimo, Milan Vavroň',
@@ -425,6 +460,13 @@ const gamesList: GameList = {
     gamePublisher: 'The Pokémon Company',
     yearPublished: '1996',
   },
+  'The Quacks of Quedlinburg': {
+    gameArtists: 'Dennis Lohausen, Wolfgang Warsch',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'quacks-of-quedlinburg',
+    gamePublisher: 'Schmidt Spiele',
+    yearPublished: '2018',
+  },
   'Radlands': {
     gameArtists: 'Lina Cossette, Damien Mammoliti, Manny Trembley',
     gameDesigners: 'Daniel Piechnick',
@@ -440,7 +482,7 @@ const gamesList: GameList = {
     yearPublished: '2015',
   },
   'Raiders of Scythia': {
-    gameArtists: 'Shem Phillips',
+    gameArtists: 'Sam Phillips',
     gameDesigners: 'Shem Phillips',
     gameImageName: 'raiders-of-scythia',
     gamePublisher: 'Garphill Games',
@@ -628,6 +670,13 @@ const gamesList: GameList = {
     gamePublisher: 'KOSMOS',
     yearPublished: '2012',
   },
+  'Terraforming Mars: Ares Expedition': {
+    gameArtists: 'William Bricker, Sydney Engelstein, Jacob Fryxelius, Garrett Kaida, Nick Little, Nio Mendoza, Justine Nortjé, Naomi Robinson, Andrei Stef',
+    gameDesigners: 'Sydney Engelstein, Jacob Fryxelius, Nick Little',
+    gameImageName: 'terraforming-mars-ares-expedition',
+    gamePublisher: 'FryxGames, Stronghold Games',
+    yearPublished: '2021',
+  },
   'That Time You Killed Me': {
     gameArtists: 'Jor Ros',
     gameDesigners: 'Peter C. Hayward',
@@ -649,6 +698,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2015',
   },
+  'Ticket to Ride: Europe': {
+    gameArtists: 'Cyrille Daujean, Julien Delval',
+    gameDesigners: 'Alan R. Moon',
+    gameImageName: 'ticket-to-ride-europe',
+    gamePublisher: 'Days of Wonder',
+    yearPublished: '2005',
+  },
   'Tussie Mussie': {
     gameArtists: 'Loïc Billiau, Karolina Jędrzejak, Zarina Karapetyan, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -661,6 +717,13 @@ const gamesList: GameList = {
     gameDesigners: 'Trevor Benjamin, David Thompson',
     gameImageName: 'undaunted-stalingrad',
     gamePublisher: 'Osprey Games',
+    yearPublished: '2022',
+  },
+  'Vagrantsong': {
+    gameArtists: 'Nguyen Mai Diem',
+    gameDesigners: 'Matt Carter, Justin Gibbs, Kyle Rowan',
+    gameImageName: 'vagrantsong',
+    gamePublisher: 'Wyrd Miniatures',
     yearPublished: '2022',
   },
   'Viscounts of the West Kingdom': {
@@ -711,6 +774,13 @@ const gamesList: GameList = {
     gameImageName: 'wingspan',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2019',
+  },
+  "Wonderland's War": {
+    gameArtists: 'Manny Trembley',
+    gameDesigners: 'Tim Eisner, Ben Eisner, Ian Moss',
+    gameImageName: 'wonderlands-war',
+    gamePublisher: 'Druid City Games',
+    yearPublished: '2022',
   },
   'Zimby Mojo': {
     gameArtists: 'Jim Felli, Tani Pettit, Naomi Robinson',

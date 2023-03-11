@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, Icon, IconButton, Text, useDisclosure } from '@chakra-ui/react';
-import Image from 'next/image';
+import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, Icon, IconButton, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
+import Image, { ImageProps } from 'next/image';
+import { useState } from 'react';
 
 export interface ItemBaseProps {
   sequence?: number;
@@ -36,6 +37,25 @@ interface TopListItemProps extends CardProps, GameItemProps, PersonItemProps {
   itemType?: 'game' | 'person';
   title?: string;
 }
+
+const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
+  const { alt, src, ...otherProps } = props;
+  const [hideImage, setHideImage] = useState(false);
+  return (
+    <Box display={hideImage ? 'none' : 'block'} position="relative">
+      <Image
+        alt={alt}
+        src={src}
+        fill
+        style={{ objectFit: 'contain' }}
+        {...otherProps}
+        onError={() => {
+          setHideImage(true);
+        }}
+      />
+    </Box>
+  );
+};
 
 export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps) => {
   const {
@@ -177,16 +197,46 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                     </Flex>
                   )}
                 </DrawerHeader>
-                <DrawerBody>
+                <DrawerBody bgColor="gray.200">
                   {itemType === 'game' && (
-                    <Box width="100%" height="100%" position="relative">
-                      <Image
+                    <SimpleGrid minChildWidth={[80, 72, 64, 60, 56, 48]} spacing={4} height="100%" width="100%">
+                      <ImageWithHideOnError
                         alt={`Picture of ${itemName}`}
                         src={`./gameImages/${gameImageName}-1.${imageExtension}`}
-                        fill
-                        style={{ objectFit: 'contain' }}
                       />
-                    </Box>
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-2.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-3.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-4.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-5.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-6.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-7.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-8.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-9.${imageExtension}`}
+                      />
+                    </SimpleGrid>
                   )}
                   {itemType === 'person' && games && (
                     <>
