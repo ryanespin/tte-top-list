@@ -21,7 +21,9 @@ export default function Top20Chris2023() {
           {Object.entries(chrisList).map(([gameName, gameInfo]) => (
             <TopListItem
               key={gameName}
+              badgeText={gameInfo.badgeText}
               colorScheme="blue"
+              crossover={gameInfo.crossover}
               gameArtists={gameInfo.gameArtists}
               gameDesigners={gameInfo.gameDesigners}
               gameImageName={gameInfo.gameImageName}

@@ -456,7 +456,7 @@ const gamesList: GameList = {
   'Pokémon Trading Card Game': {
     gameArtists: 'Koichi Ooyama, Hironobu Yoshida',
     gameDesigners: 'Takumi Akabane, Tsunekaz Ishihara',
-    gameImageName: 'pokémon-tcg',
+    gameImageName: 'pokemon-tcg',
     gamePublisher: 'The Pokémon Company',
     yearPublished: '1996',
   },

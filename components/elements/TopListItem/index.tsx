@@ -1,9 +1,17 @@
 import * as React from 'react';
-import { Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, Icon, IconButton, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
+import { Avatar, Badge, Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, IconButton, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
 import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
 export interface ItemBaseProps {
+  badgeText?: string;
+  crossover?: {
+    'Anthony'?: number,
+    'Brian'?: number,
+    'Chris'?: number,
+    'Danielle'?: number,
+    'Ryan'?: number
+  },
   sequence?: number;
 }
 
@@ -59,8 +67,10 @@ const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
 
 export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps) => {
   const {
+    badgeText = '',
     children,
     colorScheme = 'blue',
+    crossover,
     gameArtists = "N/A",
     gameDesigners = "(Uncredited)",
     gameImageName,
@@ -79,7 +89,6 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
   } = props;
   const { isOpen, onToggle } = useDisclosure();
   const { isOpen: isDrawerOpen, onOpen, onClose } = useDisclosure()
-  const btnRef = React.useRef()
 
   const itemName = itemType === 'game' ? gameName : personName;
 
@@ -119,7 +128,16 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                 <Collapse in={isOpen} animateOpacity>{itemName}</Collapse>
               </Heading>
               <Collapse in={isOpen} animateOpacity>
-                <Text>{title}</Text>
+                <HStack>
+                  <Text>{title}</Text>
+                  <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'}>{badgeText}</Badge>
+                  {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => (
+                    <Badge borderRadius="full" colorScheme="green" key={crossoverName} variant="solid">
+                      <Avatar name={crossoverName} src={'./personImages/brian-chandler.webp'} size="2xs" />
+                      <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
+                    </Badge>
+                  ))}
+                </HStack>
               </Collapse>
             </Box>
           </HStack>

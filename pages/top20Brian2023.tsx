@@ -21,6 +21,7 @@ export default function Top20Brian2023() {
           {Object.entries(briansList).map(([gameName, gameInfo]) => (
             <TopListItem
               key={gameName}
+              badgeText={gameInfo.badgeText}
               colorScheme="green"
               gameArtists={gameInfo.gameArtists}
               gameDesigners={gameInfo.gameDesigners}
