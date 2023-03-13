@@ -7,7 +7,7 @@ import { daniellesList } from './api/listData/top202023/daniellesList'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Top20Chris2023() {
+export default function Top20Danielle2023() {
   return (
     <>
       <Head>
