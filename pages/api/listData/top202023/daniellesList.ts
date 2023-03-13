@@ -38,4 +38,48 @@ export const daniellesList: GameList = {
     ...gamesList['Imperium: Classics | Legends'],
     sequence: 9,
   },
+  'Dice Masters': {
+    ...gamesList['Dice Masters'],
+    sequence: 10,
+  },
+  'Dice Kingdoms of Valeria': {
+    ...gamesList['Dice Kingdoms of Valeria'],
+    sequence: 11,
+  },
+  'Astro Knights': {
+    ...gamesList['Astro Knights'],
+    sequence: 12,
+  },
+  'Wingspan': {
+    ...gamesList['Wingspan'],
+    sequence: 13,
+  },
+  'Dwellings of Eldervale': {
+    ...gamesList['Dwellings of Eldervale'],
+    sequence: 14,
+  },
+  'Coffee Roaster': {
+    ...gamesList['Coffee Roaster'],
+    sequence: 15,
+  },
+  'Super Mega Lucky Box': {
+    ...gamesList['Super Mega Lucky Box'],
+    sequence: 16,
+  },
+  'Tiny Epic Galaxies': {
+    ...gamesList['Tiny Epic Galaxies'],
+    sequence: 17,
+  },
+  'Honey Buzz': {
+    ...gamesList['Honey Buzz'],
+    sequence: 18,
+  },
+  'Hunted: Kobayashi Tower': {
+    ...gamesList['Hunted: Kobayashi Tower'],
+    sequence: 19,
+  },
+  'Orchard: A 9 card solitaire game': {
+    ...gamesList['Orchard: A 9 card solitaire game'],
+    sequence: 20,
+  }
 }

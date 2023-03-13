@@ -71,6 +71,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
   },
+  'Astro Knights': {
+    gameArtists: 'Gong Studios',
+    gameDesigners: 'Nick Little, Will Sobel',
+    gameImageName: 'astro-knights',
+    gamePublisher: 'Indie Boards & Cards',
+    yearPublished: '2023',
+  },
   'Azul': {
     gameArtists: 'Philippe Guérin, Chris Quilliams',
     gameDesigners: 'Michael Kiesling',
@@ -190,6 +197,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2015',
   },
+  'Coffee Roaster': {
+    gameArtists: 'Andrea Boekhoff, Takako Takarai',
+    gameDesigners: 'Saashi',
+    gameImageName: 'coffee-roaster',
+    gamePublisher: 'Saashi & Saashi',
+    yearPublished: '2015',
+  },
   'Cosmic Frog': {
     gameArtists: 'Tim Barton, Jim Felli, Chad Hoverter, Tani Pettit, Naomi Robinson',
     gameDesigners: 'Jim Felli',
@@ -201,6 +215,19 @@ const gamesList: GameList = {
     gameImageName: 'crokinole',
     gamePublisher: '(Public Domain)',
     yearPublished: '1876',
+  },
+  'Dice Kingdoms of Valeria': {
+    gameArtists: 'Mihajlo Dimitrievski',
+    gameDesigners: 'Levi Mote',
+    gameImageName: 'dice-kingdoms-of-valeria',
+    gamePublisher: 'Daily Magic Games',
+    yearPublished: '2022',
+  },
+  'Dice Masters': {
+    gameDesigners: 'Mike Elliott, Eric M. Lang',
+    gameImageName: 'dice-masters',
+    gamePublisher: 'WizKids',
+    yearPublished: '2014',
   },
   'Dice Throne': {
     gameArtists: 'Gavan Brown, Manny Trembley',
@@ -243,6 +270,13 @@ const gamesList: GameList = {
     gameImageName: 'dungeon-petz',
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2011',
+  },
+  'Dwellings of Eldervale': {
+    gameArtists: 'Merilliza Chan, Sergio Chaves, Anton Fadeev, Leesha Hannigan, Irina Kuzmina, Nathanael Mortensen, Sasha Radivojevic, Sam Turner, Brian Valeza, Frank Wade',
+    gameDesigners: 'Luke Laurie',
+    gameImageName: 'dwellings-of-eldervale',
+    gamePublisher: 'Breaking Gmes',
+    yearPublished: '2020',
   },
   'Euphoria: Build a Better Dystopia': {
     gameArtists: 'Jacqui Davis',
@@ -350,12 +384,26 @@ const gamesList: GameList = {
     gamePublisher: 'ABACUSSPIELE, Cocktail Games',
     yearPublished: '2010',
   },
+  'Honey Buzz': {
+    gameArtists: 'Anne Heidsieck',
+    gameDesigners: 'Paul Salomon',
+    gameImageName: 'honey-buzz',
+    gamePublisher: 'Elf Creek Games',
+    yearPublished: '2020',
+  },
   'Hoplomachus: Remastered': {
     gameArtists: 'Yoann Boissonnet, Anthony LeTourneau, Federico Pompili',
     gameDesigners: 'Adam Carlson, Josh J. Carlson, Logan Giannini',
     gameImageName: 'hoplomachus-remastered',
     gamePublisher: 'Chip Theory Games',
     yearPublished: '2023',
+  },
+  'Hunted: Kobayashi Tower': {
+    gameArtists: 'Drew Corkill, Jorge M. Velez',
+    gameDesigners: 'Gabe Barrett',
+    gameImageName: 'hunted-kobayashi-tower',
+    gamePublisher: 'Barrett Publishing',
+    yearPublished: '2021',
   },
   'Imhotep': {
     gameArtists: 'Miguel Coimbra, Michaela Kienle',
@@ -473,6 +521,13 @@ const gamesList: GameList = {
     gameImageName: 'onitama',
     gamePublisher: 'conception',
     yearPublished: '2014',
+  },
+  'Orchard: A 9 card solitaire game': {
+    gameArtists: 'Mark Tuck',
+    gameDesigners: 'Mark Tuck',
+    gameImageName: 'orchard',
+    gamePublisher: '(Self-Published), (Web published), Abi Games, Board Game Circu',
+    yearPublished: '2018',
   },
   'Paladins of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
@@ -684,6 +739,13 @@ const gamesList: GameList = {
     gamePublisher: 'Plaid Hat Games',
     yearPublished: '2011',
   },
+  'Super Mega Lucky Box': {
+    gameArtists: 'Serge Seidlitz',
+    gameDesigners: 'Phil Walker-Harding',
+    gameImageName: 'super-mega-lucky-box',
+    gamePublisher: 'Gamewright',
+    yearPublished: '2021',
+  },
   'Super-Skill Pinball: 4-Cade': {
     gameArtists: 'Gong Studios',
     gameDesigners: 'Geoff Engelstein',
@@ -760,6 +822,13 @@ const gamesList: GameList = {
     gameImageName: 'ticket-to-ride-europe',
     gamePublisher: 'Days of Wonder',
     yearPublished: '2005',
+  },
+  'Tiny Epic Galaxies': {
+    gameArtists: 'William Bricker',
+    gameDesigners: 'Scott Almes',
+    gameImageName: 'tiny-epic-galaxies',
+    gamePublisher: 'Gamelyn Games',
+    yearPublished: '2015',
   },
   'Tussie Mussie': {
     gameArtists: 'Loïc Billiau, Karolina Jędrzejak, Zarina Karapetyan, Beth Sobel',
