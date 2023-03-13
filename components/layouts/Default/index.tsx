@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import { Flex, FlexProps, Heading, HStack, Spacer, VStack } from '@chakra-ui/react'
 
 interface DefaultLayoutProps extends FlexProps {
-  pageTitle: string;
+  pageTitle: React.ReactNode;
 }
 
 export const DefaultLayout: React.FC<DefaultLayoutProps> = (props: DefaultLayoutProps) => {

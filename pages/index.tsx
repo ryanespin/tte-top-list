@@ -60,6 +60,9 @@ export default function Home() {
                   <ListItem>
                     <ChakraLink as={Link} href="./top20Brian2023">Brian Chandler</ChakraLink>
                   </ListItem>
+                  <ListItem>
+                    <ChakraLink as={Link} href="./top20Danielle2023">Danielle</ChakraLink>
+                  </ListItem>
                 </UnorderedList>
               </CardBody>
             </Card>

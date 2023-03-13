@@ -64,6 +64,13 @@ const gamesList: GameList = {
     gamePublisher: 'Garphill Games',
     yearPublished: '2018',
   },
+  'Arkham Horror: The Card Game': {
+    gameArtists: 'Christopher Hosch, Marcin Jakubowski, Ignacio Bazán Lazcano, Henning Ludvigsen, Mercedes Opheim, Zoe Robinson, Evan Simonet',
+    gameDesigners: 'Nate French, Maxine Juniper Newman',
+    gameImageName: 'arkham-horror-lcg',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2016',
+  },
   'Azul': {
     gameArtists: 'Philippe Guérin, Chris Quilliams',
     gameDesigners: 'Michael Kiesling',
@@ -119,6 +126,13 @@ const gamesList: GameList = {
     gameImageName: 'cacao',
     gamePublisher: 'ABACUSSPIELE, G3',
     yearPublished: '2015',
+  },
+  'Calico': {
+    gameArtists: 'Beth Sobel',
+    gameDesigners: 'Kevin Russ',
+    gameImageName: 'calico',
+    gamePublisher: 'Flatout Games',
+    yearPublished: '2020',
   },
   'Carolus Magnus | Eriantys': {
     gameArtists: 'N/A | Alessandro Costa',
@@ -187,6 +201,20 @@ const gamesList: GameList = {
     gameImageName: 'crokinole',
     gamePublisher: '(Public Domain)',
     yearPublished: '1876',
+  },
+  'Dice Throne': {
+    gameArtists: 'Gavan Brown, Manny Trembley',
+    gameDesigners: 'Nate Chatellier, Manny Trembley',
+    gameImageName: 'dice-throne',
+    gamePublisher: 'Roxley',
+    yearPublished: '2018',
+  },
+  "Dinosaur Island: Rawr 'n Write": {
+    gameArtists: 'Kwanchai Moriya, Andrew Thompson',
+    gameDesigners: 'Brian Lewis, David McGregor, Marissa Misura',
+    gameImageName: 'dinosaur-island-rawr-n-write',
+    gamePublisher: 'Pandasaurus Games',
+    yearPublished: '2021',
   },
   'Dominion': {
     gameArtists: 'Matthias Catrein, Julien Delval, Tomasz Jedruszek, Ryan Laukat, Harald Lieske, Michael Menzel, Marcel-André Casasola Merkle, Claus Stephan, Christof Tisch',
@@ -322,6 +350,13 @@ const gamesList: GameList = {
     gamePublisher: 'ABACUSSPIELE, Cocktail Games',
     yearPublished: '2010',
   },
+  'Hoplomachus: Remastered': {
+    gameArtists: 'Yoann Boissonnet, Anthony LeTourneau, Federico Pompili',
+    gameDesigners: 'Adam Carlson, Josh J. Carlson, Logan Giannini',
+    gameImageName: 'hoplomachus-remastered',
+    gamePublisher: 'Chip Theory Games',
+    yearPublished: '2023',
+  },
   'Imhotep': {
     gameArtists: 'Miguel Coimbra, Michaela Kienle',
     gameDesigners: 'Phil Walker-Harding',
@@ -335,6 +370,13 @@ const gamesList: GameList = {
     gameImageName: 'imperial-settlers-empires-of-the-north',
     gamePublisher: 'Portal Games',
     yearPublished: '2019',
+  },
+  'Imperium: Classics | Legends': {
+    gameArtists: 'Mihajlo Dimitrievski',
+    gameDesigners: 'Nigel Buckle, Dávid Turczi',
+    gameImageName: 'imperium-classics-legends',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2021',
   },
   'Jaipur': {
     gameArtists: 'Vincent Dutrait, Alexandre Roche',
@@ -459,6 +501,13 @@ const gamesList: GameList = {
     gameImageName: 'pokemon-tcg',
     gamePublisher: 'The Pokémon Company',
     yearPublished: '1996',
+  },
+  'Puzzle Dungeon': {
+    gameArtists: 'Brian Garber',
+    gameDesigners: 'Brian Garber',
+    gameImageName: 'puzzle-dungeon',
+    gamePublisher: '(Self-Published)',
+    yearPublished: '2019',
   },
   'The Quacks of Quedlinburg': {
     gameArtists: 'Dennis Lohausen, Wolfgang Warsch',
@@ -599,6 +648,13 @@ const gamesList: GameList = {
     gameImageName: 'sprawlopolis',
     gamePublisher: 'Button Shy',
     yearPublished: '2018',
+  },
+  'Star Wars: Destiny': {
+    gameArtists: 'Lucas Durham, Vlad Ricean',
+    gameDesigners: 'Corey Konieczka, Lukas Litzsinger',
+    gameImageName: 'star-wars-destiny',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2016',
   },
   'Steam': {
     gameArtists: 'John Austin, Jared Blando, Craig Hamilton, Christopher Moeller',
@@ -774,6 +830,12 @@ const gamesList: GameList = {
     gameImageName: 'wingspan',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2019',
+  },
+  'Wok and Roll': {
+    gameDesigners: 'Daryl Chow',
+    gameImageName: 'wok-and-roll',
+    gamePublisher: 'Origame',
+    yearPublished: '2020',
   },
   "Wonderland's War": {
     gameArtists: 'Manny Trembley',
