@@ -16,7 +16,23 @@ export default function Top20Brian2023() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DefaultLayout bg="green.600" pageTitle={(<><Avatar name="Brian Chandler" src="./personImages/brian-chandler.webp" /> Brian&apos;s Top 20</>)} width="100%">
+      <DefaultLayout
+        bgColor="green.600"
+        bgImage="./backgroundImages/brian-shelfie.webp"
+        bgSize="cover"
+        bgBlendMode="multiply"
+        pageTitle={(
+          <>
+            <Avatar
+              mr={2}
+              name="Brian Chandler"
+              src="./personImages/brian-chandler.webp"
+            />
+            Brian&apos;s Top 20
+          </>
+        )}
+        width="100%"
+      >
         <SimpleGrid columns={[1, null, 2, null, 3, 4 ]} overflow="auto" p={4} spacing={4} width="100%">
           {Object.entries(briansList).map(([gameName, gameInfo]) => (
             <TopListItem

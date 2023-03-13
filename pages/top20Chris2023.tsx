@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import { SimpleGrid } from '@chakra-ui/react'
+import { Avatar, SimpleGrid } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { chrisList } from './api/listData/top202023/chrisList'
@@ -16,7 +16,23 @@ export default function Top20Chris2023() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DefaultLayout pageTitle="Chris' Top 20" width="100%">
+      <DefaultLayout
+        bgColor="blue.600"
+        bgImage="./backgroundImages/chris-shelfie.webp"
+        bgSize="cover"
+        bgBlendMode="multiply"
+        pageTitle={(
+          <>
+            <Avatar
+              mr={2}
+              name="Chris Barrows"
+              src="./personImages/chris-barrows.webp"
+            />
+            Chris&apos; Top 20
+          </>
+        )}
+        width="100%"
+      >
         <SimpleGrid columns={[1, null, 2, null, 3, 4 ]} overflow="auto" p={4} spacing={4} width="100%">
           {Object.entries(chrisList).map(([gameName, gameInfo]) => (
             <TopListItem

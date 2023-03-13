@@ -15,6 +15,12 @@ const gamesList: GameList = {
     gamePublisher: 'Repos Production',
     yearPublished: '2015',
   },
+  '18Chesapeake': {
+    gameDesigners: 'Scott Petersen',
+    gameImageName: '18chesapeake',
+    gamePublisher: 'All-Aboard Games',
+    yearPublished: '2020',
+  },
   'Abandon All Artichokes': {
     gameArtists: 'Bonnie Pang',
     gameDesigners: 'Emma Larkins',
@@ -327,6 +333,13 @@ const gamesList: GameList = {
     gamePublisher: 'Eagle-Gryphon Games',
     yearPublished: '2018',
   },
+  'Food Chain Magnate': {
+    gameArtists: 'Iris de Haan, Ynze Moedt',
+    gameDesigners: 'Jeroen Doumen, Joris Wiersinga',
+    gameImageName: 'food-chain-magnate',
+    gamePublisher: 'Splotter Spellen',
+    yearPublished: '2015',
+  },
   'The Fox Experiment': {
     gameArtists: 'Joe Shawcross',
     gameDesigners: 'Elizabeth Hargrave, Jeff Fraser',
@@ -356,6 +369,20 @@ const gamesList: GameList = {
     gamePublisher: 'Repos Production',
     yearPublished: '2008',
   },
+  'Gizmos': {
+    gameArtists: 'Hannah Cardoso, Júlia Ferrari, Giovanna BC Guimarães, Mathieu Harlaut, Saeed Jalabi',
+    gameDesigners: 'Phil Walker-Harding',
+    gameImageName: 'gizmos',
+    gamePublisher: 'CMON Global Limited',
+    yearPublished: '2018',
+  },
+  'Gloomhaven': {
+    gameArtists: 'Alexandr Elichev, Josh T. McDowell, Alvaro Nebot',
+    gameDesigners: 'Isaac Childress',
+    gameImageName: 'gloomhaven',
+    gamePublisher: 'Cephalofair Games',
+    yearPublished: '2017',
+  },
   'Gloomhaven: Jaws of the Lion': {
     gameArtists: 'Francesca Baerald, David Demaret, Alexandr Elichev',
     gameDesigners: 'Isaac Childress',
@@ -363,12 +390,12 @@ const gamesList: GameList = {
     gamePublisher: 'Cephalofair Games',
     yearPublished: '2020',
   },
-  'Gizmos': {
-    gameArtists: 'Hannah Cardoso, Júlia Ferrari, Giovanna BC Guimarães, Mathieu Harlaut, Saeed Jalabi',
-    gameDesigners: 'Phil Walker-Harding',
-    gameImageName: 'gizmos',
-    gamePublisher: 'CMON Global Limited',
-    yearPublished: '2018',
+  'El Grande': {
+    gameArtists: 'Doris Matthäus',
+    gameDesigners: 'Wolfgang Kramer, Richard Ulrich',
+    gameImageName: 'el-grande',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '1995',
   },
   "Hadrian's Wall": {
     gameArtists: 'Sam Phillips',
@@ -654,6 +681,13 @@ const gamesList: GameList = {
     gameImageName: 'shards-of-infinity',
     gamePublisher: 'Stone Blade Entertainment, Ultra PRO',
     yearPublished: '2018',
+  },
+  'Shikoku 1889': {
+    gameArtists: 'Karim Chakroun',
+    gameDesigners: 'Yasutaka Ikeda',
+    gameImageName: 'shikoku-1889',
+    gamePublisher: 'Deep Thought Games, LLC, Grand Trunk Games, Wild Heaven',
+    yearPublished: '2004',
   },
   'Silver & Gold': {
     gameArtists: 'Oliver Freudenreich',

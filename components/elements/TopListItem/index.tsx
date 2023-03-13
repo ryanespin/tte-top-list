@@ -217,7 +217,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                 </DrawerHeader>
                 <DrawerBody bgColor="gray.200">
                   {itemType === 'game' && (
-                    <SimpleGrid minChildWidth={[80, 72, 64, 60, 56, 48]} spacing={4} height="100%" width="100%">
+                    <SimpleGrid minChildWidth={['100%', null, 96]} spacing={4} height="100%" width="100%">
                       <ImageWithHideOnError
                         alt={`Picture of ${itemName}`}
                         src={`./gameImages/${gameImageName}-1.${imageExtension}`}
