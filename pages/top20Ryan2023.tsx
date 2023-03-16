@@ -19,6 +19,7 @@ export default function Top20Ryan2023() {
       <DefaultLayout
         bgColor="red.600"
         bgImage="./backgroundImages/ryan-shelfie.webp"
+        bgPosition="center"
         bgSize="cover"
         bgBlendMode="multiply"
         pageTitle={(

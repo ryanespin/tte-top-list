@@ -204,13 +204,22 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                     width={75}
                   />
                   <Box flex={1}>
-                    <Text fontSize="sm">{title}</Text>
-                    <Heading color={`${colorScheme}.800`} flex={1} fontSize="lg">
+                    <HStack>
+                      <Text fontSize="md">{title}</Text>
+                      <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'} fontSize="sm">{badgeText}</Badge>
+                      {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => (
+                        <Badge key={crossoverName} borderRadius="full" colorScheme="green" fontSize="md" variant="solid">
+                          <Avatar name={crossoverName} src={'./personImages/brian-chandler.webp'} size="xs" />
+                          <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
+                        </Badge>
+                      ))}
+                    </HStack>
+                    <Heading color={`${colorScheme}.800`} flex={1} fontSize="xl">
                       {itemName}
                     </Heading>
                   </Box>
                   {itemType === 'game' && (
-                    <Flex borderLeftWidth={1} flexDirection="column" fontSize="sm" maxWidth="50%" px={4}>
+                    <Flex borderLeftWidth={1} flexDirection="column" fontSize="md" maxWidth="50%" px={4}>
                       {credits}
                     </Flex>
                   )}

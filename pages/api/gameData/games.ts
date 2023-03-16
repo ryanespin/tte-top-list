@@ -404,6 +404,13 @@ const gamesList: GameList = {
     gamePublisher: 'Garphill Games',
     yearPublished: '2021',
   },
+  'Hallertau': {
+    gameArtists: 'Lukas Siegmon',
+    gameDesigners: 'Uwe Rosenberg',
+    gameImageName: 'hallertau',
+    gamePublisher: 'Lookout Games',
+    yearPublished: '2020',
+  },
   'Hanabi': {
     gameArtists: 'Antoine Bauza, Gérald Guerlais, Albertine Ralenti',
     gameDesigners: 'Antoine Bauza',
@@ -556,6 +563,13 @@ const gamesList: GameList = {
     gamePublisher: '(Self-Published), (Web published), Abi Games, Board Game Circu',
     yearPublished: '2018',
   },
+  'Orléans': {
+    gameArtists: 'Klemens Franz',
+    gameDesigners: 'Reiner Stockhausen',
+    gameImageName: 'orleans',
+    gamePublisher: 'dlp games',
+    yearPublished: '2014',
+  },
   'Paladins of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'S J Macdonald, Shem Phillips',
@@ -654,6 +668,13 @@ const gamesList: GameList = {
     gamePublisher: 'Salt & Pepper Games',
     yearPublished: '2022',
   },
+  'Rococo: Deluxe Edition': {
+    gameArtists: "Ian O'Toole",
+    gameDesigners: 'Matthias Cramer, Stefan Malz, Louis Malz',
+    gameImageName: 'rococo-deluxe-edition',
+    gamePublisher: 'Eagle-Gryphon Games',
+    yearPublished: '2020',
+  },
   'Rolling Realms': {
     gameArtists: 'Miles Bensky, Marius Petrescu',
     gameDesigners: 'Jamey Stegmaier',
@@ -737,6 +758,12 @@ const gamesList: GameList = {
     gameImageName: 'sprawlopolis',
     gamePublisher: 'Button Shy',
     yearPublished: '2018',
+  },
+  'Star Trek: Frontiers': {
+    gameDesigners: 'Vlaada Chvátil, Andrew Parks',
+    gameImageName: 'star-trek-frontiers',
+    gamePublisher: 'WizKids',
+    yearPublished: '2016',
   },
   'Star Wars: Destiny': {
     gameArtists: 'Lucas Durham, Vlad Ricean',

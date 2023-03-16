@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import { Avatar, SimpleGrid } from '@chakra-ui/react'
+import { Avatar, HStack, IconButton, SimpleGrid, useBoolean } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { chrisList } from './api/listData/top202023/chrisList'
@@ -8,6 +8,7 @@ import { chrisList } from './api/listData/top202023/chrisList'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Top20Chris2023() {
+  const [sort, setSort] = useBoolean()
   return (
     <>
       <Head>
@@ -22,14 +23,14 @@ export default function Top20Chris2023() {
         bgSize="cover"
         bgBlendMode="multiply"
         pageTitle={(
-          <>
+          <HStack>
             <Avatar
-              mr={2}
               name="Chris Barrows"
               src="./personImages/chris-barrows.webp"
             />
-            Chris&apos; Top 20
-          </>
+            <span>Chris&apos; Top 20</span>
+            <IconButton aria-label="Toggle sort" borderRadius="full" icon={sort ? <>⬆️</> : <>⬇️</> } onClick={setSort.toggle} variant="ghost" />
+          </HStack>
         )}
         width="100%"
       >
@@ -50,6 +51,7 @@ export default function Top20Chris2023() {
               title="Chris' Pick"
               yearPublished={gameInfo.yearPublished}
               width="auto"
+              order={gameInfo.sequence ? gameInfo.sequence * (sort ? -1 : 1) : 1}
             />
           ))}
         </SimpleGrid>
