@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import { Avatar, SimpleGrid } from '@chakra-ui/react'
+import { Avatar, HStack, IconButton, SimpleGrid, useBoolean } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { ryansList } from './api/listData/top202023/ryansList'
@@ -8,6 +8,7 @@ import { ryansList } from './api/listData/top202023/ryansList'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Top20Ryan2023() {
+  const [sort, setSort] = useBoolean()
   return (
     <>
       <Head>
@@ -23,14 +24,14 @@ export default function Top20Ryan2023() {
         bgSize="cover"
         bgBlendMode="multiply"
         pageTitle={(
-          <>
+          <HStack>
             <Avatar
-              mr={2}
               name="Ryan Espin"
               src="./personImages/ryan-espin.webp"
             />
-            Ryan&apos;s Top 20
-          </>
+            <span>Ryan&apos;s Top 20</span>
+            <IconButton aria-label="Toggle sort" borderRadius="full" icon={sort ? <>⬆️</> : <>⬇️</> } onClick={setSort.toggle} variant="ghost" />
+          </HStack>
         )}
         width="100%"
       >
@@ -51,6 +52,7 @@ export default function Top20Ryan2023() {
               title="Ryan's Pick"
               yearPublished={gameInfo.yearPublished}
               width="auto"
+              order={gameInfo.sequence ? gameInfo.sequence * (sort ? -1 : 1) : 1}
             />
           ))}
         </SimpleGrid>
