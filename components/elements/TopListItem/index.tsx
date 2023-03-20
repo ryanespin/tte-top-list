@@ -131,12 +131,32 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                 <HStack>
                   <Text>{title}</Text>
                   <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'}>{badgeText}</Badge>
-                  {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => (
-                    <Badge borderRadius="full" colorScheme="green" key={crossoverName} variant="solid">
-                      <Avatar name={crossoverName} src={'./personImages/brian-chandler.webp'} size="2xs" />
-                      <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
-                    </Badge>
-                  ))}
+                  {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => {
+                    function getColor() {
+                      if (crossoverName === 'Brian') {
+                        return 'green'
+                      };
+                      if (crossoverName === 'Chris') {
+                        return 'blue'
+                      }
+                      return 'purple'
+                    }
+                    function getImage() {
+                      if (crossoverName === 'Brian') {
+                        return 'brian-chandler'
+                      };
+                      if (crossoverName === 'Chris') {
+                        return 'chris-barrows'
+                      }
+                      return 'danielle'
+                    }
+                    return (
+                      <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} variant="solid">
+                        <Avatar name={crossoverName} src={`./personImages/${getImage()}.webp`} size="2xs" />
+                        <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
+                      </Badge>
+                    )
+                  })}
                 </HStack>
               </Collapse>
             </Box>
@@ -207,12 +227,32 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                     <HStack>
                       <Text fontSize="md">{title}</Text>
                       <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'} fontSize="sm">{badgeText}</Badge>
-                      {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => (
-                        <Badge key={crossoverName} borderRadius="full" colorScheme="green" fontSize="md" variant="solid">
-                          <Avatar name={crossoverName} src={'./personImages/brian-chandler.webp'} size="xs" />
-                          <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
-                        </Badge>
-                      ))}
+                      {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => {
+                        function getColor() {
+                          if (crossoverName === 'Brian') {
+                            return 'green'
+                          };
+                          if (crossoverName === 'Chris') {
+                            return 'blue'
+                          }
+                          return 'purple'
+                        }
+                        function getImage() {
+                          if (crossoverName === 'Brian') {
+                            return 'brian-chandler'
+                          };
+                          if (crossoverName === 'Chris') {
+                            return 'chris-barrows'
+                          }
+                          return 'danielle'
+                        }
+                        return (
+                          <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} fontSize="md" variant="solid">
+                            <Avatar name={crossoverName} src={`./personImages/${getImage()}.webp`} size="xs" />
+                            <Box as="span" px={1}>{crossoverName}: #{crossoverInfo}</Box>
+                          </Badge>
+                        )
+                      })}
                     </HStack>
                     <Heading color={`${colorScheme}.800`} flex={1} fontSize="xl">
                       {itemName}
@@ -262,6 +302,10 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       <ImageWithHideOnError
                         alt={`Picture of ${itemName}`}
                         src={`./gameImages/${gameImageName}-9.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-10.${imageExtension}`}
                       />
                     </SimpleGrid>
                   )}

@@ -5,6 +5,7 @@ export const ryansList: GameList = {
   'Gloomhaven': {
     ...gamesList['Gloomhaven'],
     badgeText: '#1 • 2022',
+    crossover: { 'Brian': 19 },
     sequence: 1,
   },
   'Food Chain Magnate': {
@@ -15,6 +16,7 @@ export const ryansList: GameList = {
   'Brass: Birmingham': {
     ...gamesList['Brass: Birmingham'],
     badgeText: '#3 • 2022',
+    crossover: { 'Chris': 11 },
     sequence: 3,
   },
   'Crokinole': {
@@ -25,6 +27,7 @@ export const ryansList: GameList = {
   'Agricola': {
     ...gamesList['Agricola'],
     badgeText: '#5 • 2022',
+    crossover: { 'Brian': 3, 'Chris': 19 },
     sequence: 5,
   },
   'El Grande': {
