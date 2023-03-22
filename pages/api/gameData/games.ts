@@ -147,6 +147,13 @@ const gamesList: GameList = {
     gamePublisher: 'Flatout Games',
     yearPublished: '2020',
   },
+  'Carcassonne': {
+    gameArtists: 'Marcel Gröber, Doris Matthäus, Anne Pätzke, Chris Quilliams, Franz-Georg Stämmele, Klaus-Jürgen Wrede',
+    gameDesigners: 'Klaus-Jürgen Wrede',
+    gameImageName: 'carcassonne',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '2000',
+  },
   'Carolus Magnus | Eriantys': {
     gameArtists: 'N/A | Alessandro Costa',
     gameDesigners: 'Leo Colovini',
@@ -256,6 +263,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rio Grande Games',
     yearPublished: '2008',
   },
+  'The Downfall of Pompeii': {
+    gameArtists: 'Oliver Freudenreich, Guido Hoffmann',
+    gameDesigners: 'Klaus-Jürgen Wrede',
+    gameImageName: 'downfall-of-pompeii',
+    gamePublisher: 'AMIGO',
+    yearPublished: '2004',
+  },
   'Draftosaurus': {
     gameArtists: 'Jiahui Eva Gao, Vipin Alex Jacob, Roman Kucharski, TANSAN Inc.',
     gameDesigners: 'Antoine Bauza, Corentin Lebrat, Ludovic Maublanc, Théo Rivière',
@@ -318,6 +332,13 @@ const gamesList: GameList = {
     gameImageName: 'five-tribes',
     gamePublisher: 'Days of Wonder',
     yearPublished: '2014',
+  },
+  'Flash Point: Fire Rescue': {
+    gameArtists: 'Luis Francisco, George Patsouras',
+    gameDesigners: 'Kevin Lanzing',
+    gameImageName: 'flash-point-fire-rescue',
+    gamePublisher: 'Indie Boards & Cards',
+    yearPublished: '2011',
   },
   'Fleet': {
     gameArtists: 'Eric J. Carter',
@@ -432,6 +453,13 @@ const gamesList: GameList = {
     gamePublisher: 'Chip Theory Games',
     yearPublished: '2023',
   },
+  'Horrified': {
+    gameArtists: 'Prospero Hall',
+    gameDesigners: 'Prospero Hall',
+    gameImageName: 'horrified',
+    gamePublisher: 'Ravensburger',
+    yearPublished: '2019',
+  },
   'Hunted: Kobayashi Tower': {
     gameArtists: 'Drew Corkill, Jorge M. Velez',
     gameDesigners: 'Gabe Barrett',
@@ -459,6 +487,13 @@ const gamesList: GameList = {
     gameImageName: 'imperium-classics-legends',
     gamePublisher: 'Osprey Games',
     yearPublished: '2021',
+  },
+  'The Isle of Cats': {
+    gameArtists: 'Dragolisco, Frank West',
+    gameDesigners: 'Frank West',
+    gameImageName: 'isle-of-cats',
+    gamePublisher: 'The City of Games',
+    yearPublished: '2019',
   },
   'Jaipur': {
     gameArtists: 'Vincent Dutrait, Alexandre Roche',
@@ -682,11 +717,32 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2021',
   },
+  'Sagrada': {
+    gameArtists: 'Peter Wocken',
+    gameDesigners: 'Adrian Adamescu, Daryl Andrews',
+    gameImageName: 'sagrada',
+    gamePublisher: 'Floodgate Games',
+    yearPublished: '2017',
+  },
+  'Santa Monica': {
+    gameArtists: 'Jeremy Nguyen, Josh Wood',
+    gameDesigners: 'Josh Wood',
+    gameImageName: 'santa-monica',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2020',
+  },
   'Scythe': {
     gameArtists: 'Jakub Rozalski',
     gameDesigners: 'Jamey Stegmaier',
     gameImageName: 'scythe',
     gamePublisher: 'Stonemaier Games',
+    yearPublished: '2016',
+  },
+  'Sea of Clouds': {
+    gameArtists: 'Miguel Coimbra',
+    gameDesigners: 'Théo Rivière',
+    gameImageName: 'sea-of-clouds',
+    gamePublisher: 'IELLO',
     yearPublished: '2016',
   },
   'Shadows of Malice': {
@@ -814,6 +870,13 @@ const gamesList: GameList = {
     gamePublisher: 'WizKids',
     yearPublished: '2020',
   },
+  'Survive: Escape from Atlantis!': {
+    gameArtists: 'David Ausloos, Julian Courtland-Smith, Jean-Brice Dugait, Stéphane Gantiez, Andrew White',
+    gameDesigners: 'Julian Courtland-Smith',
+    gameImageName: 'survive-escape-from-atlantis',
+    gamePublisher: 'Parker Brothers, Stronghold Games',
+    yearPublished: '1982',
+  },
   'Sushi Go Party!': {
     gameArtists: 'Nan Rangsima',
     gameDesigners: 'Phil Walker-Harding',
@@ -891,6 +954,13 @@ const gamesList: GameList = {
     gamePublisher: 'Gamelyn Games',
     yearPublished: '2015',
   },
+  'Tiny Towns': {
+    gameArtists: 'Gong Studios',
+    gameDesigners: 'Peter McPherson',
+    gameImageName: 'tiny-towns',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2019',
+  },
   'Tussie Mussie': {
     gameArtists: 'Loïc Billiau, Karolina Jędrzejak, Zarina Karapetyan, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -953,6 +1023,13 @@ const gamesList: GameList = {
     gameImageName: 'wayfarers-of-the-south-tigris',
     gamePublisher: 'Garphill Games',
     yearPublished: '2022',
+  },
+  'Welcome To...': {
+    gameArtists: 'Anne Heidsieck',
+    gameDesigners: 'Benoit Turpin',
+    gameImageName: 'welcome-to',
+    gamePublisher: 'Blue Cocker Games',
+    yearPublished: '2018',
   },
   'Wingspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Natalia Rojas, Beth Sobel',
