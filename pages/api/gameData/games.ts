@@ -84,6 +84,13 @@ const gamesList: GameList = {
     gamePublisher: 'Indie Boards & Cards',
     yearPublished: '2023',
   },
+  'Atiwa': {
+    gameArtists: 'Andy Elkerton',
+    gameDesigners: 'Uwe Rosenberg',
+    gameImageName: 'atiwa',
+    gamePublisher: 'Lookout Games',
+    yearPublished: '2022',
+  },
   'Azul': {
     gameArtists: 'Philippe Guérin, Chris Quilliams',
     gameDesigners: 'Michael Kiesling',
@@ -98,12 +105,26 @@ const gamesList: GameList = {
     gamePublisher: 'Lookout Games',
     yearPublished: '2017',
   },
+  'Barrage': {
+    gameArtists: 'Mauro Alocci, Antonio De Luca, Roman Roland Kuteynikov',
+    gameDesigners: 'Tommaso Battista, Simone Luciani',
+    gameImageName: 'barrage',
+    gamePublisher: 'Cranio Creations',
+    yearPublished: '2022',
+  },
   'Battlestar Galactica': {
     gameArtists: 'Kevin Childress, Brian Schomburg, WiL Springer',
     gameDesigners: 'Corey Konieczka',
     gameImageName: 'battlestar-galactica',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2008',
+  },
+  'Beer & Bread': {
+    gameArtists: 'Michael Menzel',
+    gameDesigners: 'Scott Almes',
+    gameImageName: 'beer-and-bread',
+    gamePublisher: 'Deep Print Games',
+    yearPublished: '2022',
   },
   'Bemused': {
     gameArtists: 'Tani Pettit, Naomi Robinson',
@@ -229,6 +250,13 @@ const gamesList: GameList = {
     gamePublisher: '(Public Domain)',
     yearPublished: '1876',
   },
+  'Dead Reckoning': {
+    gameArtists: "Ian O'Toole",
+    gameDesigners: 'John D. Clair',
+    gameImageName: 'dead-reckoning',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2022',
+  },
   'Dice Kingdoms of Valeria': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'Levi Mote',
@@ -305,6 +333,13 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2013',
   },
+  'Evergreen': {
+    gameArtists: 'Wenyi Geng',
+    gameDesigners: 'Hjalmar Hach',
+    gameImageName: 'evergreen',
+    gamePublisher: 'Horrible Guild',
+    yearPublished: '2022',
+  },
   'Fantastic Factories': {
     gameArtists: 'Joseph Z Chen',
     gameDesigners: 'Joseph Chen, Justin Fauilkner',
@@ -332,6 +367,13 @@ const gamesList: GameList = {
     gameImageName: 'five-tribes',
     gamePublisher: 'Days of Wonder',
     yearPublished: '2014',
+  },
+  'Flamecraft': {
+    gameArtists: 'Sandara Tang, Sandra Tang',
+    gameDesigners: 'Manny Vega',
+    gameImageName: 'flamecraft',
+    gamePublisher: 'Cardboard Alchemy',
+    yearPublished: '2022',
   },
   'Flash Point: Fire Rescue': {
     gameArtists: 'Luis Francisco, George Patsouras',
@@ -367,6 +409,13 @@ const gamesList: GameList = {
     gameImageName: 'fox-experiment',
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2023',
+  },
+  'G.I. Joe Deck-Building Game: Shadow of the Serpent Expansion': {
+    gameArtists: 'Robert Atkins',
+    gameDesigners: 'Matt Hyra',
+    gameImageName: 'gi-joe-deck-building-game-shadow-serpent-expansion',
+    gamePublisher: 'Renegade Game Studios',
+    yearPublished: '2022',
   },
   'Galaxy Trucker': {
     gameArtists: 'Tomáš Kučerovský, Radim Pech',
@@ -418,6 +467,13 @@ const gamesList: GameList = {
     gamePublisher: 'Hans im Glück',
     yearPublished: '1995',
   },
+  'The Guild of Merchant Explorers': {
+    gameArtists: 'Gerralt Landman',
+    gameDesigners: 'Matthew Dunstan, Brett J. Gilbert',
+    gameImageName: 'guild-of-merchant-explorers',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2022',
+  },
   "Hadrian's Wall": {
     gameArtists: 'Sam Phillips',
     gameDesigners: 'Bobby Hill',
@@ -438,6 +494,19 @@ const gamesList: GameList = {
     gameImageName: 'hanabi',
     gamePublisher: 'ABACUSSPIELE, Cocktail Games',
     yearPublished: '2010',
+  },
+  'Heading Forward': {
+    gameDesigners: 'John du Bois',
+    gameImageName: 'heading-forward',
+    gamePublisher: 'Hollandspiele',
+    yearPublished: '2022',
+  },
+  'Heat: Pedal to the Metal': {
+    gameArtists: 'Vincent Dutrait',
+    gameDesigners: 'Asger Harding Granerud, Daniel Skjold Pedersen',
+    gameImageName: 'heat',
+    gamePublisher: 'Days of Wonder',
+    yearPublished: '2022',
   },
   'Honey Buzz': {
     gameArtists: 'Anne Heidsieck',
@@ -501,6 +570,13 @@ const gamesList: GameList = {
     gameImageName: 'jaipur',
     gamePublisher: 'GameWorks SàRL, Space Cowboys',
     yearPublished: '2009',
+  },
+  'Keystone: North America': {
+    gameArtists: 'Irem Erbilir, Alyssa Menold, Yan Tamba',
+    gameDesigners: 'Jeffrey Joyce, Isaac Vega',
+    gameImageName: 'keystone-north-america',
+    gamePublisher: 'Rose Gauntlet Entertainment',
+    yearPublished: '2022',
   },
   'Kingdomino Duel': {
     gameArtists: 'Cyril Bouquet',
@@ -584,6 +660,20 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2017',
   },
+  'Oak': {
+    gameArtists: 'Maciej Janik',
+    gameDesigners: 'Wim Goossens',
+    gameImageName: 'oak',
+    gamePublisher: 'Game Brewer',
+    yearPublished: '2022',
+  },
+  'One Deck Galaxy': {
+    gameArtists: 'Alanna Cervenak, Sam "Crowbar" Henry',
+    gameDesigners: 'Chris Cieslik',
+    gameImageName: 'one-deck-galaxy',
+    gamePublisher: 'Asmadi Games',
+    yearPublished: '2022',
+  },
   'Onitama': {
     gameArtists: 'Jun Kondo, Mariusz Szmerdt',
     gameDesigners: 'Shimpei Sato',
@@ -625,6 +715,13 @@ const gamesList: GameList = {
     gameImageName: 'piepmatz',
     gamePublisher: 'ASS Altenburger Spielkarten, Funforge, Hobby Game Mall, Lookout Games',
     yearPublished: '2018',
+  },
+  'Planted: A Game of Nature & Nurture': {
+    gameArtists: 'Hannah Bailey',
+    gameDesigners: 'Phil Walker-Harding',
+    gameImageName: 'planted',
+    gamePublisher: 'Buffalo Games',
+    yearPublished: '2022',
   },
   'Pokémon Trading Card Game': {
     gameArtists: 'Koichi Ooyama, Hironobu Yoshida',
@@ -801,11 +898,25 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2008',
   },
+  'The Spill': {
+    gameArtists: 'Kwanchai Moriya',
+    gameDesigners: 'Andy Kim',
+    gameImageName: 'spill',
+    gamePublisher: 'Smirk & Dagger Games',
+    yearPublished: '2022',
+  },
   'Splendor Duel': {
     gameArtists: 'Davide Tosello',
     gameDesigners: 'Marc André, Bruno Cathala',
     gameImageName: 'splendor-duel',
     gamePublisher: 'Space Cowboys',
+    yearPublished: '2022',
+  },
+  'Spots': {
+    gameArtists: 'John Bond',
+    gameDesigners: 'Alex Hague, Jon Perry, Justin Vickers',
+    gameImageName: 'spots',
+    gamePublisher: 'CMYK',
     yearPublished: '2022',
   },
   'Sprawlopolis': {
@@ -827,6 +938,12 @@ const gamesList: GameList = {
     gameImageName: 'star-wars-destiny',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
+  },
+  'Star Wars: Outer Rim – Unfinished Business': {
+    gameDesigners: 'Tony Fanchi, Corey Konieczka',
+    gameImageName: 'star-wars-outer-rim-unfinished-business',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2022',
   },
   'Steam': {
     gameArtists: 'John Austin, Jared Blando, Craig Hamilton, Christopher Moeller',
@@ -912,6 +1029,13 @@ const gamesList: GameList = {
     gamePublisher: 'KOSMOS',
     yearPublished: '2012',
   },
+  'Tenpenny Parks': {
+    gameArtists: 'Vincent Dutrait',
+    gameDesigners: 'Nate Linhart',
+    gameImageName: 'tenpenny-parks',
+    gamePublisher: 'Thunderworks Games',
+    yearPublished: '2022',
+  },
   'Terraforming Mars: Ares Expedition': {
     gameArtists: 'William Bricker, Sydney Engelstein, Jacob Fryxelius, Garrett Kaida, Nick Little, Nio Mendoza, Justine Nortjé, Naomi Robinson, Andrei Stef',
     gameDesigners: 'Sydney Engelstein, Jacob Fryxelius, Nick Little',
@@ -982,6 +1106,13 @@ const gamesList: GameList = {
     gamePublisher: 'Wyrd Miniatures',
     yearPublished: '2022',
   },
+  'Verdant': {
+    gameArtists: 'Beth Sobel',
+    gameDesigners: 'Molly Johnson, Robert Melvin, Aaron Mesburne, Kevin Russ, Shawn Stankewich',
+    gameImageName: 'verdant',
+    gamePublisher: 'Flatout Games',
+    yearPublished: '2022',
+  },
   'Viscounts of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'S J Macdonald, Shem Phillips',
@@ -995,6 +1126,13 @@ const gamesList: GameList = {
     gameImageName: 'viticulture-ee',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2015',
+  },
+  'Votes for Women': {
+    gameArtists: 'Brigette Indelicato, Marc Rodrigue',
+    gameDesigners: 'Tory Brown',
+    gameImageName: 'votes-for-women',
+    gamePublisher: 'Fort Circle Games',
+    yearPublished: '2022',
   },
   'War Chest': {
     gameArtists: 'Brigette Indelicato',
