@@ -171,6 +171,32 @@ export default function Fav2022() {
               order={gameInfo.sequence}
             />
           ))}
+          <TopListItem
+            colorScheme="purple"
+            gameArtists={gamesList['Stay Cool'].gameArtists}
+            gameDesigners={gamesList['Stay Cool'].gameDesigners}
+            gameImageName={gamesList['Stay Cool'].gameImageName}
+            gameName="Stay Cool"
+            gamePublisher={gamesList['Stay Cool'].gamePublisher}
+            height="fit-content"
+            title="Anthony's Pick (Favorite New to Me)"
+            yearPublished={gamesList['Stay Cool'].yearPublished}
+            width="100%"
+            order={11}
+          />
+          <TopListItem
+            colorScheme="purple"
+            gameArtists={gamesList['The Isle of Cats: Boat Pack'].gameArtists}
+            gameDesigners={gamesList['The Isle of Cats: Boat Pack'].gameDesigners}
+            gameImageName={gamesList['The Isle of Cats: Boat Pack'].gameImageName}
+            gameName="The Isle of Cats: Boat Pack"
+            gamePublisher={gamesList['The Isle of Cats: Boat Pack'].gamePublisher}
+            height="fit-content"
+            title="Anthony's Pick (Favorite Expansion)"
+            yearPublished={gamesList['The Isle of Cats: Boat Pack'].yearPublished}
+            width="100%"
+            order={12}
+          />
         </Flex>
       </DefaultLayout>
     </>

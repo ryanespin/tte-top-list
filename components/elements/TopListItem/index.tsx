@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Avatar, Badge, Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, IconButton, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
+import { Avatar, Badge, Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, IconButton, SimpleGrid, Text, useBoolean, useDisclosure } from '@chakra-ui/react';
 import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
@@ -49,13 +49,19 @@ interface TopListItemProps extends CardProps, GameItemProps, PersonItemProps {
 const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
   const { alt, src, ...otherProps } = props;
   const [hideImage, setHideImage] = useState(false);
+  const [objectFit, setObjectFit] = useBoolean()
   return (
-    <Box display={hideImage ? 'none' : 'block'} position="relative">
+    <Box
+      cursor={objectFit ? 'row-resize' : 'col-resize'}
+      display={hideImage ? 'none' : 'block'}
+      onClick={setObjectFit.toggle}
+      position="relative"
+    >
       <Image
         alt={alt}
         src={src}
         fill
-        style={{ objectFit: 'contain' }}
+        style={{ objectFit: objectFit ? 'cover' : 'contain' }}
         {...otherProps}
         onError={() => {
           setHideImage(true);

@@ -10,8 +10,8 @@ export const anthonysList: GameList = {
     ...gamesList['Flamecraft'],
     sequence: 3
   },
-  'Keystone: North America': {
-    ...gamesList['Keystone: North America'],
+  'Spots': {
+    ...gamesList['Spots'],
     sequence: 10
   },
   'Planted: A Game of Nature & Nurture': {
@@ -38,8 +38,8 @@ export const anthonysList: GameList = {
     ...gamesList['Verdant'],
     sequence: 9
   },
-  "Wonderland's War": {
-    ...gamesList["Wonderland's War"],
-    sequence: 8
+  'Marvel Dice Throne': {
+    ...gamesList['Marvel Dice Throne'],
+    sequence: 8,
   },
 }

@@ -564,6 +564,13 @@ const gamesList: GameList = {
     gamePublisher: 'The City of Games',
     yearPublished: '2019',
   },
+  'The Isle of Cats: Boat Pack': {
+    gameArtists: 'Dragolisco, Frank West',
+    gameDesigners: 'Frank West',
+    gameImageName: 'isle-of-cats-boat-pack',
+    gamePublisher: 'The City of Games',
+    yearPublished: '2022',
+  },
   'Jaipur': {
     gameArtists: 'Vincent Dutrait, Alexandre Roche',
     gameDesigners: 'Sébastien Pauchon',
@@ -944,6 +951,13 @@ const gamesList: GameList = {
     gameImageName: 'star-wars-outer-rim-unfinished-business',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2022',
+  },
+  'Stay Cool': {
+    gameArtists: 'NILS',
+    gameDesigners: 'Julien Sentis',
+    gameImageName: 'stay-cool',
+    gamePublisher: 'Le Scorpion Masqué',
+    yearPublished: '2019',
   },
   'Steam': {
     gameArtists: 'John Austin, Jared Blando, Craig Hamilton, Christopher Moeller',
