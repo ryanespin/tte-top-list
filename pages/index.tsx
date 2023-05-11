@@ -45,6 +45,9 @@ export default function Home() {
                   <ListItem>
                     <ChakraLink as={Link} href="./favDesigners2023">Favorite Designers 2023</ChakraLink>
                   </ListItem>
+                  <ListItem>
+                    <ChakraLink as={Link} href="./favPartyGames2023">Favorite Party Games 2023</ChakraLink>
+                  </ListItem>
                 </UnorderedList>
               </CardBody>
             </Card>

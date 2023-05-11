@@ -56,6 +56,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2014',
   },
+  'Anomia': {
+    gameArtists: 'Kinetic, Paul Laane, Cezary Szulc, Peter Wocken',
+    gameDesigners: 'Andrew Innes',
+    gameImageName: 'anomia',
+    gamePublisher: 'Anomia Press',
+    yearPublished: '2010',
+  },
   'Aquamarine': {
     gameArtists: 'Rory Muldoon',
     gameDesigners: 'Matthew Dunstan, Rory Muldoon',
@@ -224,6 +231,13 @@ const gamesList: GameList = {
     gamePublisher: 'Renegade',
     yearPublished: '2019',
   },
+  'Cockroach Poker': {
+    gameArtists: 'Rolf Vogt',
+    gameDesigners: 'Jacques Zeimet',
+    gameImageName: 'cockroach-poker',
+    gamePublisher: 'Drei Magier Spiele',
+    yearPublished: '2004',
+  },
   'Codenames': {
     gameArtists: 'Stéphane Gantiez, Tomáš Kučerovský, Filip Murmak',
     gameDesigners: 'Vlaada Chvátil',
@@ -277,6 +291,13 @@ const gamesList: GameList = {
     gamePublisher: 'Roxley',
     yearPublished: '2018',
   },
+  'Dixit': {
+    gameArtists: 'Marie Cardouat',
+    gameDesigners: 'Jean-Louis Roubira',
+    gameImageName: 'dixit',
+    gamePublisher: 'Libellud',
+    yearPublished: '2008',
+  },
   "Dinosaur Island: Rawr 'n Write": {
     gameArtists: 'Kwanchai Moriya, Andrew Thompson',
     gameDesigners: 'Brian Lewis, David McGregor, Marissa Misura',
@@ -326,6 +347,13 @@ const gamesList: GameList = {
     gamePublisher: 'Breaking Gmes',
     yearPublished: '2020',
   },
+  'Escape from the Aliens in Outer Space': {
+    gameArtists: 'Giulia Ghigini',
+    gameDesigners: 'Mario Porpora, Pietro Righi Riva, Luca Francesco Rossi, Nicolò Tedeschi',
+    gameImageName: 'escape-from-the-aliens-in-outer-space',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2010',
+  },
   'Euphoria: Build a Better Dystopia': {
     gameArtists: 'Jacqui Davis',
     gameDesigners: 'Jamey Stegmaier, Alan Stone',
@@ -339,6 +367,13 @@ const gamesList: GameList = {
     gameImageName: 'evergreen',
     gamePublisher: 'Horrible Guild',
     yearPublished: '2022',
+  },
+  'A Fake Artist Goes to New York': {
+    gameArtists: 'Jun Sasaki',
+    gameDesigners: 'Jun Sasaki',
+    gameImageName: 'a-fake-artist-goes-to-new-york',
+    gamePublisher: 'Oink Games',
+    yearPublished: '2011',
   },
   'Fantastic Factories': {
     gameArtists: 'Joseph Z Chen',
@@ -578,6 +613,20 @@ const gamesList: GameList = {
     gamePublisher: 'GameWorks SàRL, Space Cowboys',
     yearPublished: '2009',
   },
+  'Junk Art': {
+    gameArtists: 'Philippe Guérin, Chris Quilliams',
+    gameDesigners: 'Jay Cormier, Sen-Foong Lim',
+    gameImageName: 'junk-art',
+    gamePublisher: 'Pretzel Games',
+    yearPublished: '2016',
+  },
+  'Just One': {
+    gameArtists: 'Éric Azagury, Florian Poullet',
+    gameDesigners: 'Ludovic Roudy, Bruno Sautter',
+    gameImageName: 'just-one',
+    gamePublisher: 'Repos Production',
+    yearPublished: '2018',
+  },
   'Keystone: North America': {
     gameArtists: 'Irem Erbilir, Alyssa Menold, Yan Tamba',
     gameDesigners: 'Jeffrey Joyce, Isaac Vega',
@@ -605,6 +654,12 @@ const gamesList: GameList = {
     gameImageName: 'legendary-marvel',
     gamePublisher: 'Upper Deck',
     yearPublished: '2012',
+  },
+  "Loopin' Louie": {
+    gameDesigners: 'Masaru Aoki, Carol Wiseley',
+    gameImageName: 'loopin-louie',
+    gamePublisher: 'Arclight Games',
+    yearPublished: '1992',
   },
   'The Lord of the Rings Trading Card Game': {
     gameDesigners: 'Chuck Kallenbach, Tom Lischke, Mike Reynolds',
@@ -659,6 +714,13 @@ const gamesList: GameList = {
     gameImageName: 'mirroring-of-mary-king',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2022',
+  },
+  'MonsDRAWsity': {
+    gameArtists: 'Hector Amavizca, Kennedy Cooke-Garza, Shawn Daley, Mihajlo Dimitrievski, Gilbert Jansen, David Melvin, Nolan Nasser, Martha Webby',
+    gameDesigners: 'Eric Slauson',
+    gameImageName: 'monsdrawsity',
+    gamePublisher: 'Bread and Circuses',
+    yearPublished: '2020',
   },
   'NMBR 9': {
     gameArtists: 'Fiore GmbH',
@@ -722,6 +784,13 @@ const gamesList: GameList = {
     gameImageName: 'piepmatz',
     gamePublisher: 'ASS Altenburger Spielkarten, Funforge, Hobby Game Mall, Lookout Games',
     yearPublished: '2018',
+  },
+  'PitchCar': {
+    gameArtists: 'Jean du Poël',
+    gameDesigners: 'Jean du Poël',
+    gameImageName: 'pitchcar',
+    gamePublisher: 'Ferti',
+    yearPublished: '1995',
   },
   'Planted: A Game of Nature & Nurture': {
     gameArtists: 'Hannah Bailey',
@@ -883,6 +952,12 @@ const gamesList: GameList = {
     gameImageName: 'sniper-elite-the-board-game',
     gamePublisher: 'Rebellion Unplugged',
     yearPublished: '2022',
+  },
+  'So Clover!': {
+    gameDesigners: 'François Romain',
+    gameImageName: 'so-clover',
+    gamePublisher: 'Repos Production',
+    yearPublished: '2021',
   },
   'Sobek: 2 Players': {
     gameArtists: 'Xavier Gueniffey Durin',
@@ -1189,6 +1264,12 @@ const gamesList: GameList = {
     gameImageName: 'wingspan',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2019',
+  },
+  'Wits & Wagers': {
+    gameDesigners: 'Dominic Crapuchettes',
+    gameImageName: 'wits-and-wagers',
+    gamePublisher: 'NorthStar Game Studio',
+    yearPublished: '2005',
   },
   'Wok and Roll': {
     gameDesigners: 'Daryl Chow',
