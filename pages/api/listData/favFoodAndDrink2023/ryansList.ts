@@ -6,8 +6,8 @@ export const ryansList: GameList = {
     ...gamesList['Abandon All Artichokes'],
     sequence: 4
   },
-  'Beer & Bread': {
-    ...gamesList['Beer & Bread'],
+  'The Taverns of Tiefenthal': {
+    ...gamesList['The Taverns of Tiefenthal'],
     sequence: 5
   },
   'Distilled': {

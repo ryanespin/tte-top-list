@@ -8,7 +8,7 @@ export const chrisList: GameList = {
   },
   'Viticulture Essential Edition': {
     ...gamesList['Viticulture Essential Edition'],
-    sequence: 2
+    sequence: 4
   },
   'Sushi Go Party!': {
     ...gamesList['Sushi Go Party!'],
@@ -16,7 +16,7 @@ export const chrisList: GameList = {
   },
   'The Taverns of Tiefenthal': {
     ...gamesList['The Taverns of Tiefenthal'],
-    sequence: 4
+    sequence: 2
   },
   'Food Chain Magnate': {
     ...gamesList['Food Chain Magnate'],

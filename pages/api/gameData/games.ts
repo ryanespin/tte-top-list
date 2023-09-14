@@ -1158,7 +1158,7 @@ const gamesList: GameList = {
     gameDesigners: 'Wolfgang Warsch',
     gameImageName: 'taverns-of-tiefenthal',
     gamePublisher: 'Schmidt Spiele',
-    yearPublished: '2012',
+    yearPublished: '2019',
   },
   'Tenpenny Parks': {
     gameArtists: 'Vincent Dutrait',
