@@ -291,19 +291,26 @@ const gamesList: GameList = {
     gamePublisher: 'Roxley',
     yearPublished: '2018',
   },
-  'Dixit': {
-    gameArtists: 'Marie Cardouat',
-    gameDesigners: 'Jean-Louis Roubira',
-    gameImageName: 'dixit',
-    gamePublisher: 'Libellud',
-    yearPublished: '2008',
-  },
   "Dinosaur Island: Rawr 'n Write": {
     gameArtists: 'Kwanchai Moriya, Andrew Thompson',
     gameDesigners: 'Brian Lewis, David McGregor, Marissa Misura',
     gameImageName: 'dinosaur-island-rawr-n-write',
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2021',
+  },
+  'Distilled': {
+    gameArtists: 'Erik Evensen',
+    gameDesigners: 'Dave Beck',
+    gameImageName: 'distilled',
+    gamePublisher: 'Paverson Games',
+    yearPublished: '2023',
+  },
+  'Dixit': {
+    gameArtists: 'Marie Cardouat',
+    gameDesigners: 'Jean-Louis Roubira',
+    gameImageName: 'dixit',
+    gamePublisher: 'Libellud',
+    yearPublished: '2008',
   },
   'Dominion': {
     gameArtists: 'Matthias Catrein, Julien Delval, Tomasz Jedruszek, Ryan Laukat, Harald Lieske, Michael Menzel, Marcel-André Casasola Merkle, Claus Stephan, Christof Tisch',
@@ -332,6 +339,13 @@ const gamesList: GameList = {
     gameImageName: 'dhr-the-lesser-houses',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2018',
+  },
+  'Dulce': {
+    gameArtists: 'Justine Nortjé',
+    gameDesigners: 'Julio E. Nazario',
+    gameImageName: 'dulce',
+    gamePublisher: 'Stronghold Games',
+    yearPublished: '2022',
   },
   'Dungeon Petz': {
     gameArtists: 'David Cochard',
@@ -722,6 +736,13 @@ const gamesList: GameList = {
     gamePublisher: 'Bread and Circuses',
     yearPublished: '2020',
   },
+  'New York Slice': {
+    gameArtists: 'John Kaufmann',
+    gameDesigners: 'Jeffrey D. Allers',
+    gameImageName: 'new-york-slice',
+    gamePublisher: 'Bézier Games',
+    yearPublished: '2017',
+  },
   'NMBR 9': {
     gameArtists: 'Fiore GmbH',
     gameDesigners: 'Peter Wichmann',
@@ -735,6 +756,13 @@ const gamesList: GameList = {
     gameImageName: 'oak',
     gamePublisher: 'Game Brewer',
     yearPublished: '2022',
+  },
+  'On the Rocks': {
+    gameArtists: 'Christina Pittre',
+    gameDesigners: 'Michael Pittre, Christina Pittre',
+    gameImageName: 'on-the-rocks',
+    gamePublisher: '25th Century Games',
+    yearPublished: '2021',
   },
   'One Deck Galaxy': {
     gameArtists: 'Alanna Cervenak, Sam "Crowbar" Henry',
@@ -777,6 +805,13 @@ const gamesList: GameList = {
     gameImageName: 'patchwork',
     gamePublisher: 'Lookout Games',
     yearPublished: '2014',
+  },
+  'Piazza Rabazza': {
+    gameArtists: 'Dennis Lohausen',
+    gameDesigners: 'Guido Hoffmann, Jens-Peter Schliemann',
+    gameImageName: 'piazza-rabazza',
+    gamePublisher: 'Zoch Verlag',
+    yearPublished: '2022',
   },
   'Piepmatz': {
     gameArtists: 'Klemens Franz, Mike Langman',
@@ -1116,6 +1151,13 @@ const gamesList: GameList = {
     gameDesigners: 'Andreas Steiger',
     gameImageName: 'targi',
     gamePublisher: 'KOSMOS',
+    yearPublished: '2012',
+  },
+  'The Taverns of Tiefenthal': {
+    gameArtists: 'Dennis Lohausen',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'taverns-of-tiefenthal',
+    gamePublisher: 'Schmidt Spiele',
     yearPublished: '2012',
   },
   'Tenpenny Parks': {
