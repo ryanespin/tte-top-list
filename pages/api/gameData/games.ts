@@ -112,6 +112,13 @@ const gamesList: GameList = {
     gamePublisher: 'Lookout Games',
     yearPublished: '2017',
   },
+  'Bargain Basement Bathysphere': {
+    gameArtists: 'Scott Slomiany',
+    gameDesigners: 'Scott Slomiany',
+    gameImageName: 'bargain-basement-bathysphere',
+    gamePublisher: 'WizKids',
+    yearPublished: '2022',
+  },
   'Barrage': {
     gameArtists: 'Mauro Alocci, Antonio De Luca, Roman Roland Kuteynikov',
     gameDesigners: 'Tommaso Battista, Simone Luciani',
@@ -361,6 +368,13 @@ const gamesList: GameList = {
     gamePublisher: 'Breaking Gmes',
     yearPublished: '2020',
   },
+  'Era: Medieval Age': {
+    gameArtists: 'Chris Quilliams',
+    gameDesigners: 'Matt Leacock',
+    gameImageName: 'era-medieval-age',
+    gamePublisher: 'eggertspiele',
+    yearPublished: '2019',
+  },
   'Escape from the Aliens in Outer Space': {
     gameArtists: 'Giulia Ghigini',
     gameDesigners: 'Mario Porpora, Pietro Righi Riva, Luca Francesco Rossi, Nicolò Tedeschi',
@@ -473,6 +487,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2007',
   },
+  'Ganz Schön Clever': {
+    gameArtists: 'Leon Schiffer',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'ganz-schon-clever',
+    gamePublisher: 'Schmidt Spiele',
+    yearPublished: '2018',
+  },
   'Gaslands: Refuelled': {
     gameArtists: 'Mike Hutchinson, David Auden Nash, Martin Pique',
     gameDesigners: 'Mike Hutchinson',
@@ -544,6 +565,13 @@ const gamesList: GameList = {
     gamePublisher: 'ABACUSSPIELE, Cocktail Games',
     yearPublished: '2010',
   },
+  'Harvest Dice': {
+    gameArtists: 'Danny Devine, Tyler Myatt',
+    gameDesigners: 'Danny Devine',
+    gameImageName: 'harvest-dice',
+    gamePublisher: 'Garphill Games',
+    yearPublished: '2021',
+  },
   'Heading Forward': {
     gameDesigners: 'John du Bois',
     gameImageName: 'heading-forward',
@@ -599,6 +627,13 @@ const gamesList: GameList = {
     gamePublisher: 'Portal Games',
     yearPublished: '2019',
   },
+  'Imperial Settlers: Roll & Write': {
+    gameArtists: 'Grzegorz Bobrowski, Aga Jakimiec, Tomasz Jedruszek, Roman Kucharski, Denis Martynets, Maria Pekina, Rafał Szyma',
+    gameDesigners: 'Ignacy Trzewiczek',
+    gameImageName: 'imperial-settlers-roll-write',
+    gamePublisher: 'Portal Games',
+    yearPublished: '2019',
+  },
   'Imperium: Classics | Legends': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'Nigel Buckle, Dávid Turczi',
@@ -626,6 +661,13 @@ const gamesList: GameList = {
     gameImageName: 'jaipur',
     gamePublisher: 'GameWorks SàRL, Space Cowboys',
     yearPublished: '2009',
+  },
+  'Joan of Arc: Orléans Draw & Write': {
+    gameArtists: 'Klemens Franz',
+    gameDesigners: 'Ryan Hendrickson, Reiner Stockhausen',
+    gameImageName: 'joan-arc-orleans-draw-write',
+    gamePublisher: 'dlp games',
+    yearPublished: '2022',
   },
   'Junk Art': {
     gameArtists: 'Philippe Guérin, Chris Quilliams',
@@ -721,6 +763,13 @@ const gamesList: GameList = {
     gameImageName: 'marvel-dice-throne',
     gamePublisher: 'The Op, Roxley',
     yearPublished: '2022',
+  },
+  'Metro X': {
+    gameArtists: 'Ryo Nyamo',
+    gameDesigners: 'Hisashi Hayashi',
+    gameImageName: 'metro-x',
+    gamePublisher: 'OZAKU Brand',
+    yearPublished: '2018',
   },
   'The Mirroring of Mary King': {
     gameArtists: 'Naomi Robinson',
@@ -855,6 +904,20 @@ const gamesList: GameList = {
     gamePublisher: 'Schmidt Spiele',
     yearPublished: '2018',
   },
+  'Qwinto': {
+    gameArtists: 'Oliver Freudenreich',
+    gameDesigners: 'Bernhard Lach, Uwe Rapp',
+    gameImageName: 'qwinto',
+    gamePublisher: 'Nürnberger-Spielkarten-Verlag',
+    yearPublished: '2015',
+  },
+  'Qwixx': {
+    gameArtists: 'Oliver Freudenreich, Sandra Freudenreich',
+    gameDesigners: 'Steffen Benndorf',
+    gameImageName: 'qwixx',
+    gamePublisher: 'Nürnberger-Spielkarten-Verlag',
+    yearPublished: '2012',
+  },
   'Radlands': {
     gameArtists: 'Lina Cossette, Damien Mammoliti, Manny Trembley',
     gameDesigners: 'Daniel Piechnick',
@@ -882,6 +945,13 @@ const gamesList: GameList = {
     gameImageName: 'railway-of-the-world',
     gamePublisher: 'Eagle-Gryphon Games, Winsome Games',
     yearPublished: '2005',
+  },
+  'Rajas of the Ganges: The Dice Charmers': {
+    gameArtists: 'Dennis Lohausen',
+    gameDesigners: 'Inka Brand, Markus Brand',
+    gameImageName: 'rajas-ganges-dice-charmers',
+    gamePublisher: 'HUCH!',
+    yearPublished: '2020',
   },
   'Raptor': {
     gameArtists: 'Vincent Dutrait',
@@ -917,6 +987,13 @@ const gamesList: GameList = {
     gameImageName: 'rococo-deluxe-edition',
     gamePublisher: 'Eagle-Gryphon Games',
     yearPublished: '2020',
+  },
+  'Roll Through the Ages: The Bronze Age': {
+    gameArtists: 'Marko Fiedler, Monte Moore, Paul Niemeyer, Claus Stephan',
+    gameDesigners: 'Matt Leacock',
+    gameImageName: 'roll-through-ages-bronze-age',
+    gamePublisher: 'Eagle-Gryphon Games',
+    yearPublished: '2008',
   },
   'Rolling Realms': {
     gameArtists: 'Miles Bensky, Marius Petrescu',
@@ -1048,6 +1125,12 @@ const gamesList: GameList = {
     gameImageName: 'star-trek-frontiers',
     gamePublisher: 'WizKids',
     yearPublished: '2016',
+  },
+  'Star Trek: Super-Skill Pinball': {
+    gameDesigners: 'Geoff Engelstein',
+    gameImageName: 'star-trek-super-skill-pinball',
+    gamePublisher: 'WizKids',
+    yearPublished: '2022',
   },
   'Star Wars: Destiny': {
     gameArtists: 'Lucas Durham, Vlad Ricean',
@@ -1216,6 +1299,13 @@ const gamesList: GameList = {
     gamePublisher: 'Alderac Entertainment Group',
     yearPublished: '2019',
   },
+  'Trek 12: Himalaya': {
+    gameArtists: 'Jonathan Aucomte, Olivier Derouetteau',
+    gameDesigners: 'Bruno Cathala, Corentin Lebrat',
+    gameImageName: 'trek-12',
+    gamePublisher: 'Lumberjacks Studios',
+    yearPublished: '2020',
+  },
   'Tussie Mussie': {
     gameArtists: 'Loïc Billiau, Karolina Jędrzejak, Zarina Karapetyan, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -1265,6 +1355,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fort Circle Games',
     yearPublished: '2022',
   },
+  'Voyages': {
+    gameArtists: 'Rory Muldoon',
+    gameDesigners: 'Matthew Dunstan, Rory Muldoon',
+    gameImageName: 'voyages',
+    gamePublisher: 'Postmark Games',
+    yearPublished: '2021',
+  },
   'War Chest': {
     gameArtists: 'Brigette Indelicato',
     gameDesigners: 'Trevor Benjamin, David Thompson',
@@ -1299,6 +1396,13 @@ const gamesList: GameList = {
     gameImageName: 'welcome-to',
     gamePublisher: 'Blue Cocker Games',
     yearPublished: '2018',
+  },
+  'Welcome to the Moon': {
+    gameArtists: 'Anne Heidsieck',
+    gameDesigners: 'Alexis Allard, Benoit Turpin',
+    gameImageName: 'welcome-to-the-moon',
+    gamePublisher: 'Blue Cocker Games',
+    yearPublished: '2021',
   },
   'Wingspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Natalia Rojas, Beth Sobel',
