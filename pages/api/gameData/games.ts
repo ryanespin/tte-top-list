@@ -813,6 +813,13 @@ const gamesList: GameList = {
     gamePublisher: '25th Century Games',
     yearPublished: '2021',
   },
+  'On Tour': {
+    gameArtists: 'Anca Gavril',
+    gameDesigners: 'Chad DeShon',
+    gameImageName: 'on-tour',
+    gamePublisher: 'allplay',
+    yearPublished: '2019',
+  },
   'One Deck Galaxy': {
     gameArtists: 'Alanna Cervenak, Sam "Crowbar" Henry',
     gameDesigners: 'Chris Cieslik',
@@ -1389,6 +1396,13 @@ const gamesList: GameList = {
     gameImageName: 'wayfarers-of-the-south-tigris',
     gamePublisher: 'Garphill Games',
     yearPublished: '2022',
+  },
+  'Waypoints': {
+    gameArtists: 'Rory Muldoon',
+    gameDesigners: 'Matthew Dunstan, Rory Muldoon',
+    gameImageName: 'waypoints',
+    gamePublisher: 'Postmark Games',
+    yearPublished: '2023',
   },
   'Welcome To...': {
     gameArtists: 'Anne Heidsieck',

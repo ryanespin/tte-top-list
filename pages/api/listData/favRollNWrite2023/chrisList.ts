@@ -34,12 +34,12 @@ export const chrisList: GameList = {
     ...gamesList['Super Mega Lucky Box'],
     sequence: 8
   },
-  'Ganz Schön Clever': {
-    ...gamesList['Ganz Schön Clever'],
+  'Waypoints': {
+    ...gamesList['Waypoints'],
     sequence: 9
   },
-  'Imperial Settlers: Roll & Write': {
-    ...gamesList['Imperial Settlers: Roll & Write'],
+  'On Tour': {
+    ...gamesList['On Tour'],
     sequence: 10
   },
 }
