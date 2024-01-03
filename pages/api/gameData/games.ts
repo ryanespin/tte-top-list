@@ -417,6 +417,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2016',
   },
+  'The Field of the Cloth of Gold': {
+    gameArtists: 'Amabel Holland',
+    gameDesigners: 'Amabel Holland',
+    gameImageName: 'field-cloth-gold',
+    gamePublisher: 'Hollandspiele',
+    yearPublished: '2020',
+  },
   'Fields of Arle': {
     gameArtists: 'Dennis Lohausen',
     gameDesigners: 'Uwe Rosenberg',
@@ -536,6 +543,13 @@ const gamesList: GameList = {
     gameImageName: 'el-grande',
     gamePublisher: 'Hans im Glück',
     yearPublished: '1995',
+  },
+  'Green Team Wins': {
+    gameArtists: 'Matt Paquette & Co.',
+    gameDesigners: 'Nathan Thornton',
+    gameImageName: 'green-team-wins',
+    gamePublisher: '25th Century Games',
+    yearPublished: '2022',
   },
   'The Guild of Merchant Explorers': {
     gameArtists: 'Gerralt Landman',
@@ -696,6 +710,13 @@ const gamesList: GameList = {
     gameImageName: 'kingdomino-duel',
     gamePublisher: 'Blue Orange Games',
     yearPublished: '2019',
+  },
+  'Kulami': {
+    gameArtists: 'Bernhard Kümmelmann, Karl Malepart, Steffen Mühlhäuser',
+    gameDesigners: 'Andreas Kuhnekath',
+    gameImageName: 'kulami',
+    gamePublisher: 'Steffen-Spiele',
+    yearPublished: '2011',
   },
   'Le Havre': {
     gameArtists: 'Klemens Franz',
@@ -925,6 +946,13 @@ const gamesList: GameList = {
     gamePublisher: 'Nürnberger-Spielkarten-Verlag',
     yearPublished: '2012',
   },
+  'Ra': {
+    gameArtists: "Allison Kline, Gahyun Lee, Ian O'Toole, Tiago Sousa, Franz Vohwinkel",
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'ra',
+    gamePublisher: '25th Century Games',
+    yearPublished: '1999',
+  },
   'Radlands': {
     gameArtists: 'Lina Cossette, Damien Mammoliti, Manny Trembley',
     gameDesigners: 'Daniel Piechnick',
@@ -1022,6 +1050,20 @@ const gamesList: GameList = {
     gameImageName: 'santa-monica',
     gamePublisher: 'Alderac Entertainment Group',
     yearPublished: '2020',
+  },
+  "Santa's Workshop (Second Edition)": {
+    gameArtists: 'Andrew Bosley, Jacqui Davis, Matt Paquette & Co.',
+    gameDesigners: 'Keith Ferguson',
+    gameImageName: 'santas-workshop-second-edition',
+    gamePublisher: 'Elf Creek Games',
+    yearPublished: '2023',
+  },
+  'SCOUT': {
+    gameArtists: 'Rie Komatsuzaki, Jun Sasaki',
+    gameDesigners: 'Kei Kajino',
+    gameImageName: 'scout',
+    gamePublisher: 'Oink Games',
+    yearPublished: '2019',
   },
   'Scythe': {
     gameArtists: 'Jakub Rozalski',
@@ -1243,6 +1285,13 @@ const gamesList: GameList = {
     gamePublisher: 'KOSMOS',
     yearPublished: '2012',
   },
+  "That's Pretty Clever! Kids": {
+    gameArtists: 'Glen Viljoen, Marie Zippel',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'thats-pretty-clever-kids',
+    gamePublisher: 'Schmidt Spiele',
+    yearPublished: '2022',
+  },
   'The Taverns of Tiefenthal': {
     gameArtists: 'Dennis Lohausen',
     gameDesigners: 'Wolfgang Warsch',
@@ -1256,6 +1305,12 @@ const gamesList: GameList = {
     gameImageName: 'tenpenny-parks',
     gamePublisher: 'Thunderworks Games',
     yearPublished: '2022',
+  },
+  'Terminator: Dark Fate - The Card Game': {
+    gameDesigners: 'Jack Caesar',
+    gameImageName: 'terminator-dark-fate-card-game',
+    gamePublisher: 'River Horse (Europe) Ltd',
+    yearPublished: '2020',
   },
   'Terraforming Mars: Ares Expedition': {
     gameArtists: 'William Bricker, Sydney Engelstein, Jacob Fryxelius, Garrett Kaida, Nick Little, Nio Mendoza, Justine Nortjé, Naomi Robinson, Andrei Stef',
@@ -1326,6 +1381,13 @@ const gamesList: GameList = {
     gameImageName: 'undaunted-stalingrad',
     gamePublisher: 'Osprey Games',
     yearPublished: '2022',
+  },
+  'Unmatched Game System': {
+    gameArtists: 'Oliver Barrett',
+    gameDesigners: 'Rob Daviau, Justin D. Jacobson',
+    gameImageName: 'unmatched-game-system',
+    gamePublisher: 'Mondo Games, Restoration Games',
+    yearPublished: '2019',
   },
   'Vagrantsong': {
     gameArtists: 'Nguyen Mai Diem',
@@ -1452,5 +1514,7 @@ const gamesList: GameList = {
     yearPublished: '2016',
   },
 }
+
+export type GameNames = keyof typeof gamesList;
 
 export default gamesList;
