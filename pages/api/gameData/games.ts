@@ -189,6 +189,13 @@ const gamesList: GameList = {
     gamePublisher: 'Hans im Glück',
     yearPublished: '2000',
   },
+  'Carcassonne: The Castle': {
+    gameArtists: 'Roman Kucharski, Christof Tisch',
+    gameDesigners: 'Reiner Knizia, Klaus-Jürgen Wrede',
+    gameImageName: 'carcassonne-castle',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '2003',
+  },
   'Carolus Magnus | Eriantys': {
     gameArtists: 'N/A | Alessandro Costa',
     gameDesigners: 'Leo Colovini',
@@ -1361,6 +1368,13 @@ const gamesList: GameList = {
     gamePublisher: 'Alderac Entertainment Group',
     yearPublished: '2019',
   },
+  'Tokaido Duo': {
+    gameArtists: 'Xavier Gueniffey Durin',
+    gameDesigners: 'Antoine Bauza',
+    gameImageName: 'tokaido-duo',
+    gamePublisher: 'Funforge',
+    yearPublished: '2022',
+  },
   'Trek 12: Himalaya': {
     gameArtists: 'Jonathan Aucomte, Olivier Derouetteau',
     gameDesigners: 'Bruno Cathala, Corentin Lebrat',
@@ -1374,6 +1388,20 @@ const gamesList: GameList = {
     gameImageName: 'tussie-mussie',
     gamePublisher: 'Button Shy',
     yearPublished: '2019',
+  },
+  'Twilight Struggle': {
+    gameArtists: 'Viktor Csete, Rodger B. MacGowan, Chechu Nieto, Guillaume Ries, Mark Simonitch',
+    gameDesigners: 'Ananda Gupta, Jason Matthews',
+    gameImageName: 'twilight-struggle',
+    gamePublisher: 'GMT Games',
+    yearPublished: '2005',
+  },
+  'Undaunted: Battle of Britain': {
+    gameArtists: 'Roland MacDonald',
+    gameDesigners: 'Trevor Benjamin, David Thompson',
+    gameImageName: 'undaunted-battle-of-britain',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2023',
   },
   'Undaunted: Stalingrad': {
     gameArtists: 'Roland MacDonald',
