@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
+
 import { Avatar, SimpleGrid } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { daniellesList } from './api/listData/top202023/daniellesList'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Top20Danielle2023() {
   return (

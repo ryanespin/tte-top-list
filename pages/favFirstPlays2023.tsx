@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+
 import { Flex } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { anthonysList } from './api/listData/favFirstPlays2023/anthonysList'
@@ -8,7 +8,7 @@ import { DefaultLayout } from '@/components/layouts/Default'
 import { chrisList } from './api/listData/favFirstPlays2023/chrisList'
 import { ryansList } from './api/listData/favFirstPlays2023/ryansList'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function FavFirstPlays2023() {
   return (

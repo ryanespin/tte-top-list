@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+
 import { Flex, Heading, HStack, Spacer, VStack } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { chrisList } from './api/listData/fav2Players2024/chrisList'
 import { ryansList } from './api/listData/fav2Players2024/ryansList'
 import { anthonysList } from './api/listData/fav2Players2024/anthonysList'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Fav2Player2023() {
   return (

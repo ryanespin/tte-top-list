@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
+
 import { Card, CardBody, CardHeader, Container, Flex, Heading, Link as ChakraLink, List, ListItem, UnorderedList } from '@chakra-ui/react'
 import { DefaultLayout } from '@/components/layouts/Default'
 import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (

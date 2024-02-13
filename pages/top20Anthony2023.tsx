@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
+
 import { Avatar, HStack, IconButton, SimpleGrid, useBoolean } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { ryansList } from './api/listData/top202023/ryansList'
 import { anthonysList } from './api/listData/top202023/anthonyList'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Top20Anthony2023() {
   const [sort, setSort] = useBoolean()

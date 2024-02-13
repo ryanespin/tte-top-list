@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+
 import { Flex, FlexProps, Heading, HStack, Spacer, VStack } from '@chakra-ui/react'
 
 interface DefaultLayoutProps extends FlexProps {
