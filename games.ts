@@ -382,13 +382,6 @@ const gamesList: GameList = {
     gamePublisher: 'AMIGO',
     yearPublished: '2004',
   },
-  'Dracula vs Van Helsing': {
-    gameArtists: 'Weberson Santiago',
-    gameDesigners: 'Maxime Rambourg, Théo Rivière',
-    gameImageName: 'dracula-vs-van-helsing',
-    gamePublisher: 'Mandoo Games',
-    yearPublished: '2023',
-  },
   'Draftosaurus': {
     gameArtists: 'Jiahui Eva Gao, Vipin Alex Jacob, Roman Kucharski, TANSAN Inc.',
     gameDesigners: 'Antoine Bauza, Corentin Lebrat, Ludovic Maublanc, Théo Rivière',
@@ -1526,13 +1519,6 @@ const gamesList: GameList = {
     gameImageName: 'undaunted-stalingrad',
     gamePublisher: 'Osprey Games',
     yearPublished: '2022',
-  },
-  'Unmatched Adventures: Tales to Amaze': {
-    gameArtists: 'JJ Ariosa, Anne Benjamin, Marie Bergeron, Ashley Floréal, Satoshi Kamanaka, Nastya Lehn, Kwanchai Moriya, Ian Reed, Jason Taylor',
-    gameDesigners: 'Jason Hager, Darren Reckner',
-    gameImageName: 'unmatched-adventures-tales-to-amaze',
-    gamePublisher: 'Restoration Games',
-    yearPublished: '2023',
   },
   'Unmatched Game System': {
     gameArtists: 'Oliver Barrett',
