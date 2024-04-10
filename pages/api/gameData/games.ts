@@ -63,6 +63,13 @@ const gamesList: GameList = {
     gamePublisher: 'Anomia Press',
     yearPublished: '2010',
   },
+  'Apiary': {
+    gameArtists: 'Kwanchai Moriya',
+    gameDesigners: 'Connie VogelmannAndrew Innes',
+    gameImageName: 'apiary',
+    gamePublisher: 'Stonemaier Games',
+    yearPublished: '2023',
+  },
   'Aquamarine': {
     gameArtists: 'Rory Muldoon',
     gameDesigners: 'Matthew Dunstan, Rory Muldoon',
@@ -112,6 +119,13 @@ const gamesList: GameList = {
     gamePublisher: 'Lookout Games',
     yearPublished: '2017',
   },
+  'Barcelona': {
+    gameArtists: 'Zuzanna Kołakowska, Aleksander Zawada',
+    gameDesigners: 'Dani Garcia',
+    gameImageName: 'barcelona',
+    gamePublisher: 'Board&Dice',
+    yearPublished: '2023',
+  },
   'Bargain Basement Bathysphere': {
     gameArtists: 'Scott Slomiany',
     gameDesigners: 'Scott Slomiany',
@@ -142,10 +156,17 @@ const gamesList: GameList = {
   },
   'Bemused': {
     gameArtists: 'Tani Pettit, Naomi Robinson',
-    gameDesigners: 'Jim Felli',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'bemused',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2017',
+  },
+  'BOOoop.': {
+    gameArtists: 'Curt Covert',
+    gameDesigners: 'Scott Brady',
+    gameImageName: 'boooop',
+    gamePublisher: 'Smirk & Dagger Games',
+    yearPublished: '2023',
   },
   'Brass: Birmingham': {
     gameArtists: 'Lina Cossette, David Forest, Damien Mammoliti',
@@ -217,6 +238,13 @@ const gamesList: GameList = {
     gamePublisher: 'Flatout, AEG',
     yearPublished: '2021',
   },
+  'Cascadia: Landmarks': {
+    gameArtists: 'Beth Sobel',
+    gameDesigners: 'Randy Flynn',
+    gameImageName: 'cascadia-landmarks',
+    gamePublisher: 'Flatout, AEG',
+    yearPublished: '2023',
+  },
   'The Castles of Burgundy': {
     gameArtists: 'Julien Delval, Harald Lieske',
     gameDesigners: 'Stefan Feld',
@@ -267,11 +295,18 @@ const gamesList: GameList = {
     yearPublished: '2015',
   },
   'Cosmic Frog': {
-    gameArtists: 'Tim Barton, Jim Felli, Chad Hoverter, Tani Pettit, Naomi Robinson',
-    gameDesigners: 'Jim Felli',
+    gameArtists: 'Tim Barton, Jenna Felli, Chad Hoverter, Tani Pettit, Naomi Robinson',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'cosmic-frog',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2020',
+  },
+  'Cosmic Frog: Find Muck': {
+    gameArtists: 'Tani Pettit',
+    gameDesigners: 'Jenna Felli',
+    gameImageName: 'cosmic-frog-find-muck',
+    gamePublisher: 'Devious Weasel Games',
+    yearPublished: '2023',
   },
   'Crokinole': {
     gameImageName: 'crokinole',
@@ -333,6 +368,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rio Grande Games',
     yearPublished: '2008',
   },
+  'Doubt Is Our Product': {
+    gameArtists: 'Amabel Holland',
+    gameDesigners: 'Amabel Holland',
+    gameImageName: 'doubt-is-our-product',
+    gamePublisher: 'Hollandspiele',
+    yearPublished: '2023',
+  },
   'The Downfall of Pompeii': {
     gameArtists: 'Oliver Freudenreich, Guido Hoffmann',
     gameDesigners: 'Klaus-Jürgen Wrede',
@@ -349,7 +391,7 @@ const gamesList: GameList = {
   },
   'Dûhr: The Lesser Houses': {
     gameArtists: 'Reza Afshar, Jonathan Guzi',
-    gameDesigners: 'Jim Felli',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'dhr-the-lesser-houses',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2018',
@@ -374,6 +416,13 @@ const gamesList: GameList = {
     gameImageName: 'dwellings-of-eldervale',
     gamePublisher: 'Breaking Gmes',
     yearPublished: '2020',
+  },
+  'Endurance': {
+    gameArtists: 'Amabel Holland',
+    gameDesigners: 'Amabel Holland',
+    gameImageName: 'endurance',
+    gamePublisher: 'Hollandspiele',
+    yearPublished: '2023',
   },
   'Era: Medieval Age': {
     gameArtists: 'Chris Quilliams',
@@ -516,6 +565,13 @@ const gamesList: GameList = {
     imageExtension: 'jpg',
     yearPublished: '2019',
   },
+  'General Orders: World War II': {
+    gameArtists: 'Alex Green',
+    gameDesigners: 'Trevor Benjamin, David Thompson',
+    gameImageName: 'general-orders-world-war-ii',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2023',
+  },
   'Ghost Stories': {
     gameArtists: 'Pierô',
     gameDesigners: 'Antoine Bauza',
@@ -578,6 +634,13 @@ const gamesList: GameList = {
     gameImageName: 'hallertau',
     gamePublisher: 'Lookout Games',
     yearPublished: '2020',
+  },
+  'Halls of Hegra': {
+    gameArtists: 'Jog Brogzin, Joeri Lefevre',
+    gameDesigners: 'Petter Schanke Olsen',
+    gameImageName: 'halls-of-hegra',
+    gamePublisher: 'Tompet Games',
+    yearPublished: '2023',
   },
   'Hanabi': {
     gameArtists: 'Antoine Bauza, Gérald Guerlais, Albertine Ralenti',
@@ -725,6 +788,13 @@ const gamesList: GameList = {
     gamePublisher: 'Steffen-Spiele',
     yearPublished: '2011',
   },
+  'Kutná Hora: The City of Silver': {
+    gameArtists: 'Roman Bednář, Štěpán Drašťák, Dávid Jablonovský, Jakub Politzer, Milan Vavroň',
+    gameDesigners: 'Ondřej Bystroň, Petr Čáslava, Pavel Jarosch',
+    gameImageName: 'kutna-hora-city-of-silver',
+    gamePublisher: 'Czech Games Edition',
+    yearPublished: '2023',
+  },
   'Le Havre': {
     gameArtists: 'Klemens Franz',
     gameDesigners: 'Uwe Rosenberg',
@@ -801,7 +871,7 @@ const gamesList: GameList = {
   },
   'The Mirroring of Mary King': {
     gameArtists: 'Naomi Robinson',
-    gameDesigners: 'Jim Felli',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'mirroring-of-mary-king',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2022',
@@ -812,6 +882,13 @@ const gamesList: GameList = {
     gameImageName: 'monsdrawsity',
     gamePublisher: 'Bread and Circuses',
     yearPublished: '2020',
+  },
+  'Mr. President: The American Presidency, 2001-2020': {
+    gameArtists: 'Donal Hegarty',
+    gameDesigners: 'Gene Billingsley',
+    gameImageName: 'mr-president',
+    gamePublisher: 'GMT Games',
+    yearPublished: '2023',
   },
   'New York Slice': {
     gameArtists: 'John Kaufmann',
@@ -1023,6 +1100,12 @@ const gamesList: GameList = {
     gamePublisher: 'Salt & Pepper Games',
     yearPublished: '2022',
   },
+  'Robot Quest Arena': {
+    gameDesigners: 'Robert Dougherty, CJ Moynihan, Paul Waite',
+    gameImageName: 'robot-quest-arena',
+    gamePublisher: 'Perfect Day Games, Wise Wizard Games',
+    yearPublished: '2023',
+  },
   'Rococo: Deluxe Edition': {
     gameArtists: "Ian O'Toole",
     gameDesigners: 'Matthias Cramer, Stefan Malz, Louis Malz',
@@ -1072,6 +1155,12 @@ const gamesList: GameList = {
     gamePublisher: 'Oink Games',
     yearPublished: '2019',
   },
+  'Scream: The Game': {
+    gameDesigners: 'Aaron Donogh, Funko Games, Prospero Hall',
+    gameImageName: 'scream-game',
+    gamePublisher: 'Funko Games',
+    yearPublished: '2023',
+  },
   'Scythe': {
     gameArtists: 'Jakub Rozalski',
     gameDesigners: 'Jamey Stegmaier',
@@ -1086,9 +1175,16 @@ const gamesList: GameList = {
     gamePublisher: 'IELLO',
     yearPublished: '2016',
   },
+  'Seas of Havoc': {
+    gameArtists: 'Nabetse Zitro',
+    gameDesigners: 'Sébastien Bernier-Wong, Peter Gorniak',
+    gameImageName: 'seas-of-havoc',
+    gamePublisher: 'Rock Manor Games',
+    yearPublished: '2023',
+  },
   'Shadows of Malice': {
-    gameArtists: 'Jim Felli',
-    gameDesigners: 'Jim Felli',
+    gameArtists: 'Jenna Felli',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'shadows-of-malice',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2014',
@@ -1113,6 +1209,20 @@ const gamesList: GameList = {
     gameImageName: 'silver-and-gold',
     gamePublisher: 'Nürnberger-Spielkarten-Verlag',
     yearPublished: '2019',
+  },
+  'Skyrockets: Festivals of Fire': {
+    gameArtists: 'SillyJellie',
+    gameDesigners: 'Charlie McCarron',
+    gameImageName: 'skyrockets-festivals-of-fire',
+    gamePublisher: 'Floodgate Games',
+    yearPublished: '2023',
+  },
+  'Snap Ships Tactics': {
+    gameArtists: 'Gino Stratolat',
+    gameDesigners: 'Josh Derksen',
+    gameImageName: 'snap-ships-tactics',
+    gamePublisher: 'Snap Ships',
+    yearPublished: '2023',
   },
   'Sniper Elite: The Board Game': {
     gameArtists: 'Jose David Lanza Cebrian, Edouard Grould, Ed Savage',
@@ -1508,6 +1618,13 @@ const gamesList: GameList = {
     gamePublisher: 'Blue Cocker Games',
     yearPublished: '2021',
   },
+  'The White Castle': {
+    gameArtists: 'Joan Guardiet',
+    gameDesigners: 'Isra C., Shei S.',
+    gameImageName: 'white-castle',
+    gamePublisher: 'Devir',
+    yearPublished: '2023',
+  },
   'Wingspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Natalia Rojas, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -1535,8 +1652,8 @@ const gamesList: GameList = {
     yearPublished: '2022',
   },
   'Zimby Mojo': {
-    gameArtists: 'Jim Felli, Tani Pettit, Naomi Robinson',
-    gameDesigners: 'Jim Felli',
+    gameArtists: 'Jenna Felli, Tani Pettit, Naomi Robinson',
+    gameDesigners: 'Jenna Felli',
     gameImageName: 'zimby-mojo',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2016',
