@@ -697,6 +697,13 @@ const gamesList: GameList = {
     gamePublisher: 'Ravensburger',
     yearPublished: '2019',
   },
+  'Horrified: Greek Monsters': {
+    gameArtists: 'Victor Maristane',
+    gameDesigners: 'Michael Mulvihill',
+    gameImageName: 'horrified-greek-monsters',
+    gamePublisher: 'Ravensburger',
+    yearPublished: '2023',
+  },
   'Hunted: Kobayashi Tower': {
     gameArtists: 'Drew Corkill, Jorge M. Velez',
     gameDesigners: 'Gabe Barrett',
@@ -1153,6 +1160,13 @@ const gamesList: GameList = {
     gameDesigners: 'Keith Ferguson',
     gameImageName: 'santas-workshop-second-edition',
     gamePublisher: 'Elf Creek Games',
+    yearPublished: '2023',
+  },
+  "Savernake Forest": {
+    gameArtists: 'Núria Aparicio',
+    gameDesigners: 'Rodrigo Rego',
+    gameImageName: 'savernake-forest',
+    gamePublisher: 'Devir',
     yearPublished: '2023',
   },
   'SCOUT': {
