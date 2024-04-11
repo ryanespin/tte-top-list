@@ -20,7 +20,7 @@ export default function Fav2023() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DefaultLayout pageTitle="Favorite 2022 Games">
+      <DefaultLayout pageTitle="Favorite 2023 Games">
         <Flex
           bg="blue.600"
           css={{

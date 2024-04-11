@@ -38,8 +38,8 @@ export const anthonysList: GameList = {
     ...gamesList['BOOoop.'],
     sequence: 9
   },
-  'Run': {
-    ...gamesList['Run'],
+  'RUN': {
+    ...gamesList['RUN'],
     sequence: 10,
   },
 }

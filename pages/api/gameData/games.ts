@@ -1141,6 +1141,13 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2021',
   },
+  'RUN': {
+    gameArtists: 'Ryan Goldsberry',
+    gameDesigners: 'Moritz Dressler',
+    gameImageName: 'run',
+    gamePublisher: 'Fowers Games',
+    yearPublished: '2023',
+  },
   'Sagrada': {
     gameArtists: 'Peter Wocken',
     gameDesigners: 'Adrian Adamescu, Daryl Andrews',
