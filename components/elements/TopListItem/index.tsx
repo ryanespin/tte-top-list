@@ -145,6 +145,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Chris') {
                         return 'blue'
                       }
+                      if (crossoverName === 'Ryan') {
+                        return 'red'
+                      }
                       return 'purple'
                     }
                     function getImage() {
@@ -153,6 +156,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       };
                       if (crossoverName === 'Chris') {
                         return 'chris-barrows'
+                      };
+                      if (crossoverName === 'Ryan') {
+                        return 'ryan-espin-2024'
                       }
                       return 'danielle'
                     }
