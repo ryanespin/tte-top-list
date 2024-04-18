@@ -52,7 +52,7 @@ const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
   const [objectFit, setObjectFit] = useBoolean()
   return (
     <Box
-      cursor={objectFit ? 'row-resize' : 'col-resize'}
+      cursor={objectFit ? 'zoom-in' : 'zoom-out'}
       display={hideImage ? 'none' : 'block'}
       onClick={setObjectFit.toggle}
       position="relative"
