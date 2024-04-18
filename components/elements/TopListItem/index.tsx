@@ -61,7 +61,7 @@ const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
         alt={alt}
         src={src}
         fill
-        style={{ objectFit: objectFit ? 'cover' : 'contain' }}
+        style={{ objectFit: objectFit ? 'contain' : 'cover' }}
         {...otherProps}
         onError={() => {
           setHideImage(true);
