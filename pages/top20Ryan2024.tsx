@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Avatar, HStack, IconButton, SimpleGrid, useBoolean } from '@chakra-ui/react'
+import { Avatar, HStack, IconButton, Image, SimpleGrid, useBoolean } from '@chakra-ui/react'
 import { TopListItem } from '@/components/elements/TopListItem'
 import { DefaultLayout } from '@/components/layouts/Default'
 import { ryansList } from './api/listData/top202024/ryansList'
@@ -26,8 +26,8 @@ export default function Top20Ryan2023() {
               name="Ryan Espin"
               src="./personImages/ryan-espin-2024.webp"
             />
-            <span>Ryan&apos;s Top 20</span>
-            <IconButton aria-label="Toggle sort" borderRadius="full" icon={sort ? <>⬆️</> : <>⬇️</> } onClick={setSort.toggle} variant="ghost" />
+            <span>Ryan&apos;s</span>
+            <Image alt="Tabletop Express Top 20 logo" cursor="pointer" src="./top-20-logo.png" height={12} onClick={setSort.toggle} />
           </HStack>
         )}
         width="100%"
