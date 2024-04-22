@@ -18,7 +18,7 @@ export default function Top20Danielle2023() {
       </Head>
       <DefaultLayout
         bgColor="purple.600"
-        bgImage="./backgroundImages/danielle-shelfie.webp"
+        bgImage="./backgroundImages/danielle-shelfie-2024.webp"
         bgSize="cover"
         bgBlendMode="multiply"
         pageTitle={(
@@ -26,7 +26,7 @@ export default function Top20Danielle2023() {
             <Avatar
               mr={2}
               name="Danielle"
-              src="./personImages/danielle.webp"
+              src="./personImages/danielle-2024.webp"
             />
             Danielle&apos;s Top 20
           </>

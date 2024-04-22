@@ -424,6 +424,13 @@ const gamesList: GameList = {
     gamePublisher: 'Breaking Gmes',
     yearPublished: '2020',
   },
+  'Eila and Something Shiny': {
+    gameArtists: 'Roxy Dai',
+    gameDesigners: 'Jeffrey CCH',
+    gameImageName: 'eila-something-shiny',
+    gamePublisher: 'ICE Makes',
+    yearPublished: '2021',
+  },
   'Endurance': {
     gameArtists: 'Amabel Holland',
     gameDesigners: 'Amabel Holland',
@@ -529,12 +536,26 @@ const gamesList: GameList = {
     gamePublisher: 'Eagle-Gryphon Games',
     yearPublished: '2018',
   },
+  'Fliptown': {
+    gameArtists: 'Naomi Ferrall',
+    gameDesigners: 'Steven Aramini',
+    gameImageName: 'fliptown',
+    gamePublisher: 'Write Stuff Games',
+    yearPublished: '2023',
+  },
   'Food Chain Magnate': {
     gameArtists: 'Iris de Haan, Ynze Moedt',
     gameDesigners: 'Jeroen Doumen, Joris Wiersinga',
     gameImageName: 'food-chain-magnate',
     gamePublisher: 'Splotter Spellen',
     yearPublished: '2015',
+  },
+  'For Northwood! A Solo Trick-Taking Game': {
+    gameArtists: 'Wilhelm Su',
+    gameDesigners: 'Wilhelm Su',
+    gameImageName: 'for-northwood',
+    gamePublisher: 'Side Room Games',
+    yearPublished: '2021',
   },
   'The Fox Experiment': {
     gameArtists: 'Joe Shawcross',
@@ -578,6 +599,13 @@ const gamesList: GameList = {
     gameImageName: 'general-orders-world-war-ii',
     gamePublisher: 'Osprey Games',
     yearPublished: '2023',
+  },
+  'A Gentle Rain': {
+    gameArtists: 'Chris Bilheimer, Weronika Kozyra',
+    gameDesigners: 'Kevin Wilson',
+    gameImageName: 'gentle-rain',
+    gamePublisher: 'Incredible Dream Studios',
+    yearPublished: '2021',
   },
   'Ghost Stories': {
     gameArtists: 'Pierô',
@@ -781,12 +809,25 @@ const gamesList: GameList = {
     gamePublisher: 'Repos Production',
     yearPublished: '2018',
   },
+  'KAPOW! Volume 1': {
+    gameDesigners: 'Larry Bogucki, Robert Dougherty, Douglas Hettrick, Carl Van Ostrand',
+    gameImageName: 'kapow-volume-1',
+    gamePublisher: 'Wise Wizard Games',
+    yearPublished: '2023',
+  },
   'Keystone: North America': {
     gameArtists: 'Irem Erbilir, Alyssa Menold, Yan Tamba',
     gameDesigners: 'Jeffrey Joyce, Isaac Vega',
     gameImageName: 'keystone-north-america',
     gamePublisher: 'Rose Gauntlet Entertainment',
     yearPublished: '2022',
+  },
+  "Kinfire Delve: Vainglory's Grotto": {
+    gameArtists: 'Katarzyna Bekus, Sandra Chlewińska, Weronika Kozyra, Kate "vesner" Redesiuk',
+    gameDesigners: 'Kevin Wilson',
+    gameImageName: 'kinfire-delve-vainglorys-grotto',
+    gamePublisher: 'Incredible Dream Studios',
+    yearPublished: '2023',
   },
   'Kingdomino Duel': {
     gameArtists: 'Cyril Bouquet',
@@ -918,6 +959,13 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2017',
   },
+  'Numbsters': {
+    gameArtists: 'Luke Flowers',
+    gameDesigners: 'Milan Zivkovic',
+    gameImageName: 'numbsters',
+    gamePublisher: 'Button Shy',
+    yearPublished: '2023',
+  },
   'Oak': {
     gameArtists: 'Maciej Janik',
     gameDesigners: 'Wim Goossens',
@@ -945,6 +993,13 @@ const gamesList: GameList = {
     gameImageName: 'one-deck-galaxy',
     gamePublisher: 'Asmadi Games',
     yearPublished: '2022',
+  },
+  'Onirim': {
+    gameArtists: 'Élise Plessis',
+    gameDesigners: 'Shadi Torbey',
+    gameImageName: 'onirim',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2010',
   },
   'Onitama': {
     gameArtists: 'Jun Kondo, Mariusz Szmerdt',
@@ -1079,6 +1134,13 @@ const gamesList: GameList = {
     gamePublisher: 'Eagle-Gryphon Games, Winsome Games',
     yearPublished: '2005',
   },
+  'Raising Robots': {
+    gameArtists: 'Viktoriya Fajardo, Howard McWilliam',
+    gameDesigners: 'Brett Sobol, Seth Van Orden',
+    gameImageName: 'raising-robots',
+    gamePublisher: 'Nauvoo Games',
+    yearPublished: '2023',
+  },
   'Rajas of the Ganges: The Dice Charmers': {
     gameArtists: 'Dennis Lohausen',
     gameDesigners: 'Inka Brand, Markus Brand',
@@ -1202,6 +1264,13 @@ const gamesList: GameList = {
     gameImageName: 'sea-of-clouds',
     gamePublisher: 'IELLO',
     yearPublished: '2016',
+  },
+  'Sea Salt & Paper': {
+    gameArtists: 'Lucien Derainne, Pierre-Yves Gallard',
+    gameDesigners: 'Bruno Cathala, Théo Rivière',
+    gameImageName: 'sea-salt-paper',
+    gamePublisher: 'Bombyx',
+    yearPublished: '2022',
   },
   'Seas of Havoc': {
     gameArtists: 'Nabetse Zitro',
@@ -1520,6 +1589,13 @@ const gamesList: GameList = {
     gamePublisher: 'Lumberjacks Studios',
     yearPublished: '2020',
   },
+  "Tumblin' Dice": {
+    gameArtists: 'Carey Grayson',
+    gameDesigners: 'Carey Grayson, Randy Nash, Rick Soued',
+    gameImageName: 'tumblin-dice',
+    gamePublisher: 'Eagle-Gryphon Games',
+    yearPublished: '2004',
+  },
   'Tussie Mussie': {
     gameArtists: 'Loïc Billiau, Karolina Jędrzejak, Zarina Karapetyan, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -1561,6 +1637,13 @@ const gamesList: GameList = {
     gameImageName: 'unmatched-game-system',
     gamePublisher: 'Mondo Games, Restoration Games',
     yearPublished: '2019',
+  },
+  'UNO Ultimate Marvel': {
+    gameArtists: 'The Marvel Bullpen',
+    gameDesigners: 'Aaron Weil',
+    gameImageName: 'uno-ultimate-marvel',
+    gamePublisher: 'Mattel, Inc.',
+    yearPublished: '2022',
   },
   'Vagrantsong': {
     gameArtists: 'Nguyen Mai Diem',
@@ -1685,6 +1768,13 @@ const gamesList: GameList = {
     gameImageName: 'wonderlands-war',
     gamePublisher: 'Druid City Games',
     yearPublished: '2022',
+  },
+  'Wyrmspan': {
+    gameArtists: 'Clémentine Campardou',
+    gameDesigners: 'Connie Vogelmann',
+    gameImageName: 'wyrmspan',
+    gamePublisher: 'Stonemaier Games',
+    yearPublished: '2024',
   },
   'Zimby Mojo': {
     gameArtists: 'Jenna Felli, Tani Pettit, Naomi Robinson',

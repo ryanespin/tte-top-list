@@ -54,7 +54,7 @@ export const daniellesList: GameList = {
     sequence: 10,
   },
   "Kinfire Delve: Vainglory's Grotto": {
-    ...gamesList['Onirim'],
+    ...gamesList["Kinfire Delve: Vainglory's Grotto"],
     badgeText: 'New to List',
     sequence: 11,
   },
