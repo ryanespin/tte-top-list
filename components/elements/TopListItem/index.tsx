@@ -160,7 +160,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Ryan') {
                         return 'ryan-espin-2024'
                       }
-                      return 'danielle'
+                      return 'danielle-2024'
                     }
                     return (
                       <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} variant="solid">
@@ -256,7 +256,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           if (crossoverName === 'Chris') {
                             return 'chris-barrows'
                           }
-                          return 'danielle'
+                          return 'danielle-2024'
                         }
                         return (
                           <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} fontSize="md" variant="solid">
