@@ -564,6 +564,13 @@ const gamesList: GameList = {
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2023',
   },
+  'Fury of Dracula (Third/Fourth Edition)': {
+    gameArtists: 'Chris Beck, Samuel R. Shimota',
+    gameDesigners: 'Frank Brooks, Stephen Hand, Kevin Wilson',
+    gameImageName: 'fury-dracula',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2015',
+  },
   'G.I. Joe Deck-Building Game: Shadow of the Serpent Expansion': {
     gameArtists: 'Robert Atkins',
     gameDesigners: 'Matt Hyra',
@@ -641,6 +648,13 @@ const gamesList: GameList = {
     gameImageName: 'el-grande',
     gamePublisher: 'Hans im Glück',
     yearPublished: '1995',
+  },
+  'Great Western Trail: Second Edition': {
+    gameArtists: 'Chris Quilliams',
+    gameDesigners: 'Alexander Pfister',
+    gameImageName: 'great-western-trail-second-edition',
+    gamePublisher: 'eggertspiele',
+    yearPublished: '2021',
   },
   'Green Team Wins': {
     gameArtists: 'Matt Paquette & Co.',
@@ -986,6 +1000,13 @@ const gamesList: GameList = {
     gameImageName: 'on-tour',
     gamePublisher: 'allplay',
     yearPublished: '2019',
+  },
+  'One Deck Dungeon': {
+    gameArtists: 'Alanna Cervenak, Will Pitzer',
+    gameDesigners: 'Chris Cieslik',
+    gameImageName: 'one-deck-dungeon',
+    gamePublisher: 'Asmadi Games',
+    yearPublished: '2016',
   },
   'One Deck Galaxy': {
     gameArtists: 'Alanna Cervenak, Sam "Crowbar" Henry',

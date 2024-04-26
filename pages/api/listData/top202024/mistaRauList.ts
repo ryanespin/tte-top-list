@@ -83,8 +83,8 @@ export const mistaRauList: GameList = {
     ...gamesList['Beyond the Sun'],
     sequence: 18,
   },
-  'Fury of Dracula (3rd/4th Edition)': {
-    ...gamesList['Fury of Dracula (3rd/4th Edition)'],
+  'Fury of Dracula (Third/Fourth Edition)': {
+    ...gamesList['Fury of Dracula (Third/Fourth Edition)'],
     sequence: 19,
   },
   'Last Light': {

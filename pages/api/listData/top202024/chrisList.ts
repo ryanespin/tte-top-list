@@ -30,6 +30,9 @@ export const chrisList: GameList = {
   'Imperial Settlers: Empires of the North': {
     ...gamesList['Imperial Settlers: Empires of the North'],
     badgeText: '#6 • 2023',
+    crossover: {
+      Danielle: 2,
+    },
     sequence: 6,
   },
   'Battlestar Galactica': {
@@ -65,6 +68,9 @@ export const chrisList: GameList = {
   'Marvel Champions: The Card Game': {
     ...gamesList['Marvel Champions: The Card Game'],
     badgeText: '#12 • 2023',
+    crossover: {
+      Danielle: 14,
+    },
     sequence: 13,
   },
   'That Time You Killed Me': {
@@ -96,6 +102,9 @@ export const chrisList: GameList = {
   'The Castles of Burgundy': {
     ...gamesList['The Castles of Burgundy'],
     badgeText: '#17 • 2023',
+    crossover: {
+      Danielle: 15,
+    },
     sequence: 19,
   },
   "Wonderland's War": {
