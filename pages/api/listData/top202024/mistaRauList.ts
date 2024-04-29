@@ -25,8 +25,8 @@ export const mistaRauList: GameList = {
     },
     sequence: 5,
   },
-  "Tzolk'in The Mayan Calendar": {
-    ...gamesList["Tzolk'in The Mayan Calendar"],
+  "Tzolk'in: The Mayan Calendar": {
+    ...gamesList["Tzolk'in: The Mayan Calendar"],
     sequence: 6,
   },
   'Clank! Catacombs': {

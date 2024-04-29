@@ -28,6 +28,13 @@ const gamesList: GameList = {
     gamePublisher: 'Gamewright',
     yearPublished: '2020',
   },
+  'Adrenaline': {
+    gameArtists: 'Jakub Politzer',
+    gameDesigners: 'Filip Neduk',
+    gameImageName: 'adrenaline',
+    gamePublisher: 'Czech Games Edition',
+    yearPublished: '2016',
+  },
   'Age of Steam': {
     gameArtists: `Sean Brown, Peter Dennis, Paul Niemeyer, Ian O'Toole`,
     gameDesigners: 'John Bohrer, Martin Wallace',
@@ -160,6 +167,20 @@ const gamesList: GameList = {
     gameImageName: 'bemused',
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2017',
+  },
+  'Beyond the Sun': {
+    gameArtists: 'Franz Vohwinkel',
+    gameDesigners: 'Dennis K. Chan',
+    gameImageName: 'beyond-sun',
+    gamePublisher: 'Rio Grande Games',
+    yearPublished: '2020',
+  },
+  'Blood Rage': {
+    gameArtists: 'Henning Ludvigsen, Thierry Masson, Mike McVey, Adrian Smith',
+    gameDesigners: 'Eric M. Lang',
+    gameImageName: 'blood-rage',
+    gamePublisher: 'Cool Mini Or Not',
+    yearPublished: '2015',
   },
   'BOOoop.': {
     gameArtists: 'Curt Covert',
@@ -578,6 +599,13 @@ const gamesList: GameList = {
     gamePublisher: 'Renegade Game Studios',
     yearPublished: '2022',
   },
+  'Gaia Project': {
+    gameArtists: 'Dennis Lohausen',
+    gameDesigners: 'Jens Drögemüller, Helge Ostertag',
+    gameImageName: 'gaia-project',
+    gamePublisher: 'Feuerland Spiele',
+    yearPublished: '2017',
+  },
   'Galaxy Trucker': {
     gameArtists: 'Tomáš Kučerovský, Radim Pech',
     gameDesigners: 'Vlaada Chvátil',
@@ -862,6 +890,13 @@ const gamesList: GameList = {
     gameDesigners: 'Ondřej Bystroň, Petr Čáslava, Pavel Jarosch',
     gameImageName: 'kutna-hora-city-of-silver',
     gamePublisher: 'Czech Games Edition',
+    yearPublished: '2023',
+  },
+  'Last Light': {
+    gameArtists: 'Luz Final',
+    gameDesigners: 'Roy Cannaday',
+    gameImageName: 'last-light',
+    gamePublisher: 'Grey Fox Games',
     yearPublished: '2023',
   },
   'Le Havre': {
@@ -1582,6 +1617,13 @@ const gamesList: GameList = {
     gamePublisher: 'Days of Wonder',
     yearPublished: '2005',
   },
+  'Tigris & Euphrates': {
+    gameArtists: 'Bascu, Christine Conrad, Doris Matthäus, Tom Thiel, Ricarda Thiel, Stephen Graham Walsh',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'tigris-euphrates',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '1997',
+  },
   'Tiny Epic Galaxies': {
     gameArtists: 'William Bricker',
     gameDesigners: 'Scott Almes',
@@ -1630,6 +1672,13 @@ const gamesList: GameList = {
     gameImageName: 'twilight-struggle',
     gamePublisher: 'GMT Games',
     yearPublished: '2005',
+  },
+  "Tzolk'in: The Mayan Calendar": {
+    gameArtists: 'Milan Vavroň',
+    gameDesigners: 'Simone Luciani, Daniele Tascini',
+    gameImageName: 'tzolkin',
+    gamePublisher: 'Czech Games Edition',
+    yearPublished: '2012',
   },
   'Undaunted: Battle of Britain': {
     gameArtists: 'Roland MacDonald',

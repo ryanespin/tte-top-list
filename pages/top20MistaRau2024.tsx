@@ -16,7 +16,7 @@ export default function Top20MistaRau2024() {
       </Head>
       <DefaultLayout
         bgColor="yellow.600"
-        bgImage="./backgroundImages/ryan-shelfie-2024.webp"
+        bgImage="./backgroundImages/mista-rau-shelfie.webp"
         bgPosition="center"
         bgSize="cover"
         bgBlendMode="multiply"
@@ -24,7 +24,7 @@ export default function Top20MistaRau2024() {
           <HStack>
             <Avatar
               name="Ryan Rau"
-              src="./personImages/ryan-espin-2024.webp"
+              src="./personImages/mista-rau.webp"
             />
             <span>MistaRau&apos;s</span>
             <Image alt="Tabletop Express Top 20 logo" cursor="pointer" src="./top-20-logo.png" height={12} onClick={setSort.toggle} />
