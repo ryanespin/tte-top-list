@@ -63,6 +63,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2014',
   },
+  'Anachrony': {
+    gameArtists: 'Villő Farkas, László Fejes, Laslo Forgach, Márton Gyula Kiss, Péter Meszlényi',
+    gameDesigners: 'Dávid Turczi',
+    gameImageName: 'anachrony',
+    gamePublisher: 'Mindclash Games',
+    yearPublished: '2017',
+  },
   'Anomia': {
     gameArtists: 'Kinetic, Paul Laane, Cezary Szulc, Peter Wocken',
     gameDesigners: 'Andrew Innes',
@@ -97,6 +104,13 @@ const gamesList: GameList = {
     gameImageName: 'arkham-horror-lcg',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
+  },
+  'Ashes Reborn: Rise of the Phoenixborn': {
+    gameArtists: 'Thander Lin, David Richards, Fernanda Suárez',
+    gameDesigners: 'Isaac Vega',
+    gameImageName: 'ashes-reborn-rise-phoenixborn',
+    gamePublisher: 'Plaid Hat Games',
+    yearPublished: '2015',
   },
   'Astro Knights': {
     gameArtists: 'Gong Studios',
@@ -281,11 +295,18 @@ const gamesList: GameList = {
     yearPublished: '2013',
   },
   'Charterstone': {
-    gameArtists: 'Lina Cossette, David Forest',
+    gameArtists: 'Clay Brooks, Anika Burrell, Nate Storm, Dan Taylor',
     gameDesigners: 'Jamey Stegmaier',
     gameImageName: 'charterstone',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2017',
+  },
+  'Clank!: Catacombs': {
+    gameArtists: 'Clay Brooks, Anika Burrell, Derek Herring, Raul Ramos, Nate Storm, Alain Viesca',
+    gameDesigners: 'Paul Dennen',
+    gameImageName: 'clank-catacombs',
+    gamePublisher: 'Dire Wolf',
+    yearPublished: '2022',
   },
   'Clank!: Legacy – Acquisitions Incorporated': {
     gameArtists: 'Clay Brooks, Anika Burrell, Derek Herring, Raul Ramos, Nate Storm, Alain Viesca',
@@ -486,6 +507,13 @@ const gamesList: GameList = {
     gameImageName: 'evergreen',
     gamePublisher: 'Horrible Guild',
     yearPublished: '2022',
+  },
+  'Exit: The Game – The Abandoned Cabin': {
+    gameArtists: 'Silvia Christoph, Michaela Kienle, Sensit Communication GmbH, Franz Vohwinkel',
+    gameDesigners: 'Inka Brand, Markus Brand',
+    gameImageName: 'exit-game-abandoned-cabin',
+    gamePublisher: 'KOSMOS',
+    yearPublished: '2016',
   },
   'A Fake Artist Goes to New York': {
     gameArtists: 'Jun Sasaki',

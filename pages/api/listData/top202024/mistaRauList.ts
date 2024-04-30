@@ -29,8 +29,8 @@ export const mistaRauList: GameList = {
     ...gamesList["Tzolk'in: The Mayan Calendar"],
     sequence: 6,
   },
-  'Clank! Catacombs': {
-    ...gamesList['Clank! Catacombs'],
+  'Clank!: Catacombs': {
+    ...gamesList['Clank!: Catacombs'],
     sequence: 7,
   },
   'Scythe': {
@@ -55,8 +55,8 @@ export const mistaRauList: GameList = {
     },
     sequence: 11,
   },
-  'Exit: The Game': {
-    ...gamesList['Exit: The Game'],
+  'Exit: The Game – The Abandoned Cabin': {
+    ...gamesList['Exit: The Game – The Abandoned Cabin'],
     sequence: 12,
   },
   'Anachrony': {
