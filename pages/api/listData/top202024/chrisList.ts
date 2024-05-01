@@ -5,11 +5,17 @@ export const chrisList: GameList = {
   'Targi': {
     ...gamesList['Targi'],
     badgeText: '#1 • 2023',
+    crossover: {
+      "Mista Rau": 2
+    },
     sequence: 1,
   },
   'Scythe': {
     ...gamesList['Scythe'],
     badgeText: '#2 • 2023',
+    crossover: {
+      "Mista Rau": 8
+    },
     sequence: 2,
   },
   'The Quacks of Quedlinburg': {
@@ -69,6 +75,7 @@ export const chrisList: GameList = {
     ...gamesList['Marvel Champions: The Card Game'],
     badgeText: '#12 • 2023',
     crossover: {
+      "Mista Rau": 10,
       Danielle: 14,
     },
     sequence: 13,
@@ -103,6 +110,7 @@ export const chrisList: GameList = {
     ...gamesList['The Castles of Burgundy'],
     badgeText: '#17 • 2023',
     crossover: {
+      "Mista Rau": 11,
       Danielle: 15,
     },
     sequence: 19,

@@ -10,6 +10,7 @@ export interface ItemBaseProps {
     'Brian'?: number,
     'Chris'?: number,
     'Danielle'?: number,
+    'Mista Rau'?: number,
     'Ryan'?: number
   },
   sequence?: number;
@@ -145,6 +146,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Chris') {
                         return 'blue'
                       }
+                      if (crossoverName === 'Mista Rau') {
+                        return 'yellow'
+                      }
                       if (crossoverName === 'Ryan') {
                         return 'red'
                       }
@@ -156,6 +160,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       };
                       if (crossoverName === 'Chris') {
                         return 'chris-barrows'
+                      };
+                      if (crossoverName === 'Mista Rau') {
+                        return 'mista-rau'
                       };
                       if (crossoverName === 'Ryan') {
                         return 'ryan-espin-2024'
@@ -247,6 +254,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           if (crossoverName === 'Chris') {
                             return 'blue'
                           }
+                          if (crossoverName === 'Mista Rau') {
+                            return 'yellow'
+                          }
+                          if (crossoverName === 'Ryan') {
+                            return 'red'
+                          }
                           return 'purple'
                         }
                         function getImage() {
@@ -255,6 +268,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           };
                           if (crossoverName === 'Chris') {
                             return 'chris-barrows'
+                          };
+                          if (crossoverName === 'Mista Rau') {
+                            return 'mista-rau'
+                          };
+                          if (crossoverName === 'Ryan') {
+                            return 'ryan-espin-2024'
                           }
                           return 'danielle-2024'
                         }

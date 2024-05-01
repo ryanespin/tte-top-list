@@ -26,7 +26,7 @@ export default function Top20Chris2024() {
           <HStack>
             <Avatar
               name="Chris Barrows"
-              src="./personImages/chris-barrows.webp"
+              src="./personImages/chris-barrows-2024.webp"
             />
             <span>Chris&apos;</span>
             <Image alt="Tabletop Express Top 20 logo" cursor="pointer" src="./top-20-logo.png" height={12} onClick={setSort.toggle} />
