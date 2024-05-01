@@ -71,23 +71,19 @@ export const chrisList: GameList = {
     badgeText: '#7 • 2023',
     sequence: 12,
   },
-  'Marvel Champions: The Card Game': {
-    ...gamesList['Marvel Champions: The Card Game'],
-    badgeText: '#12 • 2023',
-    crossover: {
-      "Mista Rau": 10,
-      Danielle: 14,
-    },
-    sequence: 13,
-  },
   'That Time You Killed Me': {
     ...gamesList['That Time You Killed Me'],
     badgeText: '#10 • 2023',
-    sequence: 14,
+    sequence: 13,
   },
   'Vagrantsong': {
     ...gamesList['Vagrantsong'],
     badgeText: '#15 • 2023',
+    sequence: 14,
+  },
+  'Unmatched Game System': {
+    ...gamesList['Unmatched Game System'],
+    badgeText: 'New to List',
     sequence: 15,
   },
   'Undaunted: Stalingrad': {
@@ -115,9 +111,13 @@ export const chrisList: GameList = {
     },
     sequence: 19,
   },
-  "Wonderland's War": {
-    ...gamesList["Wonderland's War"],
-    badgeText: 'New to Me',
+  'Marvel Champions: The Card Game': {
+    ...gamesList['Marvel Champions: The Card Game'],
+    badgeText: '#12 • 2023',
+    crossover: {
+      "Mista Rau": 10,
+      Danielle: 14,
+    },
     sequence: 20,
   },
 }
