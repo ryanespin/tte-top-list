@@ -189,6 +189,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rio Grande Games',
     yearPublished: '2020',
   },
+  'Blood on the Clocktower': {
+    gameArtists: 'Micaela Dawn, Aidan Roberts, John Van Fleet, Grace VanFleet',
+    gameDesigners: 'Steven Medway',
+    gameImageName: 'blood-clocktower',
+    gamePublisher: 'The Pandemonium Institute',
+    yearPublished: '2022',
+  },
   'Blood Rage': {
     gameArtists: 'Henning Ludvigsen, Thierry Masson, Mike McVey, Adrian Smith',
     gameDesigners: 'Eric M. Lang',
@@ -335,6 +342,13 @@ const gamesList: GameList = {
     gameImageName: 'coffee-roaster',
     gamePublisher: 'Saashi & Saashi',
     yearPublished: '2015',
+  },
+  'Concordia': {
+    gameArtists: 'Marina Fahrenbach, Mac Gerdts, Dominik Mayer',
+    gameDesigners: 'Mac Gerdts',
+    gameImageName: 'concordia',
+    gamePublisher: 'PD-Verlag',
+    yearPublished: '2013',
   },
   'Cosmic Frog': {
     gameArtists: 'Tim Barton, Jenna Felli, Chad Hoverter, Tani Pettit, Naomi Robinson',
@@ -879,6 +893,13 @@ const gamesList: GameList = {
     gamePublisher: 'Repos Production',
     yearPublished: '2018',
   },
+  'Kanban EV': {
+    gameArtists: "Ian O'Toole",
+    gameDesigners: 'Vital Lacerda',
+    gameImageName: 'kanban-ev',
+    gamePublisher: 'Eagle-Gryphone Games',
+    yearPublished: '2020',
+  },
   'KAPOW! Volume 1': {
     gameDesigners: 'Larry Bogucki, Robert Dougherty, Douglas Hettrick, Carl Van Ostrand',
     gameImageName: 'kapow-volume-1',
@@ -1049,6 +1070,13 @@ const gamesList: GameList = {
     gameImageName: 'oak',
     gamePublisher: 'Game Brewer',
     yearPublished: '2022',
+  },
+  'Obsession': {
+    gameArtists: 'Dan Hallagan',
+    gameDesigners: 'Dan Hallagan',
+    gameImageName: 'obsession',
+    gamePublisher: 'Kayenta Games',
+    yearPublished: '2018',
   },
   'On the Rocks': {
     gameArtists: 'Christina Pittre',
@@ -1492,6 +1520,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2022',
   },
+  'Star Wars: Rebellion': {
+    gameArtists: 'Matt Allsopp, David Ardila, Balaskas, Tiziano Baracchi, Ryan Barger, Jorge Barrero, Cassandre Bolan, Jon Bosco, Matt Bradbury, Adam Burn, Alexandre Dainche, Christina Davis, Anthony Devine, Allen Douglas, Jose Mikhail Elloso, Tony Foti, Michele Frigo, Mariusz Gandzel, Zach Graves, Richard Hanuschek, Andrew Johanson, Jeff Lee Johnson, Jason Juta, Adam Lane, Ignacio Bazán Lazcano, Ralph McQuarrie, Mark Molnar, Jake Murray, Ameen Naksewee, David Auden Nash, Mike Nash, Maciej Rebisz, Alexandru Sabo, Tony Shasteen, Stephen Somers, Matthew Starbuck, Nicholas Stohlman, Angela Sung, Darren Tan, Ryan Valle, Jose Vega, VIKO, Magali Villeneuve, Jacob Walker, Ben Zweifel',
+    gameDesigners: 'Corey Konieczka',
+    gameImageName: 'star-wars-rebellion',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2016',
+  },
   'Stay Cool': {
     gameArtists: 'NILS',
     gameDesigners: 'Julien Sentis',
@@ -1693,6 +1728,13 @@ const gamesList: GameList = {
     gameImageName: 'tussie-mussie',
     gamePublisher: 'Button Shy',
     yearPublished: '2019',
+  },
+  'Twilight Imperium: Fourth Edition': {
+    gameArtists: 'Scott Schomburg',
+    gameDesigners: 'Dane Beltrami, Corey Konieczka, Christian T. Petersen',
+    gameImageName: 'twilight-imperium-fourth-edition',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2017',
   },
   'Twilight Struggle': {
     gameArtists: 'Viktor Csete, Rodger B. MacGowan, Chechu Nieto, Guillaume Ries, Mark Simonitch',

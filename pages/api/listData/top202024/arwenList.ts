@@ -8,6 +8,9 @@ export const arwenList: GameList = {
   },
   'Orléans': {
     ...gamesList['Orléans'],
+    crossover: {
+      'Mista Rau': 17
+    },
     sequence: 2,
   },
   'Obsession': {
@@ -16,6 +19,10 @@ export const arwenList: GameList = {
   },
   'The Quacks of Quedlinburg': {
     ...gamesList['The Quacks of Quedlinburg'],
+    crossover: {
+      "Chris": 3,
+      Anthony: 4
+    },
     sequence: 4,
   },
   'Concordia': {
@@ -24,6 +31,12 @@ export const arwenList: GameList = {
   },
   'The Castles of Burgundy': {
     ...gamesList['The Castles of Burgundy'],
+    crossover: {
+      Anthony: 3,
+      "Mista Rau": 11,
+      Danielle: 15,
+      Chris: 19
+    },
     sequence: 6,
   },
   'Twilight Imperium: Fourth Edition': {
@@ -36,6 +49,10 @@ export const arwenList: GameList = {
   },
   'Cartographers': {
     ...gamesList['Cartographers'],
+    crossover: {
+      'Brian': 1,
+      'Anthony': 18
+    },
     sequence: 9,
   },
   'Blood on the Clocktower': {
@@ -44,6 +61,9 @@ export const arwenList: GameList = {
   },
   'Alchemists': {
     ...gamesList['Alchemists'],
+    crossover: {
+      Ryan: 9
+    },
     sequence: 11,
   },
   'Russian Railroads': {
@@ -56,18 +76,28 @@ export const arwenList: GameList = {
   },
   'Rococo: Deluxe Edition': {
     ...gamesList['Rococo: Deluxe Edition'],
+    crossover: {
+      'Ryan': 17
+    },
     sequence: 14,
   },
   'Food Chain Magnate': {
     ...gamesList['Food Chain Magnate'],
+    crossover: {
+      Ryan: 1
+    },
     sequence: 15,
   },
-  'Star Wars Rebellion': {
-    ...gamesList['Star Wars Rebellion'],
+  'Star Wars: Rebellion': {
+    ...gamesList['Star Wars: Rebellion'],
     sequence: 16,
   },
   'Brass: Birmingham': {
     ...gamesList['Brass: Birmingham'],
+    crossover: {
+      'Ryan': 3,
+      'Mista Rau': 5
+    },
     sequence: 17,
   },
   'Planet Unknown': {

@@ -7,6 +7,7 @@ export interface ItemBaseProps {
   badgeText?: string;
   crossover?: {
     'Anthony'?: number,
+    'Arwen'?: number,
     'Brian'?: number,
     'Chris'?: number,
     'Danielle'?: number,
@@ -117,10 +118,10 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
   )
 
   return (
-    <Card width="100%" {...otherProps}>
+    <Card height={isOpen ? '100%' : 'auto'} width="100%" {...otherProps}>
       <CardBody display="flex">
         <Box flex={1}>
-          <HStack width="100%">
+          <HStack alignItems={isOpen ? 'flex-start' : 'center'} width="100%">
             <IconButton
               aria-label={`Open ${sequence}`}
               borderRadius="full"
@@ -135,11 +136,17 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                 <Collapse in={isOpen} animateOpacity>{itemName}</Collapse>
               </Heading>
               <Collapse in={isOpen} animateOpacity>
-                <HStack>
+                <HStack flexWrap="wrap" rowGap={0}>
                   <Text>{title}</Text>
                   <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'}>{badgeText}</Badge>
                   {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => {
                     function getColor() {
+                      if (crossoverName === 'Anthony') {
+                        return 'orange'
+                      };
+                      if (crossoverName === 'Arwen') {
+                        return 'pink'
+                      };
                       if (crossoverName === 'Brian') {
                         return 'green'
                       };
@@ -155,11 +162,17 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       return 'purple'
                     }
                     function getImage() {
+                      if (crossoverName === 'Anthony') {
+                        return 'anthony-2024'
+                      };
+                      if (crossoverName === 'Arwen') {
+                        return 'arwen'
+                      };
                       if (crossoverName === 'Brian') {
                         return 'brian-chandler'
                       };
                       if (crossoverName === 'Chris') {
-                        return 'chris-barrows'
+                        return 'chris-barrows-2024'
                       };
                       if (crossoverName === 'Mista Rau') {
                         return 'mista-rau'
@@ -182,7 +195,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
           </HStack>
           <Collapse in={isOpen} animateOpacity>
             {itemType === 'game' && (
-              <Box ml={12} mt={2}>
+              <Box ml={1} mt={2}>
                 {credits}
               </Box>
             )}

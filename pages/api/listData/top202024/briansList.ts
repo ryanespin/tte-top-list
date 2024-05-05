@@ -5,26 +5,43 @@ export const briansList: GameList = {
   'Cartographers': {
     ...gamesList['Cartographers'],
     badgeText: '#1 • 2023',
+    crossover: {
+      Anthony: 18,
+      Arwen: 9
+    },
     sequence: 1,
   },
   'Azul': {
     ...gamesList['Azul'],
     badgeText: '#2 • 2023',
+    crossover: {
+      "Chris": 10,
+      Anthony: 14
+    },
     sequence: 2,
   },
   'Agricola': {
     ...gamesList['Agricola'],
     badgeText: '#3 • 2023',
+    crossover: {
+      Ryan: 5
+    },
     sequence: 3,
   },
   'Astro Knights': {
     ...gamesList['Astro Knights'],
     badgeText: 'New to List',
+    crossover: {
+      Danielle: 12
+    },
     sequence: 4,
   },
   'Fantastic Factories': {
     ...gamesList['Fantastic Factories'],
     badgeText: '#7 • 2023',
+    crossover: {
+      Chris: 8
+    },
     sequence: 5,
   },
   'The Lord of the Rings Trading Card Game': {
@@ -35,11 +52,20 @@ export const briansList: GameList = {
   'Cascadia': {
     ...gamesList['Cascadia'],
     badgeText: '#4 • 2023',
+    crossover: {
+      Anthony: 1,
+      "Chris": 4
+    },
     sequence: 7,
   },
   'Marvel Champions: The Card Game': {
     ...gamesList['Marvel Champions: The Card Game'],
     badgeText: 'New to List',
+    crossover: {
+      "Mista Rau": 10,
+      Danielle: 14,
+      Chris: 20
+    },
     sequence: 8,
   },
   'Star Wars: The Deck Building Game': {
@@ -75,6 +101,9 @@ export const briansList: GameList = {
   'Fleet: The Dice Game': {
     ...gamesList['Fleet: The Dice Game'],
     badgeText: '#8 • 2023',
+    crossover: {
+      Anthony: 4
+    },
     sequence: 15,
   },
   'Tussie Mussie': {

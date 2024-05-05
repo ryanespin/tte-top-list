@@ -5,16 +5,27 @@ export const anthonysList: GameList = {
   'Cascadia': {
     ...gamesList['Cascadia'],
     badgeText: '#1 • 2023',
+    crossover: {
+      "Chris": 4
+    },
     sequence: 1,
   },
   'Wingspan': {
     ...gamesList['Wingspan'],
     badgeText: '#2 • 2023',
+    crossover: {
+      Danielle: 20,
+    },
     sequence: 2,
   },
   'The Castles of Burgundy': {
     ...gamesList['The Castles of Burgundy'],
     badgeText: '#3 • 2023',
+    crossover: {
+      "Mista Rau": 11,
+      Danielle: 15,
+      Chris: 19
+    },
     sequence: 3,
   },
   'Fleet: The Dice Game': {
@@ -45,6 +56,9 @@ export const anthonysList: GameList = {
   'Patchwork': {
     ...gamesList['Patchwork'],
     badgeText: '#6 • 2023',
+    crossover: {
+      Ryan: 15,
+    },
     sequence: 9,
   },
   'The Downfall of Pompeii': {
@@ -60,6 +74,9 @@ export const anthonysList: GameList = {
   'The Quacks of Quedlinburg': {
     ...gamesList['The Quacks of Quedlinburg'],
     badgeText: 'New to List',
+    crossover: {
+      "Chris": 3
+    },
     sequence: 12,
   },
   'Marvel Dice Throne': {
@@ -70,6 +87,9 @@ export const anthonysList: GameList = {
   'Azul': {
     ...gamesList['Azul'],
     badgeText: 'New to List',
+    crossover: {
+      "Chris": 10
+    },
     sequence: 14,
   },
   'Tokaido Duo': {
