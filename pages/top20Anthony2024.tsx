@@ -47,11 +47,9 @@ export default function Top20Anthony2023() {
               gameImageName={gameInfo.gameImageName}
               gameName={gameName}
               gamePublisher={gameInfo.gamePublisher}
-              height="fit-content"
               sequence={gameInfo.sequence}
               title="Anthony's Pick"
               yearPublished={gameInfo.yearPublished}
-              width="auto"
               order={gameInfo.sequence ? gameInfo.sequence * (sort ? -1 : 1) : 1}
             />
           ))}

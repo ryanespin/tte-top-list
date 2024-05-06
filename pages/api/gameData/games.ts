@@ -515,6 +515,13 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2013',
   },
+  'Everdell': {
+    gameArtists: 'Andrew Bosley, Cody Jones, Dann May',
+    gameDesigners: 'James A. Wilson',
+    gameImageName: 'everdell',
+    gamePublisher: 'Starling Games',
+    yearPublished: '2018',
+  },
   'Evergreen': {
     gameArtists: 'Wenyi Geng',
     gameDesigners: 'Hjalmar Hach',
@@ -1141,6 +1148,13 @@ const gamesList: GameList = {
     gamePublisher: 'Garphill Games, Renegade Game Studios',
     yearPublished: '2019',
   },
+  'Pandemic Legacy: Season 1': {
+    gameArtists: 'Chris Quilliams',
+    gameDesigners: 'Rob Daviau, Matt Leacock',
+    gameImageName: 'pandemic-legacy-season-1',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2015',
+  },
   'Patchwork': {
     gameArtists: 'Klemens Franz, Rex Lee, Jolanta Lendzioszek, Gru Tsow',
     gameDesigners: 'Uwe Rosenberg',
@@ -1168,6 +1182,13 @@ const gamesList: GameList = {
     gameImageName: 'pitchcar',
     gamePublisher: 'Ferti',
     yearPublished: '1995',
+  },
+  'Planet Unknown': {
+    gameArtists: 'Yoma',
+    gameDesigners: 'Ryan Lambert, Adam Rehberg',
+    gameImageName: 'planet-unknown',
+    gamePublisher: "Adam's Apple Games, LLC",
+    yearPublished: '2022',
   },
   'Planted: A Game of Nature & Nurture': {
     gameArtists: 'Hannah Bailey',
@@ -1322,6 +1343,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fowers Games',
     yearPublished: '2023',
   },
+  'Russian Railroads': {
+    gameArtists: 'Martin Hoffmann, Claus Stephan',
+    gameDesigners: 'Helmut Ohley, Leonhard "Lonny" Orgler',
+    gameImageName: 'russian-railroad',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '2013',
+  },
   'Sagrada': {
     gameArtists: 'Peter Wocken',
     gameDesigners: 'Adrian Adamescu, Daryl Andrews',
@@ -1466,6 +1494,13 @@ const gamesList: GameList = {
     gameImageName: 'space-alert',
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2008',
+  },
+  'Space Base': {
+    gameArtists: 'Chris Walton',
+    gameDesigners: 'John D. Clair',
+    gameImageName: 'space-base',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2018',
   },
   'The Spill': {
     gameArtists: 'Kwanchai Moriya',
@@ -1707,6 +1742,13 @@ const gamesList: GameList = {
     gameImageName: 'tokaido-duo',
     gamePublisher: 'Funforge',
     yearPublished: '2022',
+  },
+  'Too Many Bones': {
+    gameArtists: 'Josh J. Carlson, Anthony LeTourneau',
+    gameDesigners: 'Josh J. Carlson, Adam Carlson',
+    gameImageName: 'too-many-bones',
+    gamePublisher: 'Chip Theory Games',
+    yearPublished: '2017',
   },
   'Trek 12: Himalaya': {
     gameArtists: 'Jonathan Aucomte, Olivier Derouetteau',

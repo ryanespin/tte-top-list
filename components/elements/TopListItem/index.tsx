@@ -4,7 +4,7 @@ import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
 export interface ItemBaseProps {
-  badgeText?: string;
+  badgeText?: 'New to List' | string;
   crossover?: {
     'Anthony'?: number,
     'Arwen'?: number,
@@ -118,7 +118,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
   )
 
   return (
-    <Card height={isOpen ? '100%' : 'auto'} width="100%" {...otherProps}>
+    <Card
+      alignSelf={isOpen ? 'stretch' : 'flex-start'}
+      height={isOpen ? '100%' : 'auto'}
+      width="100%"
+      {...otherProps}
+    >
       <CardBody display="flex">
         <Box flex={1}>
           <HStack alignItems={isOpen ? 'flex-start' : 'center'} width="100%">
@@ -169,7 +174,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                         return 'arwen'
                       };
                       if (crossoverName === 'Brian') {
-                        return 'brian-chandler'
+                        return 'brian-chandler-2024'
                       };
                       if (crossoverName === 'Chris') {
                         return 'chris-barrows-2024'

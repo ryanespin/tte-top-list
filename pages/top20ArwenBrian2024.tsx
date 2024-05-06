@@ -20,10 +20,9 @@ export default function Top20Arwen2024() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <DefaultLayout
-        bgImage="./backgroundImages/brian-shelfie.webp"
+        bgImage="./backgroundImages/arwen-brian-shelfie.webp"
         bgPosition="center"
         bgSize="cover"
-        bgBlendMode="multiply"
         pageTitle={(
           <HStack>
             <Avatar
@@ -32,7 +31,7 @@ export default function Top20Arwen2024() {
             />
             <Avatar
               name="Brian Chandler"
-              src="./personImages/arwen.webp"
+              src="./personImages/brian-chandler-2024.webp"
             />
             <span>Arwen &amp;</span>
             <span>Brian &apos;s</span>
