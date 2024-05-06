@@ -1562,6 +1562,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
   },
+  'Star Wars: The Deckbuilding Game': {
+    gameArtists: 'Jake Murray, David Ardila, Borja Pindado Arribas, Cristi Balanescu, Tiziano Baracchi, Colin Boyer, Matt Bradbury, Mark Bulahao, Rovina Cai, J. B. Casacop, Alexandre Dainche, Anthony Devine, Alexandr Elichev, Mariusz Gandzel, Sergey Glushakov, Steven Hamilton, Joel Hustak, Imaginary Studios, Nick Ingeneri, Michal Ivan, Tomasz Jedruszek, Jason Juta, Alex Kim, Leonid Kozienko, Raven Mimura, Mark Molnar, Ameen Naksewee, Vlad Ricean, Adam Schumpert, Stephen Somers, Darren Tan, Ryan Valle, Magali Villeneuve, Andreas Zafiratos, Ben Zweifel',
+    gameDesigners: 'Caleb Grace',
+    gameImageName: 'star-wars-deckbuilding-game',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2023',
+  },
   'Stay Cool': {
     gameArtists: 'NILS',
     gameDesigners: 'Julien Sentis',

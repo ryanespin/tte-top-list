@@ -19,7 +19,7 @@ export default function Top20Anthony2023() {
       </Head>
       <DefaultLayout
         bgColor="orange.600"
-        bgImage="./backgroundImages/anthony-shelfie.webp"
+        bgImage="./backgroundImages/anthony-shelfie-2024.webp"
         bgPosition="center"
         bgSize="cover"
         bgBlendMode="multiply"

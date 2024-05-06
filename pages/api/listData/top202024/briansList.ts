@@ -68,8 +68,8 @@ export const briansList: GameList = {
     },
     sequence: 8,
   },
-  'Star Wars: The Deck Building Game': {
-    ...gamesList['Star Wars: The Deck Building Game'],
+  'Star Wars: The Deckbuilding Game': {
+    ...gamesList['Star Wars: The Deckbuilding Game'],
     badgeText: 'New to List',
     sequence: 9,
   },

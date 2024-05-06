@@ -50,6 +50,9 @@ export default function Top20Arwen2024() {
               width="auto"
             >
               <TopListItem
+                _open={{
+                  height: '100%'
+                }}
                 badgeText={gameInfo.badgeText}
                 colorScheme="pink"
                 crossover={gameInfo.crossover}
@@ -75,6 +78,9 @@ export default function Top20Arwen2024() {
             >
               <TopListItem
                 key={gameName}
+                _open={{
+                  height: '100%'
+                }}
                 badgeText={gameInfo.badgeText}
                 colorScheme="green"
                 crossover={gameInfo.crossover}

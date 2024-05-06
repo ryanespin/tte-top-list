@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Avatar, Badge, Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, IconButton, SimpleGrid, Text, useBoolean, useDisclosure } from '@chakra-ui/react';
+import { Avatar, Badge, Box, Button, Card, CardBody, CardProps, Collapse, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Heading, HStack, IconButton, SimpleGrid, SystemStyleObject, Text, useBoolean, useDisclosure } from '@chakra-ui/react';
 import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
@@ -43,6 +43,7 @@ export type PersonList = {
 }
 
 interface TopListItemProps extends CardProps, GameItemProps, PersonItemProps {
+  _open?: CardProps;
   colorScheme?: CardProps['colorScheme'];
   itemType?: 'game' | 'person';
   title?: string;
@@ -75,6 +76,7 @@ const ImageWithHideOnError: React.FC<ImageProps> = (props: ImageProps) => {
 
 export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps) => {
   const {
+    _open,
     badgeText = '',
     children,
     colorScheme = 'blue',
@@ -119,9 +121,10 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
 
   return (
     <Card
-      alignSelf={isOpen ? 'stretch' : 'flex-start'}
-      height={isOpen ? '100%' : 'auto'}
+      alignSelf="flex-start"
+      height="auto"
       width="100%"
+      {...isOpen && _open}
       {...otherProps}
     >
       <CardBody display="flex">
