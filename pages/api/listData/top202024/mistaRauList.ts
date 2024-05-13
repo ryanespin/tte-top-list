@@ -8,6 +8,9 @@ export const mistaRauList: GameList = {
   },
   'Targi': {
     ...gamesList['Targi'],
+    crossover: {
+      Chris: 1,
+    },
     sequence: 2,
   },
   'Five Tribes': {

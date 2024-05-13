@@ -25,6 +25,7 @@ export interface GameItemProps extends ItemBaseProps {
   gamePublisher?: string;
   imageExtension?: 'webp' | 'jpg' | 'jpeg';
   imageBoxExtension?: 'webp' | 'jpg' | 'jpeg';
+  title?: string;
   yearPublished?: string;
 }
 
