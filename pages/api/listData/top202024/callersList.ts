@@ -139,6 +139,9 @@ export const callersList: GameList = {
   },
   'Dominion': {
     ...gamesList['Dominion'],
+    crossover: {
+      Ryan: 13
+    },
     sequence: 20,
     title: "Sarah Reed's #2"
   },
