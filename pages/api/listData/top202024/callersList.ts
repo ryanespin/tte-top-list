@@ -32,8 +32,8 @@ export const callersList: GameList = {
     sequence: 4,
     title: "RMCSquirrel's #4"
   },
-  'Pax Pamir: 2nd Edition': {
-    ...gamesList['Pax Pamir: 2nd Edition'],
+  'Pax Pamir: Second Edition': {
+    ...gamesList['Pax Pamir: Second Edition'],
     sequence: 5,
     title: "XoeAllred's #11"
   },
@@ -110,7 +110,7 @@ export const callersList: GameList = {
     title: "indianajo883's #7"
   },
   'Burgle Bros Series': {
-    ...gamesList['Burgle Bros'],
+    ...gamesList['Burgle Bros.'],
     sequence: 15,
     title: "phillyvenkman's #3"
   },

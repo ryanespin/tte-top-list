@@ -98,6 +98,13 @@ const gamesList: GameList = {
     gamePublisher: 'Garphill Games',
     yearPublished: '2018',
   },
+  'Ark Nova': {
+    gameArtists: 'Steffen Bieker, Loïc Billiau, Dennis Lohausen, Christof Tisch',
+    gameDesigners: 'Mathias Wigge',
+    gameImageName: 'ark-nova',
+    gamePublisher: 'Feuerland Spiele',
+    yearPublished: '2021',
+  },
   'Arkham Horror: The Card Game': {
     gameArtists: 'Christopher Hosch, Marcin Jakubowski, Ignacio Bazán Lazcano, Henning Ludvigsen, Mercedes Opheim, Zoe Robinson, Evan Simonet',
     gameDesigners: 'Nate French, Maxine Juniper Newman',
@@ -223,6 +230,13 @@ const gamesList: GameList = {
     gameImageName: 'brass-lancashire',
     gamePublisher: 'Roxley',
     yearPublished: '2007',
+  },
+  'Burgle Bros.': {
+    gameArtists: 'Virginia Critchfield, Ryan Goldsberry, Heiko Günther',
+    gameDesigners: 'Tim Fowers',
+    gameImageName: 'burgle-bros',
+    gamePublisher: 'Fowers Games',
+    yearPublished: '2015',
   },
   'By Stealth and Sea': {
     gameArtists: 'David Thompson',
@@ -369,6 +383,13 @@ const gamesList: GameList = {
     gamePublisher: '(Public Domain)',
     yearPublished: '1876',
   },
+  'Cthulhu: Death May Die': {
+    gameArtists: 'Nicolas Fructus, Karl Kopinski, Thierry Masson, Adrian Smith, Richard Wright',
+    gameDesigners: 'Rob Daviau, Eric M. Lang',
+    gameImageName: 'cthulhu-death-may-die',
+    gamePublisher: 'CMON Global Limited, Guillotine Games',
+    yearPublished: '2019',
+  },
   'Dead Reckoning': {
     gameArtists: "Ian O'Toole",
     gameDesigners: 'John D. Clair',
@@ -465,6 +486,13 @@ const gamesList: GameList = {
     gameImageName: 'dulce',
     gamePublisher: 'Stronghold Games',
     yearPublished: '2022',
+  },
+  'Dune: Imperium': {
+    gameArtists: 'Clay Brooks, Brett Nienburg, Raul Ramos, Nate Storm',
+    gameDesigners: 'Paul Dennen',
+    gameImageName: 'dune-imperium',
+    gamePublisher: 'Dire Wolf',
+    yearPublished: '2020',
   },
   'Dungeon Petz': {
     gameArtists: 'David Cochard',
@@ -1161,6 +1189,13 @@ const gamesList: GameList = {
     gameImageName: 'patchwork',
     gamePublisher: 'Lookout Games',
     yearPublished: '2014',
+  },
+  'Pax Pamir: Second Edition': {
+    gameArtists: 'Cole Wehrle',
+    gameDesigners: 'Cole Wehrle',
+    gameImageName: 'pax-pamir-second-edition',
+    gamePublisher: 'Wehrlegig Games',
+    yearPublished: '2019',
   },
   'Piazza Rabazza': {
     gameArtists: 'Dennis Lohausen',

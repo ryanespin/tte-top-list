@@ -18,18 +18,13 @@ export default function Top20Callers2024() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <DefaultLayout
-        bgColor="orange.600"
-        bgImage="./backgroundImages/anthony-shelfie-2024.webp"
+        bgImage="./backgroundImages/callers-shelfie.webp"
         bgPosition="center"
         bgSize="cover"
         bgBlendMode="multiply"
         pageTitle={(
           <HStack>
-            <Avatar
-              name="Anthony Battista"
-              src="./personImages/anthony-2024.webp"
-            />
-            <span>Caller&apos;s</span>
+            <span>Callers&apos;</span>
             <Image alt="Tabletop Express Top 20 logo" cursor="pointer" src="./top-20-logo.png" height={12} onClick={setSort.toggle} />
           </HStack>
         )}
