@@ -22,12 +22,12 @@ export const ericsList: GameList = {
     ...gamesList['Escape: The Curse of the Temple'],
     sequence: 5,
   },
-  'Keep the Heroes Out': {
-    ...gamesList['Keep the Heroes Out'],
+  'Keep the Heroes Out!': {
+    ...gamesList['Keep the Heroes Out!'],
     sequence: 6
   },
-  'Roll Camera!': {
-    ...gamesList['Roll Camera!'],
+  'Roll Camera!: The Filmmaking Board Game': {
+    ...gamesList['Roll Camera!: The Filmmaking Board Game'],
     sequence: 7,
   },
   'Star Wars: The Clone Wars': {

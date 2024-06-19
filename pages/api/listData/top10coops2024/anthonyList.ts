@@ -34,8 +34,8 @@ export const anthonysList: GameList = {
     ...gamesList["Ghost Fightin' Treasure Hunters"],
     sequence: 8
   },
-  'Keep the Heroes Out': {
-    ...gamesList['Keep the Heroes Out'],
+  'Keep the Heroes Out!': {
+    ...gamesList['Keep the Heroes Out!'],
     sequence: 9,
   },
   'Pandemic Legacy: Season 1': {

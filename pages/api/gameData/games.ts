@@ -529,6 +529,13 @@ const gamesList: GameList = {
     gamePublisher: 'eggertspiele',
     yearPublished: '2019',
   },
+  'Escape: The Curse of the Temple': {
+    gameArtists: 'Oliver Schlemmer',
+    gameDesigners: 'Kristian Amundsen Østby',
+    gameImageName: 'escape-curse-temple',
+    gamePublisher: 'Queen Games',
+    yearPublished: '2012',
+  },
   'Escape from the Aliens in Outer Space': {
     gameArtists: 'Giulia Ghigini',
     gameDesigners: 'Mario Porpora, Pietro Righi Riva, Luca Francesco Rossi, Nicolò Tedeschi',
@@ -718,6 +725,13 @@ const gamesList: GameList = {
     gameImageName: 'gentle-rain',
     gamePublisher: 'Incredible Dream Studios',
     yearPublished: '2021',
+  },
+  "Ghost Fightin' Treasure Hunters": {
+    gameArtists: 'Pierô',
+    gameDesigners: 'Brian Yu',
+    gameImageName: 'ghost-fightin-treasure-hunters',
+    gamePublisher: 'Mattel, Inc.',
+    yearPublished: '2013',
   },
   'Ghost Stories': {
     gameArtists: 'Pierô',
@@ -941,6 +955,13 @@ const gamesList: GameList = {
     gamePublisher: 'Wise Wizard Games',
     yearPublished: '2023',
   },
+  'Keep the Heroes Out!': {
+    gameArtists: 'Luís Brueh',
+    gameDesigners: 'Luís Brueh',
+    gameImageName: 'keep-heroes-out',
+    gamePublisher: 'Brueh Games Inc.',
+    yearPublished: '2022',
+  },
   'Keystone: North America': {
     gameArtists: 'Irem Erbilir, Alyssa Menold, Yan Tamba',
     gameDesigners: 'Jeffrey Joyce, Isaac Vega',
@@ -1049,6 +1070,13 @@ const gamesList: GameList = {
     gameImageName: 'marvel-dice-throne',
     gamePublisher: 'The Op, Roxley',
     yearPublished: '2022',
+  },
+  'Marvel United: X-Men': {
+    gameArtists: 'Édouard Guiton',
+    gameDesigners: 'Andrea Chiarvesio, Eric M. Lang, Francesco Rugerfred Sedda',
+    gameImageName: 'marvel-united-x-men',
+    gamePublisher: 'CMON Global Limited, Spin Master Ltd.',
+    yearPublished: '2021',
   },
   'Metro X': {
     gameArtists: 'Ryo Nyamo',
@@ -1323,6 +1351,12 @@ const gamesList: GameList = {
     gamePublisher: 'Matagot',
     yearPublished: '2015',
   },
+  'Rear Window': {
+    gameDesigners: 'Prospero Hall',
+    gameImageName: 'rear-window',
+    gamePublisher: 'Funko Games',
+    yearPublished: '2022',
+  },
   'The Red Cathedral': {
     gameArtists: 'Chema Román, Pedro Soto',
     gameDesigners: 'Isra C., Shei S.',
@@ -1356,6 +1390,20 @@ const gamesList: GameList = {
     gameImageName: 'rococo-deluxe-edition',
     gamePublisher: 'Eagle-Gryphon Games',
     yearPublished: '2020',
+  },
+  'Roll Camera!: The Filmmaking Board Game': {
+    gameArtists: 'Malachi Ray Rempen',
+    gameDesigners: 'Malachi Ray Rempen',
+    gameImageName: 'roll-camera-filmmaking-board-game',
+    gamePublisher: 'Keen Bean Studio',
+    yearPublished: '2021',
+  },
+  'Roll Player Adventures': {
+    gameArtists: 'JJ Ariosa, Veronika Fedorova, Luis Francisco, Damien Mammoliti, Rainer Petter, Lucas Ribeiro, ShenFei',
+    gameDesigners: 'Keith Matejka, James William Ryan, Peter Andrew Ryan',
+    gameImageName: 'roll-player-adventures',
+    gamePublisher: 'Thunderworks Games',
+    yearPublished: '2021',
   },
   'Roll Through the Ages: The Bronze Age': {
     gameArtists: 'Marko Fiedler, Monte Moore, Paul Niemeyer, Claus Stephan',
@@ -1596,6 +1644,13 @@ const gamesList: GameList = {
     gameImageName: 'star-wars-rebellion',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
+  },
+  'Star Wars: The Clone Wars': {
+    gameArtists: 'Atha Kanaani',
+    gameDesigners: 'Alexandar Ortloff-Tang',
+    gameImageName: 'star-wars-clone-wars',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2022',
   },
   'Star Wars: The Deckbuilding Game': {
     gameArtists: 'Jake Murray, David Ardila, Borja Pindado Arribas, Cristi Balanescu, Tiziano Baracchi, Colin Boyer, Matt Bradbury, Mark Bulahao, Rovina Cai, J. B. Casacop, Alexandre Dainche, Anthony Devine, Alexandr Elichev, Mariusz Gandzel, Sergey Glushakov, Steven Hamilton, Joel Hustak, Imaginary Studios, Nick Ingeneri, Michal Ivan, Tomasz Jedruszek, Jason Juta, Alex Kim, Leonid Kozienko, Raven Mimura, Mark Molnar, Ameen Naksewee, Vlad Ricean, Adam Schumpert, Stephen Somers, Darren Tan, Ryan Valle, Magali Villeneuve, Andreas Zafiratos, Ben Zweifel',
@@ -1984,6 +2039,13 @@ const gamesList: GameList = {
     gameDesigners: 'Daryl Chow',
     gameImageName: 'wok-and-roll',
     gamePublisher: 'Origame',
+    yearPublished: '2020',
+  },
+  'Wonder Woman: Challenge of the Amazons': {
+    gameArtists: 'Jenny Frison',
+    gameDesigners: 'Prospero Hall',
+    gameImageName: 'wonder-woman-challenge-amazons',
+    gamePublisher: 'Ravensburger',
     yearPublished: '2020',
   },
   "Wonderland's War": {
