@@ -378,6 +378,13 @@ const gamesList: GameList = {
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2023',
   },
+  'The Crew: Mission Deep Sea': {
+    gameArtists: 'Marco Armbruster',
+    gameDesigners: 'Thomas Sing',
+    gameImageName: 'the-crew-mission-deep-sea',
+    gamePublisher: 'KOSMOS',
+    yearPublished: '2021',
+  },
   'Crokinole': {
     gameImageName: 'crokinole',
     gamePublisher: '(Public Domain)',
@@ -395,6 +402,13 @@ const gamesList: GameList = {
     gameDesigners: 'John D. Clair',
     gameImageName: 'dead-reckoning',
     gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2022',
+  },
+  'Décorum': {
+    gameArtists: 'Michael Mateyko',
+    gameDesigners: 'Charlie Mackin, Harry Mackin, Drew Tenenbaum',
+    gameImageName: 'decorum',
+    gamePublisher: 'Floodgate Games',
     yearPublished: '2022',
   },
   'Dice Kingdoms of Valeria': {
@@ -872,6 +886,13 @@ const gamesList: GameList = {
     gamePublisher: 'Barrett Publishing',
     yearPublished: '2021',
   },
+  'Iberia': {
+    gameArtists: 'Atha Kanaani, Chris Quilliams',
+    gameDesigners: 'Jesús Torres Castro, Matt Leacock',
+    gameImageName: 'iberia',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2016',
+  },
   'Imhotep': {
     gameArtists: 'Miguel Coimbra, Michaela Kienle',
     gameDesigners: 'Phil Walker-Harding',
@@ -1018,6 +1039,13 @@ const gamesList: GameList = {
     gamePublisher: 'Upper Deck',
     yearPublished: '2012',
   },
+  'The LOOP': {
+    gameArtists: 'Simon Caruso',
+    gameDesigners: 'Maxime Rambourg, Théo Rivière',
+    gameImageName: 'the-loop',
+    gamePublisher: 'Catch Up Games',
+    yearPublished: '2020',
+  },
   "Loopin' Louie": {
     gameDesigners: 'Masaru Aoki, Carol Wiseley',
     gameImageName: 'loopin-louie',
@@ -1077,6 +1105,13 @@ const gamesList: GameList = {
     gameImageName: 'marvel-united-x-men',
     gamePublisher: 'CMON Global Limited, Spin Master Ltd.',
     yearPublished: '2021',
+  },
+  'Maximum Apocalypse': {
+    gameArtists: 'Gustav Rangmar',
+    gameDesigners: 'Mike Gnade',
+    gameImageName: 'maximum-apocalypse',
+    gamePublisher: 'Rock Manor Games',
+    yearPublished: '2018',
   },
   'Metro X': {
     gameArtists: 'Ryo Nyamo',
@@ -1371,12 +1406,26 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2021',
   },
+  'Regicide': {
+    gameArtists: 'Sketchgoblin',
+    gameDesigners: 'Paul Abrahams, Luke Badger, Andy Richdale',
+    gameImageName: 'regicide',
+    gamePublisher: 'Badgers from Mars',
+    yearPublished: '2020',
+  },
   'Resist!': {
     gameArtists: 'Albert Monteys',
     gameDesigners: 'Trevor Benjamin, Roger Tankersley, David Thompson',
     gameImageName: 'resist',
     gamePublisher: 'Salt & Pepper Games',
     yearPublished: '2022',
+  },
+  'Robinson Crusoe: Adventures on the Cursed Island': {
+    gameArtists: 'Tomasz Bentkowski, Mateusz Bielski, Vincent Dutrait, Jerzy Ferdyn, Mateusz Kopacz, Mateusz Lenart, Dominic Mayer, Maciej Mutwil, Zhao Run Quan, Piotr Słaby, Rafał Szyma, Ignacy Trzewiczek, Michał J. Zieliński',
+    gameDesigners: 'Joanna Kijanka, Ignacy Trzewiczek',
+    gameImageName: 'robinson-crusoe-adventures-on-the-cursed-island',
+    gamePublisher: 'Portal Games',
+    yearPublished: '2012',
   },
   'Robot Quest Arena': {
     gameDesigners: 'Robert Dougherty, CJ Moynihan, Paul Waite',
@@ -1515,6 +1564,13 @@ const gamesList: GameList = {
     gameImageName: 'shards-of-infinity',
     gamePublisher: 'Stone Blade Entertainment, Ultra PRO',
     yearPublished: '2018',
+  },
+  'Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases': {
+    gameArtists: 'Bernard Bittler, Arnaud Demaegd, Nils Gulliksson, Neriac, Pascal Quidault, Stefan Thulin',
+    gameDesigners: 'Raymond Edwards, Suzanne Goldberg, Gary Grady',
+    gameImageName: 'sherlock-holmes-consulting-detective-the-thames-mu',
+    gamePublisher: 'Sleuth Publications, Space Cowboys',
+    yearPublished: '1982',
   },
   'Shikoku 1889': {
     gameArtists: 'Karim Chakroun',
