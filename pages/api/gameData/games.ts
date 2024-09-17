@@ -259,12 +259,26 @@ const gamesList: GameList = {
     gamePublisher: 'Flatout Games',
     yearPublished: '2020',
   },
+  'Captain Sonar': {
+    gameArtists: 'Ervin, Piotr Forkasiewicz, Sabrina Tobal',
+    gameDesigners: 'Roberto Fraga, Yohan Lemonnier',
+    gameImageName: 'captain-sonar',
+    gamePublisher: 'Matagot',
+    yearPublished: '2016',
+  },
   'Carcassonne': {
     gameArtists: 'Marcel Gröber, Doris Matthäus, Anne Pätzke, Chris Quilliams, Franz-Georg Stämmele, Klaus-Jürgen Wrede',
     gameDesigners: 'Klaus-Jürgen Wrede',
     gameImageName: 'carcassonne',
     gamePublisher: 'Hans im Glück',
     yearPublished: '2000',
+  },
+  'Carcassonne: South Seas': {
+    gameArtists: 'Harald Lieske, Dennis Lohausen, Christof Tisch',
+    gameDesigners: 'Klaus-Jürgen Wrede',
+    gameImageName: 'carcassonne-south-seas',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '2013',
   },
   'Carcassonne: The Castle': {
     gameArtists: 'Roman Kucharski, Christof Tisch',
@@ -942,6 +956,13 @@ const gamesList: GameList = {
     gamePublisher: 'GameWorks SàRL, Space Cowboys',
     yearPublished: '2009',
   },
+  'Jaws': {
+    gameArtists: 'Roger Kastel',
+    gameDesigners: 'Prospero Hall, Brian Kirk',
+    gameImageName: 'jaws',
+    gamePublisher: 'Ravensburger',
+    yearPublished: '2019',
+  },
   'Joan of Arc: Orléans Draw & Write': {
     gameArtists: 'Klemens Franz',
     gameDesigners: 'Ryan Hendrickson, Reiner Stockhausen',
@@ -1113,6 +1134,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rock Manor Games',
     yearPublished: '2018',
   },
+  'Merchants & Marauders': {
+    gameArtists: 'Ben Nelson, Chris Quilliams',
+    gameDesigners: 'Kasper Aagaard, Christian Marcussen',
+    gameImageName: 'merchants-and-marauders',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2010',
+  },
   'Metro X': {
     gameArtists: 'Ryo Nyamo',
     gameDesigners: 'Hisashi Hayashi',
@@ -1140,6 +1168,13 @@ const gamesList: GameList = {
     gameImageName: 'mr-president',
     gamePublisher: 'GMT Games',
     yearPublished: '2023',
+  },
+  "Nemo's War (Second Edition)": {
+    gameArtists: "Ian O'Toole",
+    gameDesigners: 'Chris Taylor',
+    gameImageName: 'nemos-war-second-edition',
+    gamePublisher: 'Victory Point Games',
+    yearPublished: '2017',
   },
   'New York Slice': {
     gameArtists: 'John Kaufmann',
@@ -1175,6 +1210,13 @@ const gamesList: GameList = {
     gameImageName: 'obsession',
     gamePublisher: 'Kayenta Games',
     yearPublished: '2018',
+  },
+  'Oceanos': {
+    gameArtists: 'Jérémie Fleury',
+    gameDesigners: 'Antoine Bauza',
+    gameImageName: 'oceanos',
+    gamePublisher: 'IELLO',
+    yearPublished: '2016',
   },
   'On the Rocks': {
     gameArtists: 'Christina Pittre',
@@ -1958,6 +2000,13 @@ const gamesList: GameList = {
     gameImageName: 'undaunted-stalingrad',
     gamePublisher: 'Osprey Games',
     yearPublished: '2022',
+  },
+  'Underwater Cities': {
+    gameArtists: 'Uildrim, Milan Vavroň',
+    gameDesigners: 'Vladimír Suchý',
+    gameImageName: 'underwater-cities',
+    gamePublisher: 'Delicious Games',
+    yearPublished: '2018',
   },
   'Unmatched Adventures: Tales to Amaze': {
     gameArtists: 'JJ Ariosa, Anne Benjamin, Marie Bergeron, Ashley Floréal, Satoshi Kamanaka, Nastya Lehn, Kwanchai Moriya, Ian Reed, Jason Taylor',
