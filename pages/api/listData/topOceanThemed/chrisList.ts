@@ -2,24 +2,24 @@ import { GameList } from "@/components/elements/TopListItem";
 import { gamesList } from "../../gameData";
 
 export const chrisList: GameList = {
-  'Cockroach Poker': {
-    ...gamesList['Cockroach Poker'],
-    sequence: 2
-  },
-  'Codenames': {
-    ...gamesList['Codenames'],
-    sequence: 4
-  },
-  'Just One': {
-    ...gamesList['Just One'],
-    sequence: 3
-  },
-  'MonsDRAWsity': {
-    ...gamesList['MonsDRAWsity'],
+  'Explorers of the North Sea': {
+    ...gamesList['Explorers of the North Sea'],
     sequence: 1
   },
-  'So Clover!': {
-    ...gamesList['So Clover!'],
+  'Survive: Escape from Atlantis!': {
+    ...gamesList['Survive: Escape from Atlantis!'],
+    sequence: 2
+  },
+  'Deep Sea Adventure': {
+    ...gamesList['Deep Sea Adventure'],
+    sequence: 3
+  },
+  'Hawaii': {
+    ...gamesList['Hawaii'],
+    sequence: 4
+  },
+  'Oceans': {
+    ...gamesList['Oceans'],
     sequence: 5
   },
 }

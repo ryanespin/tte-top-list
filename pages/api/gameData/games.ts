@@ -425,6 +425,13 @@ const gamesList: GameList = {
     gamePublisher: 'Floodgate Games',
     yearPublished: '2022',
   },
+  'Deep Sea Adventure': {
+    gameArtists: 'Jun Sasaki',
+    gameDesigners: 'Jun Sasaki, Goro Sasaki',
+    gameImageName: 'deep-sea-adventure',
+    gamePublisher: 'Oink Games',
+    yearPublished: '2014',
+  },
   'Dice Kingdoms of Valeria': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'Levi Mote',
@@ -570,6 +577,13 @@ const gamesList: GameList = {
     gameImageName: 'escape-from-the-aliens-in-outer-space',
     gamePublisher: 'Osprey Games',
     yearPublished: '2010',
+  },
+  'Explorers of the North Sea': {
+    gameArtists: 'Mihajlo Dimitrievski',
+    gameDesigners: 'Shem Phillips',
+    gameImageName: 'explorers-of-the-north-sea',
+    gamePublisher: 'Garphill Games',
+    yearPublished: '2016',
   },
   'Euphoria: Build a Better Dystopia': {
     gameArtists: 'Jacqui Davis',
@@ -851,6 +865,13 @@ const gamesList: GameList = {
     gameImageName: 'harvest-dice',
     gamePublisher: 'Garphill Games',
     yearPublished: '2021',
+  },
+  'Hawaii': {
+    gameArtists: 'Dennis Lohausen',
+    gameDesigners: 'Greg Daigle',
+    gameImageName: 'hawaii',
+    gamePublisher: 'Hans im Glück',
+    yearPublished: '2011',
   },
   'Heading Forward': {
     gameDesigners: 'John du Bois',
@@ -1217,6 +1238,13 @@ const gamesList: GameList = {
     gameImageName: 'oceanos',
     gamePublisher: 'IELLO',
     yearPublished: '2016',
+  },
+  'Oceans': {
+    gameArtists: 'Guillaume Ducos, Catherine Hamilton',
+    gameDesigners: "Nick Bentley, Dominic Crapuchettes, Ben Goldman, Brian O'Neill",
+    gameImageName: 'oceans',
+    gamePublisher: 'NorthStar Game Studio',
+    yearPublished: '2020',
   },
   'On the Rocks': {
     gameArtists: 'Christina Pittre',
