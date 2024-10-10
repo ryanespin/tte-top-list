@@ -350,6 +350,13 @@ const gamesList: GameList = {
     gamePublisher: 'Renegade',
     yearPublished: '2019',
   },
+  'Clans of Caledonia': {
+    gameArtists: 'Klemens Franz',
+    gameDesigners: 'Juma Al-JouJou',
+    gameImageName: 'clans-of-caledonia',
+    gamePublisher: 'Karma Games',
+    yearPublished: '2017',
+  },
   'Cockroach Poker': {
     gameArtists: 'Rolf Vogt',
     gameDesigners: 'Jacques Zeimet',
@@ -410,6 +417,13 @@ const gamesList: GameList = {
     gameImageName: 'cthulhu-death-may-die',
     gamePublisher: 'CMON Global Limited, Guillotine Games',
     yearPublished: '2019',
+  },
+  'Dairyman': {
+    gameArtists: 'Chih-Fan Chen, Katie Welch',
+    gameDesigners: 'Chih-Fan Chen',
+    gameImageName: 'dairyman',
+    gamePublisher: 'Homosapiens Lab, Tasty Minstrel Games',
+    yearPublished: '2016',
   },
   'Dead Reckoning': {
     gameArtists: "Ian O'Toole",
@@ -612,6 +626,13 @@ const gamesList: GameList = {
     gameImageName: 'exit-game-abandoned-cabin',
     gamePublisher: 'KOSMOS',
     yearPublished: '2016',
+  },
+  'Faiyum': {
+    gameArtists: 'Harald Lieske',
+    gameDesigners: 'Friedemann Friese',
+    gameImageName: 'faiyum',
+    gamePublisher: '2F-Spiele',
+    yearPublished: '2020',
   },
   'A Fake Artist Goes to New York': {
     gameArtists: 'Jun Sasaki',
@@ -1189,6 +1210,13 @@ const gamesList: GameList = {
     gameImageName: 'mr-president',
     gamePublisher: 'GMT Games',
     yearPublished: '2023',
+  },
+  'My Farm Shop': {
+    gameArtists: 'Christian Fiore',
+    gameDesigners: 'Rüdiger Dorn',
+    gameImageName: 'my-farm-shop',
+    gamePublisher: 'Pegasus Spiele',
+    yearPublished: '2020',
   },
   "Nemo's War (Second Edition)": {
     gameArtists: "Ian O'Toole",
