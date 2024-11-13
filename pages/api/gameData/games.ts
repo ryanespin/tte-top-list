@@ -175,6 +175,13 @@ const gamesList: GameList = {
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2008',
   },
+  'Bebop': {
+    gameArtists: 'Weberson Santiago',
+    gameDesigners: 'Robert Hovakimyan',
+    gameImageName: 'bebop',
+    gamePublisher: 'Bitewing Games',
+    yearPublished: '2024',
+  },
   'Beer & Bread': {
     gameArtists: 'Michael Menzel',
     gameDesigners: 'Scott Almes',
@@ -196,6 +203,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rio Grande Games',
     yearPublished: '2020',
   },
+  'Black Forest': {
+    gameArtists: 'Lukas Siegmon',
+    gameDesigners: 'Tido Lorenz, Uwe Rosenberg',
+    gameImageName: 'black-forest',
+    gamePublisher: 'Feuerland Spiele',
+    yearPublished: '2024',
+  },
   'Blood on the Clocktower': {
     gameArtists: 'Micaela Dawn, Aidan Roberts, John Van Fleet, Grace VanFleet',
     gameDesigners: 'Steven Medway',
@@ -209,6 +223,13 @@ const gamesList: GameList = {
     gameImageName: 'blood-rage',
     gamePublisher: 'Cool Mini Or Not',
     yearPublished: '2015',
+  },
+  'boop the Halls!': {
+    gameArtists: 'Curt Covert',
+    gameDesigners: 'Scott Brady',
+    gameImageName: 'boop-the-halls',
+    gamePublisher: 'Smirk & Dagger Games',
+    yearPublished: '2024',
   },
   'BOOoop.': {
     gameArtists: 'Curt Covert',
@@ -336,6 +357,13 @@ const gamesList: GameList = {
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2017',
   },
+  'Chicken Fried Dice': {
+    gameArtists: 'Meimo Siwapon',
+    gameDesigners: 'Ashwin Kamath, Rob Newton',
+    gameImageName: 'chicken-fried-dice',
+    gamePublisher: 'Urban Professional Games',
+    yearPublished: '2025',
+  },
   'Clank!: Catacombs': {
     gameArtists: 'Clay Brooks, Anika Burrell, Derek Herring, Raul Ramos, Nate Storm, Alain Viesca',
     gameDesigners: 'Paul Dennen',
@@ -425,6 +453,13 @@ const gamesList: GameList = {
     gamePublisher: 'Homosapiens Lab, Tasty Minstrel Games',
     yearPublished: '2016',
   },
+  'Daitoshi': {
+    gameArtists: 'Marina Vidal',
+    gameDesigners: 'Dani Garcia',
+    gameImageName: 'daitoshi',
+    gamePublisher: 'Devir',
+    yearPublished: '2024',
+  },
   'Dead Reckoning': {
     gameArtists: "Ian O'Toole",
     gameDesigners: 'John D. Clair',
@@ -466,12 +501,25 @@ const gamesList: GameList = {
     gamePublisher: 'Roxley',
     yearPublished: '2018',
   },
+  'Digging for Dinos': {
+    gameDesigners: 'Andrew Stiles',
+    gameImageName: 'digging-for-dinos',
+    gamePublisher: '3WS Games',
+    yearPublished: '2025',
+  },
   "Dinosaur Island: Rawr 'n Write": {
     gameArtists: 'Kwanchai Moriya, Andrew Thompson',
     gameDesigners: 'Brian Lewis, David McGregor, Marissa Misura',
     gameImageName: 'dinosaur-island-rawr-n-write',
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2021',
+  },
+  'Disco Heist Laundry': {
+    gameArtists: 'Denis Medri',
+    gameDesigners: 'Mike Gnade',
+    gameImageName: 'disco-heist-laundry',
+    gamePublisher: 'Rock Manor Games',
+    yearPublished: '2025',
   },
   'Distilled': {
     gameArtists: 'Erik Evensen',
@@ -655,6 +703,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2016',
   },
+  'The Fellowship of the Ring: Trick-Taking Game': {
+    gameArtists: 'Elaine Ryan, Samuel R. Shimota',
+    gameDesigners: 'Bryan Bornmueller',
+    gameImageName: 'the-fellowship-of-the-ring-trick-taking-game',
+    gamePublisher: 'Office Dog',
+    yearPublished: '2025',
+  },
   'The Field of the Cloth of Gold': {
     gameArtists: 'Amabel Holland',
     gameDesigners: 'Amabel Holland',
@@ -753,6 +808,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2017',
   },
+  'Galactic Cruise': {
+    gameArtists: "Ian O'Toole",
+    gameDesigners: 'T.K. King, Dennis Northcott, Koltin Thompson',
+    gameImageName: 'galactic-cruise',
+    gamePublisher: 'Kinson Key Games',
+    yearPublished: '2025',
+  },
   'Galaxy Trucker': {
     gameArtists: 'Tomáš Kučerovský, Radim Pech',
     gameDesigners: 'Vlaada Chvátil',
@@ -845,6 +907,13 @@ const gamesList: GameList = {
     gamePublisher: '25th Century Games',
     yearPublished: '2022',
   },
+  'Green Team Wins: Holiday Party': {
+    gameArtists: 'Matt Paquette & Co.',
+    gameDesigners: 'Nathan Thornton',
+    gameImageName: 'green-team-wins-holiday-party',
+    gamePublisher: '25th Century Games',
+    yearPublished: '2024',
+  },
   'The Guild of Merchant Explorers': {
     gameArtists: 'Gerralt Landman',
     gameDesigners: 'Matthew Dunstan, Brett J. Gilbert',
@@ -934,6 +1003,13 @@ const gamesList: GameList = {
     gameImageName: 'horrified-greek-monsters',
     gamePublisher: 'Ravensburger',
     yearPublished: '2023',
+  },
+  'How to Save a World': {
+    gameArtists: 'Fahed Alrajil, Tithi Luadthong',
+    gameDesigners: 'Yuval Grinspun',
+    gameImageName: 'how-to-save-a-world',
+    gamePublisher: 'Burnt Island Games',
+    yearPublished: '2025',
   },
   'Hunted: Kobayashi Tower': {
     gameArtists: 'Drew Corkill, Jorge M. Velez',
@@ -1102,6 +1178,13 @@ const gamesList: GameList = {
     gamePublisher: 'Upper Deck',
     yearPublished: '2012',
   },
+  'Little Alchemists': {
+    gameArtists: 'David Cochard, Štěpán Drašťák, Dávid Jablonovský, František Sedláček',
+    gameDesigners: 'Matúš Kotry',
+    gameImageName: 'little-alchemists',
+    gamePublisher: 'Czech Games Edition',
+    yearPublished: '2024',
+  },
   'The LOOP': {
     gameArtists: 'Simon Caruso',
     gameDesigners: 'Maxime Rambourg, Théo Rivière',
@@ -1135,6 +1218,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2020',
   },
+  'Lunar Skyline': {
+    gameArtists: 'Zachary Leo, Alex Pei, Maria Zvonkova',
+    gameDesigners: 'Charlie McCarron',
+    gameImageName: 'lunar-skyline',
+    gamePublisher: 'Dead Alive Games',
+    yearPublished: '2025',
+  },
   'Mage Knight Board Game': {
     gameArtists: 'J. Lonnee, Chris Raimo, Milan Vavroň',
     gameDesigners: 'Vlaada Chvátil',
@@ -1161,6 +1251,13 @@ const gamesList: GameList = {
     gameImageName: 'marvel-dice-throne',
     gamePublisher: 'The Op, Roxley',
     yearPublished: '2022',
+  },
+  'Marvel Dice Throne: X-Men': {
+    gameArtists: 'Manny Trembley',
+    gameDesigners: 'Gavan Brown, Nate Chatellier, Manny Trembley',
+    gameImageName: 'marvel-dice-throne-x-men',
+    gamePublisher: 'Roxley',
+    yearPublished: '2024',
   },
   'Marvel United: X-Men': {
     gameArtists: 'Édouard Guiton',
@@ -1197,12 +1294,32 @@ const gamesList: GameList = {
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2022',
   },
+  'Molly House': {
+    gameArtists: 'Rachel Ford',
+    gameDesigners: 'Jo Kelly, Cole Wehrle',
+    gameImageName: 'molly-house',
+    gamePublisher: 'Wehrlegig Games',
+    yearPublished: '2025',
+  },
+  'Monkey Palace': {
+    gameDesigners: 'David Gordon, TAM',
+    gameImageName: 'monkey-palace',
+    gamePublisher: 'Dotted Games',
+    yearPublished: '2024',
+  },
   'MonsDRAWsity': {
     gameArtists: 'Hector Amavizca, Kennedy Cooke-Garza, Shawn Daley, Mihajlo Dimitrievski, Gilbert Jansen, David Melvin, Nolan Nasser, Martha Webby',
     gameDesigners: 'Eric Slauson',
     gameImageName: 'monsdrawsity',
     gamePublisher: 'Bread and Circuses',
     yearPublished: '2020',
+  },
+  'Moon Bunny': {
+    gameArtists: 'Serene Chan',
+    gameDesigners: 'Pauline Kong, Marie Wong',
+    gameImageName: 'moon-bunny',
+    gamePublisher: 'Hot Banana Games',
+    yearPublished: '2025',
   },
   'Mr. President: The American Presidency, 2001-2020': {
     gameArtists: 'Donal Hegarty',
@@ -1386,6 +1503,13 @@ const gamesList: GameList = {
     gamePublisher: "Adam's Apple Games, LLC",
     yearPublished: '2022',
   },
+  'Planta Nubo': {
+    gameArtists: 'Lukas Siegmon',
+    gameDesigners: 'Michael Keller, Andreas "ode." Odendahl, Uwe Rosenberg',
+    gameImageName: 'planta-nubo',
+    gamePublisher: 'The Game Builders',
+    yearPublished: '2023',
+  },
   'Planted: A Game of Nature & Nurture': {
     gameArtists: 'Hannah Bailey',
     gameDesigners: 'Phil Walker-Harding',
@@ -1399,6 +1523,13 @@ const gamesList: GameList = {
     gameImageName: 'pokemon-tcg',
     gamePublisher: 'The Pokémon Company',
     yearPublished: '1996',
+  },
+  'Propolis': {
+    gameArtists: 'Dylan Mangini',
+    gameDesigners: 'Molly Johnson, Robert Melvin, Shawn Stankewich',
+    gameImageName: 'propolis',
+    gamePublisher: 'Flatout Games',
+    yearPublished: '2025',
   },
   'Puzzle Dungeon': {
     gameArtists: 'Brian Garber',
@@ -1484,11 +1615,25 @@ const gamesList: GameList = {
     gamePublisher: 'Matagot',
     yearPublished: '2015',
   },
+  'Re;ACT - The Arts of War': {
+    gameArtists: 'loxtix, Ian Olympia',
+    gameDesigners: 'Chris Lin, MingYang Lu, Eric Zeringue',
+    gameImageName: 'react-the-arts-of-war',
+    gamePublisher: 'Brother Ming Games',
+    yearPublished: '2024',
+  },
   'Rear Window': {
     gameDesigners: 'Prospero Hall',
     gameImageName: 'rear-window',
     gamePublisher: 'Funko Games',
     yearPublished: '2022',
+  },
+  'Rebirth': {
+    gameArtists: 'Anna "Mikado" Przybylska, Kate "vesner" Redesiuk',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'rebirth',
+    gamePublisher: 'Mighty Boards',
+    yearPublished: '2024',
   },
   'The Red Cathedral': {
     gameArtists: 'Chema Román, Pedro Soto',
@@ -1530,6 +1675,13 @@ const gamesList: GameList = {
     gameImageName: 'robot-quest-arena',
     gamePublisher: 'Perfect Day Games, Wise Wizard Games',
     yearPublished: '2023',
+  },
+  'Rock Hard: 1977': {
+    gameArtists: 'Jennifer Giner',
+    gameDesigners: 'Jackie Fox',
+    gameImageName: 'rock-hard-1977',
+    gamePublisher: 'Devir',
+    yearPublished: '2024',
   },
   'Rococo: Deluxe Edition': {
     gameArtists: "Ian O'Toole",
@@ -1683,6 +1835,13 @@ const gamesList: GameList = {
     gameImageName: 'silver-and-gold',
     gamePublisher: 'Nürnberger-Spielkarten-Verlag',
     yearPublished: '2019',
+  },
+  'Skyrise': {
+    gameArtists: 'Andrew Bosley, James Van Niekerk',
+    gameDesigners: 'Gavan Brown, Sébastien Pauchon, Adam Wyse',
+    gameImageName: 'skyrise',
+    gamePublisher: 'Roxley',
+    yearPublished: '2024',
   },
   'Skyrockets: Festivals of Fire': {
     gameArtists: 'SillyJellie',
@@ -1904,6 +2063,13 @@ const gamesList: GameList = {
     gamePublisher: 'KOSMOS',
     yearPublished: '2012',
   },
+  'Tasso Banana': {
+    gameArtists: 'Wanjin Gill',
+    gameDesigners: 'Junghee Choi, Philippe Proux',
+    gameImageName: 'tasso-banana',
+    gamePublisher: 'Playte',
+    yearPublished: '2022',
+  },
   "That's Pretty Clever! Kids": {
     gameArtists: 'Glen Viljoen, Marie Zippel',
     gameDesigners: 'Wolfgang Warsch',
@@ -2092,12 +2258,26 @@ const gamesList: GameList = {
     gamePublisher: 'Wyrd Miniatures',
     yearPublished: '2022',
   },
+  'Valheim: The Board Game': {
+    gameArtists: 'Michael Koudal, Mats Minnhagen, Jacob Møller, Kira Rasmussen, Jonas Springborg',
+    gameDesigners: 'Ole Steiness',
+    gameImageName: 'valheim-the-board-game',
+    gamePublisher: 'MOOD Publishing',
+    yearPublished: '2025',
+  },
   'Verdant': {
     gameArtists: 'Beth Sobel',
     gameDesigners: 'Molly Johnson, Robert Melvin, Aaron Mesburne, Kevin Russ, Shawn Stankewich',
     gameImageName: 'verdant',
     gamePublisher: 'Flatout Games',
     yearPublished: '2022',
+  },
+  'Verdant Arizona': {
+    gameArtists: 'Jonathan Carnehl',
+    gameDesigners: 'Robin David',
+    gameImageName: 'verdant-arizona',
+    gamePublisher: "Galen's Games",
+    yearPublished: '2025',
   },
   'Viscounts of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
@@ -2133,6 +2313,13 @@ const gamesList: GameList = {
     gameImageName: 'war-chest',
     gamePublisher: 'Alderac Entertainment Group',
     yearPublished: '2018',
+  },
+  'War Story: Occupied France': {
+    gameArtists: 'Kwanchai Moriya',
+    gameDesigners: 'Dave Neale, David Thompson',
+    gameImageName: 'war-story-occupied-france',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2024',
   },
   'Wasteland Express Delivery Service': {
     gameArtists: 'Riccardo Burchielli, Josh Cappel, Jason D. Kingsley',
