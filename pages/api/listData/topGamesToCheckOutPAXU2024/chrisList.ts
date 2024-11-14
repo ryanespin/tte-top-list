@@ -26,8 +26,8 @@ export const chrisList: GameList = {
     ...gamesList['Rebirth'],
     sequence: 6,
   },
-  'March of Ants': {
-    ...gamesList['March of Ants'],
+  'March of the Ants: Evolved Edition': {
+    ...gamesList['March of the Ants: Evolved Edition'],
     sequence: 7
   },
   'Valheim: The Board Game': {

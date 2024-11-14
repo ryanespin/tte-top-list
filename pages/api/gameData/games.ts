@@ -1232,6 +1232,13 @@ const gamesList: GameList = {
     gamePublisher: 'WizKids',
     yearPublished: '2011',
   },
+  'March of the Ants: Evolved Edition': {
+    gameArtists: 'Lina Cossette, Ryan Swisher',
+    gameDesigners: 'Tim Eisner, Ryan Swisher',
+    gameImageName: 'march-of-the-ants-evolved-edition',
+    gamePublisher: 'Weird City Games',
+    yearPublished: '2025',
+  },
   'Mariposas': {
     gameArtists: 'Matt Paquette & Co., Indi Maverick',
     gameDesigners: 'Elizabeth Hargrave',
