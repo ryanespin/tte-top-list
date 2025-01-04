@@ -252,6 +252,13 @@ const gamesList: GameList = {
     gamePublisher: 'Roxley',
     yearPublished: '2007',
   },
+  'Bullet♥︎': {
+    gameArtists: 'Collateral Damage Studios, Sebastian Koziner, Usanekorin, Davy Wagnarok',
+    gameDesigners: 'Joshua Van Laningham',
+    gameImageName: 'bullet-love',
+    gamePublisher: 'Level 99 Games',
+    yearPublished: '2021',
+  },
   'Burgle Bros.': {
     gameArtists: 'Virginia Critchfield, Ryan Goldsberry, Heiko Günther',
     gameDesigners: 'Tim Fowers',
@@ -314,6 +321,13 @@ const gamesList: GameList = {
     gameImageName: 'eriantys',
     gamePublisher: 'Rio Grande Games | Cranio Creations',
     yearPublished: '2000 | 2021',
+  },
+  'Cartagena: Escape Diaries': {
+    gameArtists: 'Chris Quilliams',
+    gameDesigners: 'Leo Colovini',
+    gameImageName: 'cartagena-escape-diaries',
+    gamePublisher: 'Pretzel Games',
+    yearPublished: '2023',
   },
   'Cartographers': {
     gameArtists: 'Luis Francisco, Lucas Ribeiro',
@@ -942,6 +956,13 @@ const gamesList: GameList = {
     gamePublisher: 'Tompet Games',
     yearPublished: '2023',
   },
+  'Hamster Roll': {
+    gameArtists: 'Andrea Hofbeck, Stefan Sälzer',
+    gameDesigners: 'Jacques Zeimet',
+    gameImageName: 'hamster-roll',
+    gamePublisher: 'Zoch Verlag, 25th Century Games',
+    yearPublished: '2000',
+  },
   'Hanabi': {
     gameArtists: 'Antoine Bauza, Gérald Guerlais, Albertine Ralenti',
     gameDesigners: 'Antoine Bauza',
@@ -1025,6 +1046,13 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2016',
   },
+  'Illusion': {
+    gameArtists: 'Oliver Freudenreich, Sandra Freudenreich',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'illusion',
+    gamePublisher: 'Nürnberger-Spielkarten-Verlag',
+    yearPublished: '2018',
+  },
   'Imhotep': {
     gameArtists: 'Miguel Coimbra, Michaela Kienle',
     gameDesigners: 'Phil Walker-Harding',
@@ -1045,6 +1073,13 @@ const gamesList: GameList = {
     gameImageName: 'imperial-settlers-roll-write',
     gamePublisher: 'Portal Games',
     yearPublished: '2019',
+  },
+  'Imperial Struggle': {
+    gameArtists: 'Terry Leeds',
+    gameDesigners: 'Ananda Gupta, Jason Matthews',
+    gameImageName: 'imperial-struggle',
+    gamePublisher: 'GMT Games',
+    yearPublished: '2020',
   },
   'Imperium: Classics | Legends': {
     gameArtists: 'Mihajlo Dimitrievski',
@@ -1143,6 +1178,13 @@ const gamesList: GameList = {
     gamePublisher: 'Blue Orange Games',
     yearPublished: '2019',
   },
+  'Knarr': {
+    gameArtists: 'Carrion Antoine',
+    gameDesigners: 'Thomas Dupont',
+    gameImageName: 'knarr',
+    gamePublisher: 'Bombyx',
+    yearPublished: '2023',
+  },
   'Kulami': {
     gameArtists: 'Bernhard Kümmelmann, Karl Malepart, Steffen Mühlhäuser',
     gameDesigners: 'Andreas Kuhnekath',
@@ -1170,6 +1212,13 @@ const gamesList: GameList = {
     gameImageName: 'le-havre',
     gamePublisher: 'Lookout Games',
     yearPublished: '2008',
+  },
+  'Legacy of Dragonholt': {
+    gameArtists: 'Alex Aparin, Jacob Atienza, Jared Blando, Anna Christenson, Amanda Duarte, David Griffith, Jaime Martinez, Sandara Tang',
+    gameDesigners: 'Nikki Valens, Daniel Clark, Tim Flanders, Annie VanderMeer Mitsoda, Greg Spyridis',
+    gameImageName: 'legacy-of-dragonholt',
+    gamePublisher: 'Fantasy Flight Games',
+    yearPublished: '2017',
   },
   'Legendary: A Marvel Deck Building Game': {
     gameArtists: 'Julius Abrea, Will Conrad, Bien Flores, Katrina Mae Hao, Ray Anthony Height, Tony Kordos, The Marvel Bullpen, Jay David Ramos, Nigel Raynor, Kevin Sharpe, Brian “Tots” Valerz',
@@ -1294,6 +1343,12 @@ const gamesList: GameList = {
     gamePublisher: 'OZAKU Brand',
     yearPublished: '2018',
   },
+  'Mini Express': {
+    gameDesigners: 'Mark Gerrits',
+    gameImageName: 'mini-express',
+    gamePublisher: 'Moaideas Game Design',
+    yearPublished: '2021',
+  },
   'The Mirroring of Mary King': {
     gameArtists: 'Naomi Robinson',
     gameDesigners: 'Jenna Felli',
@@ -1335,12 +1390,26 @@ const gamesList: GameList = {
     gamePublisher: 'GMT Games',
     yearPublished: '2023',
   },
+  'My City': {
+    gameArtists: 'Michael Menzel',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'my-city',
+    gamePublisher: 'KOSMOS',
+    yearPublished: '2020',
+  },
   'My Farm Shop': {
     gameArtists: 'Christian Fiore',
     gameDesigners: 'Rüdiger Dorn',
     gameImageName: 'my-farm-shop',
     gamePublisher: 'Pegasus Spiele',
     yearPublished: '2020',
+  },
+  'My First Castle Panic': {
+    gameArtists: 'Cam Kendell',
+    gameDesigners: 'Justin De Witt',
+    gameImageName: 'my-first-castle-panic',
+    gamePublisher: 'Fireside Games',
+    yearPublished: '2019',
   },
   "Nemo's War (Second Edition)": {
     gameArtists: "Ian O'Toole",
@@ -1503,6 +1572,13 @@ const gamesList: GameList = {
     gamePublisher: 'Ferti',
     yearPublished: '1995',
   },
+  'Planet': {
+    gameArtists: 'Sabrina Miramon',
+    gameDesigners: 'Urtis Šulinskas',
+    gameImageName: 'planet',
+    gamePublisher: 'Blue Orange',
+    yearPublished: '2018',
+  },
   'Planet Unknown': {
     gameArtists: 'Yoma',
     gameDesigners: 'Ryan Lambert, Adam Rehberg',
@@ -1634,6 +1710,13 @@ const gamesList: GameList = {
     gameImageName: 'rear-window',
     gamePublisher: 'Funko Games',
     yearPublished: '2022',
+  },
+  'Rebel Princess': {
+    gameArtists: 'Alfredo Cáceres',
+    gameDesigners: 'Daniel Byrne, José Gerardo Guerrero, Kevin Peláez, Tirso Virgós',
+    gameImageName: 'rebel-princess',
+    gamePublisher: 'Zombi Paella',
+    yearPublished: '2023',
   },
   'Rebirth': {
     gameArtists: 'Anna "Mikado" Przybylska, Kate "vesner" Redesiuk',
