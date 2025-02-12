@@ -378,6 +378,13 @@ const gamesList: GameList = {
     gamePublisher: 'Urban Professional Games',
     yearPublished: '2025',
   },
+  'Chronicles of Crime': {
+    gameArtists: 'David Cicurel, Matijos Gebreselassie, Mateusz Komada, Katarzyna Kosobucka',
+    gameDesigners: 'David Cicurel',
+    gameImageName: 'chronicles-of-crime',
+    gamePublisher: 'Lucky Duck Games',
+    yearPublished: '2018',
+  },
   'Clank!: Catacombs': {
     gameArtists: 'Clay Brooks, Anika Burrell, Derek Herring, Raul Ramos, Nate Storm, Alain Viesca',
     gameDesigners: 'Paul Dennen',
@@ -653,6 +660,12 @@ const gamesList: GameList = {
     gameImageName: 'escape-from-the-aliens-in-outer-space',
     gamePublisher: 'Osprey Games',
     yearPublished: '2010',
+  },
+  'Escape Games': {
+    gameArtists: 'Various Artists',
+    gameDesigners: 'Various Designers',
+    gameImageName: 'escape-games',
+    gamePublisher: 'Various Publishers',
   },
   'Explorers of the North Sea': {
     gameArtists: 'Mihajlo Dimitrievski',
@@ -1253,6 +1266,13 @@ const gamesList: GameList = {
     gamePublisher: 'Decipher',
     yearPublished: '2001',
   },
+  'The Lord of the Rings: Duel for Middle-earth': {
+    gameArtists: 'Vincent Dutrait',
+    gameDesigners: 'Antoine Bauza, Bruno Cathala',
+    gameImageName: 'the-lord-of-the-rings-duel-for-middle-earth',
+    gamePublisher: 'Repos Production',
+    yearPublished: '2024',
+  },
   'Lost Cities': {
     gameArtists: 'Vincent Dutrait, Michaela Kienle, Anke Pohl, Thilo Rick',
     gameDesigners: 'Reiner Knizia',
@@ -1523,6 +1543,13 @@ const gamesList: GameList = {
     gamePublisher: 'dlp games',
     yearPublished: '2014',
   },
+  'Pagan: Fate of Roanoke': {
+    gameArtists: 'Maren Gutt',
+    gameDesigners: 'Kasper Kjær Christiansen, Kåre Storgaard',
+    gameImageName: 'pagan-fate-of-roanoke',
+    gamePublisher: 'Wyrmgold GmbH',
+    yearPublished: '2022',
+  },
   'Paladins of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'S J Macdonald, Shem Phillips',
@@ -1627,6 +1654,13 @@ const gamesList: GameList = {
     gameImageName: 'quacks-of-quedlinburg',
     gamePublisher: 'Schmidt Spiele',
     yearPublished: '2018',
+  },
+  'Queendomino': {
+    gameArtists: 'Cyril Bouquet',
+    gameDesigners: 'Bruno Cathala',
+    gameImageName: 'queendomino',
+    gamePublisher: 'Blue Orange Games',
+    yearPublished: '2017',
   },
   'Qwinto': {
     gameArtists: 'Oliver Freudenreich',
@@ -1842,6 +1876,13 @@ const gamesList: GameList = {
     gameImageName: 'santas-workshop-second-edition',
     gamePublisher: 'Elf Creek Games',
     yearPublished: '2023',
+  },
+  'Santorini': {
+    gameArtists: 'Lina Cossette, David Forest',
+    gameDesigners: 'Gord!',
+    gameImageName: 'santorini',
+    gamePublisher: 'Roxley',
+    yearPublished: '2016',
   },
   "Savernake Forest": {
     gameArtists: 'Núria Aparicio',
@@ -2221,6 +2262,13 @@ const gamesList: GameList = {
     gameImageName: 'ticket-to-ride-europe',
     gamePublisher: 'Days of Wonder',
     yearPublished: '2005',
+  },
+  'Ticket to Ride: Nordic Countries': {
+    gameArtists: 'Cyrille Daujean, Julien Delval',
+    gameDesigners: 'Alan R. Moon',
+    gameImageName: 'ticket-to-ride-nordic-countries',
+    gamePublisher: 'Days of Wonder',
+    yearPublished: '2007',
   },
   'Tigris & Euphrates': {
     gameArtists: 'Bascu, Christine Conrad, Doris Matthäus, Tom Thiel, Ricarda Thiel, Stephen Graham Walsh',
