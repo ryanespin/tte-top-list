@@ -63,6 +63,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2014',
   },
+  'Alhambra': {
+    gameArtists: 'Jörg Asselborn, Jo Hartwig, Patricia Limberger, Christof Tisch',
+    gameDesigners: 'Dirk Henn',
+    gameImageName: 'alhambra',
+    gamePublisher: 'Queen Games',
+    yearPublished: '2003',
+  },
   'Anachrony': {
     gameArtists: 'Villő Farkas, László Fejes, Laslo Forgach, Márton Gyula Kiss, Péter Meszlényi',
     gameDesigners: 'Dávid Turczi',
@@ -814,6 +821,13 @@ const gamesList: GameList = {
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2023',
   },
+  'Fromage': {
+    gameArtists: 'Pavel Zhovba',
+    gameDesigners: "Matthew O'Malley, Ben Rosset",
+    gameImageName: 'fromage',
+    gamePublisher: 'Road To Infamy Games (R2i Games)',
+    yearPublished: '2024',
+  },
   'Fury of Dracula (Third/Fourth Edition)': {
     gameArtists: 'Chris Beck, Samuel R. Shimota',
     gameDesigners: 'Frank Brooks, Stephen Hand, Kevin Wilson',
@@ -982,6 +996,13 @@ const gamesList: GameList = {
     gameImageName: 'hanabi',
     gamePublisher: 'ABACUSSPIELE, Cocktail Games',
     yearPublished: '2010',
+  },
+  'Harmonies': {
+    gameArtists: 'Maëva da Silva',
+    gameDesigners: 'Johan Benvenuto',
+    gameImageName: 'harmonies',
+    gamePublisher: 'Libellud',
+    yearPublished: '2024',
   },
   'Harvest Dice': {
     gameArtists: 'Danny Devine, Tyler Myatt',
@@ -1556,6 +1577,13 @@ const gamesList: GameList = {
     gameImageName: 'paladins-of-the-west-kingdom',
     gamePublisher: 'Garphill Games, Renegade Game Studios',
     yearPublished: '2019',
+  },
+  'Pandemic': {
+    gameArtists: 'Josh Cappel, Christian Hanisch, Régis Moulun, Chris Quilliams, Tom Thiel',
+    gameDesigners: 'Matt Leacock',
+    gameImageName: 'pandemic',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2008',
   },
   'Pandemic Legacy: Season 1': {
     gameArtists: 'Chris Quilliams',
