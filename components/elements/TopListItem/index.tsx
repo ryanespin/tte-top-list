@@ -172,7 +172,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                     }
                     function getImage() {
                       if (crossoverName === 'Anthony') {
-                        return 'anthony-2024'
+                        return 'anthony-2025'
                       };
                       if (crossoverName === 'Arwen') {
                         return 'arwen'
@@ -187,7 +187,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                         return 'mista-rau'
                       };
                       if (crossoverName === 'Ryan') {
-                        return 'ryan-espin-2024'
+                        return 'ryan-2025'
                       }
                       return 'danielle-2024'
                     }

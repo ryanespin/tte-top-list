@@ -4,102 +4,105 @@ import { gamesList } from "../../gameData";
 export const ryansList: GameList = {
   'Food Chain Magnate': {
     ...gamesList['Food Chain Magnate'],
-    badgeText: '#1 • 2023',
+    badgeText: '#1 • 2024',
     sequence: 1,
   },
   'Gloomhaven': {
     ...gamesList['Gloomhaven'],
-    badgeText: '#1 • 2023',
+    badgeText: '#2 • 2024',
     sequence: 2,
   },
   'Brass: Birmingham': {
     ...gamesList['Brass: Birmingham'],
-    badgeText: '#3 • 2023',
+    badgeText: '#3 • 2024',
     sequence: 3,
   },
   'Crokinole': {
     ...gamesList['Crokinole'],
-    badgeText: '#4 • 2023',
+    badgeText: '#4 • 2024',
     sequence: 4,
   },
   'Agricola': {
     ...gamesList['Agricola'],
-    badgeText: '#5 • 2023',
+    badgeText: '#5 • 2024',
     sequence: 5,
   },
   'El Grande': {
     ...gamesList['El Grande'],
-    badgeText: '#6 • 2023',
+    badgeText: '#6 • 2024',
     sequence: 6,
   },
   'Cosmic Frog': {
     ...gamesList['Cosmic Frog'],
-    badgeText: 'New to List',
+    badgeText: '#7 • 2024',
     sequence: 7,
-  },
-  'Ra': {
-    ...gamesList['Ra'],
-    badgeText: 'New to List',
-    sequence: 8,
   },
   'Alchemists': {
     ...gamesList['Alchemists'],
-    badgeText: '#7 • 2023',
+    badgeText: '#9 • 2024',
+    sequence: 8,
+  },
+  'Ra': {
+    ...gamesList['Ra'],
+    badgeText: '#8 • 2024',
     sequence: 9,
-  },
-  'Age of Steam': {
-    ...gamesList['Age of Steam'],
-    badgeText: '#12 • 2023',
-    sequence: 10,
-  },
-  'Heat: Pedal to the Metal': {
-    ...gamesList['Heat: Pedal to the Metal'],
-    badgeText: 'New to List',
-    sequence: 11,
   },
   'Undaunted: Stalingrad': {
     ...gamesList['Undaunted: Stalingrad'],
-    badgeText: '#10 • 2023',
-    sequence: 12,
-  },
-  'Dominion': {
-    ...gamesList['Dominion'],
-    badgeText: '#9 • 2023',
-    sequence: 13,
+    badgeText: '#12 • 2024',
+    sequence: 10,
   },
   'Spirit Island': {
     ...gamesList['Spirit Island'],
-    badgeText: '#19 • 2023',
+    badgeText: '#14 • 2024',
+    sequence: 11,
+  },
+  'Dominion': {
+    ...gamesList['Dominion'],
+    badgeText: '#13 • 2024',
+    sequence: 12,
+  },
+  'Age of Steam': {
+    ...gamesList['Age of Steam'],
+    badgeText: '#10 • 2023',
+    sequence: 13,
+  },
+  'Metal Gear Solid: The Board Game': {
+    ...gamesList['Metal Gear Solid: The Board Game'],
+    badgeText: 'New to List',
     sequence: 14,
   },
-  'Patchwork': {
-    ...gamesList['Patchwork'],
+  "Star Trek: Captain's Chair": {
+    ...gamesList["Star Trek: Captain's Chair"],
     badgeText: 'New to List',
     sequence: 15,
   },
-  'Mage Knight Board Game': {
+  'Mage Knight Board Game/Star Trek Frontiers': {
     ...gamesList['Mage Knight Board Game'],
-    badgeText: 'New to List',
+    badgeText: '#16 • 2024',
     sequence: 16,
-  },
-  'Rococo: Deluxe Edition': {
-    ...gamesList['Rococo: Deluxe Edition'],
-    badgeText: '#20 • 2023',
-    sequence: 17,
-  },
-  'Through the Ages: A New Story of Civilization': {
-    ...gamesList['Through the Ages: A New Story of Civilization'],
-    badgeText: '#17 • 2023',
-    sequence: 18,
-  },
-  'Shards of Infinity': {
-    ...gamesList['Shards of Infinity'],
-    badgeText: '#13 • 2023',
-    sequence: 19,
   },
   'Cockroach Poker': {
     ...gamesList['Cockroach Poker'],
+    badgeText: '#20 • 2024',
+    sequence: 17,
+  },
+  'Detective: City of Angels': {
+    ...gamesList['Detective: City of Angels'],
     badgeText: 'New to List',
+    sequence: 18,
+  },
+  'Orléans': {
+    ...gamesList['Orléans'],
+    badgeText: '#14 • 2023',
+    sequence: 19,
+  },
+  'Patchwork': {
+    ...gamesList['Patchwork'],
+    badgeText: '#15 • 2024',
+    crossover: {
+      Anthony: 2,
+    },
     sequence: 20,
-  }
+  },
 }

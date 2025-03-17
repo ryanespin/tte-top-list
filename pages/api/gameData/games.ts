@@ -509,6 +509,13 @@ const gamesList: GameList = {
     gamePublisher: 'Oink Games',
     yearPublished: '2014',
   },
+  'Detective: City of Angels': {
+    gameArtists: 'Vincent Dutrait',
+    gameDesigners: 'Evan Derrick',
+    gameImageName: 'detective-city-of-angels',
+    gamePublisher: 'Van Ryder Games',
+    yearPublished: '2019',
+  },
   'Dice Kingdoms of Valeria': {
     gameArtists: 'Mihajlo Dimitrievski',
     gameDesigners: 'Levi Mote',
@@ -1377,6 +1384,13 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2010',
   },
+  'Metal Gear Solid: The Board Game': {
+    gameArtists: 'Jose David Lanza Cebrian, Marco Checchetto, Fabio de Castro, Max Duarte, Júlia Ferrari, Mathieu Harlaut, Saeed Jalabi, Sebastian Koziner, Kenneth Loh, Henning Ludvigsen, Aragorn Marks, Francesco Orrù',
+    gameDesigners: 'Emerson Matsuuchi',
+    gameImageName: 'metal-gear-solid-the-board-game',
+    gamePublisher: 'CMON Global Limited',
+    yearPublished: '2025',
+  },
   'Metro X': {
     gameArtists: 'Ryo Nyamo',
     gameDesigners: 'Hisashi Hayashi',
@@ -2084,6 +2098,13 @@ const gamesList: GameList = {
     gameImageName: 'sprawlopolis',
     gamePublisher: 'Button Shy',
     yearPublished: '2018',
+  },
+  "Star Trek: Captain's Chair": {
+    gameArtists: 'Gong Studios, Kurt Komoda',
+    gameDesigners: 'Nigel Buckle, Dávid Turczi',
+    gameImageName: 'star-trek-captains-chair',
+    gamePublisher: 'WizKids',
+    yearPublished: '2025',
   },
   'Star Trek: Frontiers': {
     gameDesigners: 'Vlaada Chvátil, Andrew Parks',
