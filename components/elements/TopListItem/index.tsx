@@ -12,6 +12,7 @@ export interface ItemBaseProps {
     'Chris'?: number,
     'Danielle'?: number,
     'Mista Rau'?: number,
+    'Olivia'?: number,
     'Ryan'?: number
   },
   sequence?: number;
@@ -165,6 +166,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Mista Rau') {
                         return 'yellow'
                       }
+                      if (crossoverName === 'Olivia') {
+                        return 'green'
+                      };
                       if (crossoverName === 'Ryan') {
                         return 'red'
                       }
@@ -185,6 +189,9 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       };
                       if (crossoverName === 'Mista Rau') {
                         return 'mista-rau'
+                      };
+                      if (crossoverName === 'Olivia') {
+                        return 'olivia-2025'
                       };
                       if (crossoverName === 'Ryan') {
                         return 'ryan-2025'
