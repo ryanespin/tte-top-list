@@ -147,6 +147,10 @@ const gamesList: GameList = {
     gamePublisher: 'Next Move Games, Plan B Games',
     yearPublished: '2017',
   },
+  'Backgammon': {
+    gameImageName: 'backgammon',
+    yearPublished: '1630',
+  },
   'Bärenpark': {
     gameArtists: 'Klemens Franz',
     gameDesigners: 'Phil Walker-Harding',
@@ -217,6 +221,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2024',
   },
+  'Blood Bowl (2016 Edition)': {
+    gameArtists: 'Wayne England, David Gallagher, Pete Knifton, Richard Wright',
+    gameDesigners: 'James M. Hewitt, Andy Hoare, Jervis Johnson',
+    gameImageName: 'blood-bowl-2016-edition',
+    gamePublisher: 'Games Workshop Ltd.',
+    yearPublished: '2016',
+  },
   'Blood on the Clocktower': {
     gameArtists: 'Micaela Dawn, Aidan Roberts, John Van Fleet, Grace VanFleet',
     gameDesigners: 'Steven Medway',
@@ -230,6 +241,13 @@ const gamesList: GameList = {
     gameImageName: 'blood-rage',
     gamePublisher: 'Cool Mini Or Not',
     yearPublished: '2015',
+  },
+  'Bohnanza': {
+    gameArtists: 'Björn Pertoft',
+    gameDesigners: 'Uwe Rosenberg',
+    gameImageName: 'bohnanza',
+    gamePublisher: 'AMIGO',
+    yearPublished: '1997',
   },
   'boop the Halls!': {
     gameArtists: 'Curt Covert',
@@ -392,6 +410,13 @@ const gamesList: GameList = {
     gamePublisher: 'Lucky Duck Games',
     yearPublished: '2018',
   },
+  'Clank!: A Deck-Building Adventure': {
+    gameArtists: 'Rayph Beisner, Raul Ramos, Nate Storm',
+    gameDesigners: 'Paul Dennen',
+    gameImageName: 'clank-a-deck-building-adventure',
+    gamePublisher: 'Dire Wolf, Renegade Game Studios',
+    yearPublished: '2016',
+  },
   'Clank!: Catacombs': {
     gameArtists: 'Clay Brooks, Anika Burrell, Derek Herring, Raul Ramos, Nate Storm, Alain Viesca',
     gameDesigners: 'Paul Dennen',
@@ -487,6 +512,13 @@ const gamesList: GameList = {
     gameImageName: 'daitoshi',
     gamePublisher: 'Devir',
     yearPublished: '2024',
+  },
+  "Darwin's Journey": {
+    gameArtists: 'Paolo Voto',
+    gameDesigners: 'Simone Luciani, Nestore Mangone',
+    gameImageName: 'darwins-journey',
+    gamePublisher: 'ThunderGryph Games',
+    yearPublished: '2023',
   },
   'Dead Reckoning': {
     gameArtists: "Ian O'Toole",
@@ -646,6 +678,20 @@ const gamesList: GameList = {
     gameImageName: 'eila-something-shiny',
     gamePublisher: 'ICE Makes',
     yearPublished: '2021',
+  },
+  'The Elder Scrolls: Betrayal of the Second Era': {
+    gameArtists: 'Chris Beck, Yoann Boissonnet, Anthony LeTourneau, Federico Pompili',
+    gameDesigners: 'Josh J. Carlson, Michael Gernes, Logan Giannini, Ryan Howard, Salem Scott, Josh Wielgus',
+    gameImageName: 'the-elder-scrolls-betrayal-of-the-second-era',
+    gamePublisher: 'ICE Makes',
+    yearPublished: '2021',
+  },
+  'Endeavor: Deep Sea': {
+    gameArtists: 'Fahed Alrajil',
+    gameDesigners: 'Carl de Visser, Jarratt Gray',
+    gameImageName: 'endeavor-deep-sea',
+    gamePublisher: 'Burnt Island Games',
+    yearPublished: '2024',
   },
   'Endurance': {
     gameArtists: 'Amabel Holland',
@@ -869,6 +915,13 @@ const gamesList: GameList = {
     gameImageName: 'galaxy-trucker',
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2007',
+  },
+  'The Gang': {
+    gameArtists: 'Fiore GmbH',
+    gameDesigners: 'John Cooper, Kory Heath',
+    gameImageName: 'the-gang',
+    gamePublisher: 'KOSMOS',
+    yearPublished: '2024',
   },
   'Ganz Schön Clever': {
     gameArtists: 'Leon Schiffer',
@@ -1480,6 +1533,13 @@ const gamesList: GameList = {
     gamePublisher: 'Bézier Games',
     yearPublished: '2017',
   },
+  'Nidavellir': {
+    gameArtists: 'Jean-Marie Minguez',
+    gameDesigners: 'Serge Laget',
+    gameImageName: 'nidavellir',
+    gamePublisher: 'GRRRE Games',
+    yearPublished: '2020',
+  },
   'NMBR 9': {
     gameArtists: 'Fiore GmbH',
     gameDesigners: 'Peter Wichmann',
@@ -1606,6 +1666,13 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2015',
   },
+  'Papageno': {
+    gameArtists: 'Felix Kindelan, Ajša Zdravković',
+    gameDesigners: 'Kevin Kim',
+    gameImageName: 'papageno',
+    gamePublisher: 'Helvetiq',
+    yearPublished: '2020',
+  },
   'Patchwork': {
     gameArtists: 'Klemens Franz, Rex Lee, Jolanta Lendzioszek, Gru Tsow',
     gameDesigners: 'Uwe Rosenberg',
@@ -1619,6 +1686,13 @@ const gamesList: GameList = {
     gameImageName: 'pax-pamir-second-edition',
     gamePublisher: 'Wehrlegig Games',
     yearPublished: '2019',
+  },
+  'Phantom Ink': {
+    gameArtists: 'Spring Yu',
+    gameDesigners: 'Mary Flanagan, Max Seidman',
+    gameImageName: 'phantom-ink',
+    gamePublisher: 'Resonym',
+    yearPublished: '2022',
   },
   'Piazza Rabazza': {
     gameArtists: 'Dennis Lohausen',
@@ -1883,6 +1957,20 @@ const gamesList: GameList = {
     gameImageName: 'rolling-realms',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2021',
+  },
+  'Root': {
+    gameArtists: 'Kyle Ferrin',
+    gameDesigners: 'Cole Wehrle',
+    gameImageName: 'root',
+    gamePublisher: 'Leder Games',
+    yearPublished: '2018',
+  },
+  'Rummikub': {
+    gameArtists: 'Micha Hertzano, Ephraim Hertzano, Michael Rüttinger, Sławek Wiechowski',
+    gameDesigners: 'Ephraim Hertzano',
+    gameImageName: 'rummikub',
+    gamePublisher: 'Alga',
+    yearPublished: '1977',
   },
   'RUN': {
     gameArtists: 'Ryan Goldsberry',

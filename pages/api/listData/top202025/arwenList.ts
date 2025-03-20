@@ -19,7 +19,7 @@ export const arwenList: GameList = {
     ...gamesList['The Quacks of Quedlinburg'],
     badgeText: '#4 • 2024',
     crossover: {
-      Olivia: 3
+      Olivia: 14
     },
     sequence: 3,
   },
@@ -38,8 +38,8 @@ export const arwenList: GameList = {
     badgeText: '#5 • 2024',
     sequence: 6,
   },
-  'The Elder Scrolls, Betrayal of the Second Era': {
-    ...gamesList['The Elder Scrolls, Betrayal of the Second Era'],
+  'The Elder Scrolls: Betrayal of the Second Era': {
+    ...gamesList['The Elder Scrolls: Betrayal of the Second Era'],
     badgeText: 'New to List',
     sequence: 7,
   },

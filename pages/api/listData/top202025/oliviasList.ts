@@ -22,8 +22,8 @@ export const oliviasList: GameList = {
     },
     sequence: 3,
   },
-  'Clank!': {
-    ...gamesList['Clank!'],
+  'Clank!: A Deck-Building Adventure': {
+    ...gamesList['Clank!: A Deck-Building Adventure'],
     sequence: 4,
   },
   'Wingspan + Oceania': {
@@ -75,8 +75,8 @@ export const oliviasList: GameList = {
     ...gamesList['The Quacks of Quedlinburg'],
     sequence: 14,
   },
-  'Blood Bowl': {
-    ...gamesList['Blood Bowl'],
+  'Blood Bowl (2016 Edition)': {
+    ...gamesList['Blood Bowl (2016 Edition)'],
     sequence: 15,
   },
   'Phantom Ink': {
@@ -91,8 +91,8 @@ export const oliviasList: GameList = {
     ...gamesList['Scythe'],
     sequence: 18,
   },
-  'Rummykub': {
-    ...gamesList['Rummykub'],
+  'Rummikub': {
+    ...gamesList['Rummikub'],
     sequence: 19,
   },
   'Backgammon': {

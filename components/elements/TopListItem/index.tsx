@@ -179,7 +179,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                         return 'anthony-2025'
                       };
                       if (crossoverName === 'Arwen') {
-                        return 'arwen'
+                        return 'arwen-2025'
                       };
                       if (crossoverName === 'Brian') {
                         return 'brian-chandler-2024'
@@ -277,6 +277,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       <Badge colorScheme={badgeText.toLowerCase().includes('new') ? 'green' : 'gray'} fontSize="sm">{badgeText}</Badge>
                       {crossover && Object.entries(crossover).map(([crossoverName, crossoverInfo]) => {
                         function getColor() {
+                          if (crossoverName === 'Anthony') {
+                            return 'orange'
+                          };
+                          if (crossoverName === 'Arwen') {
+                            return 'pink'
+                          };
                           if (crossoverName === 'Brian') {
                             return 'green'
                           };
@@ -286,23 +292,35 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           if (crossoverName === 'Mista Rau') {
                             return 'yellow'
                           }
+                          if (crossoverName === 'Olivia') {
+                            return 'green'
+                          };
                           if (crossoverName === 'Ryan') {
                             return 'red'
                           }
                           return 'purple'
                         }
                         function getImage() {
+                          if (crossoverName === 'Anthony') {
+                            return 'anthony-2025'
+                          };
+                          if (crossoverName === 'Arwen') {
+                            return 'arwen-2025'
+                          };
                           if (crossoverName === 'Brian') {
-                            return 'brian-chandler'
+                            return 'brian-chandler-2024'
                           };
                           if (crossoverName === 'Chris') {
-                            return 'chris-barrows'
+                            return 'chris-barrows-2024'
                           };
                           if (crossoverName === 'Mista Rau') {
                             return 'mista-rau'
                           };
+                          if (crossoverName === 'Olivia') {
+                            return 'olivia-2025'
+                          };
                           if (crossoverName === 'Ryan') {
-                            return 'ryan-espin-2024'
+                            return 'ryan-2025'
                           }
                           return 'danielle-2024'
                         }
