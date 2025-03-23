@@ -2,105 +2,111 @@ import { GameList } from "@/components/elements/TopListItem";
 import { gamesList } from "../../gameData";
 
 export const daniellesList: GameList = {
-
-  'Raising Robots': {
-    ...gamesList['Raising Robots'],
+  'Marvel Dice Throne: X-Men': {
+    ...gamesList['Marvel Dice Throne: X-Men'],
     badgeText: 'New to List',
     sequence: 1,
   },
-  'Imperial Settlers: Empires of the North': {
-    ...gamesList['Imperial Settlers: Empires of the North'],
+  'Aquatica': {
+    ...gamesList['Aquatica'],
     badgeText: 'New to List',
     sequence: 2,
   },
-  'Wyrmspan': {
-    ...gamesList['Wyrmspan'],
+  'GrumbleStone': {
+    ...gamesList['GrumbleStone'],
     badgeText: 'New to List',
     sequence: 3,
   },
-  'KAPOW! Volume 1': {
-    ...gamesList['KAPOW! Volume 1'],
+  'Draft & Write Records': {
+    ...gamesList['Draft & Write Records'],
     badgeText: 'New to List',
     sequence: 4,
   },
-  'A Gentle Rain': {
-    ...gamesList['A Gentle Rain'],
+  'Urbion (Second Edition)': {
+    ...gamesList['Urbion (Second Edition)'],
     badgeText: 'New to List',
     sequence: 5,
   },
-  'Dice Throne': {
-    ...gamesList['Dice Throne'],
-    badgeText: '#1 • 2023',
+  'Raising Robots': {
+    ...gamesList['Raising Robots'],
+    badgeText: '#1 • 2024',
     sequence: 6,
   },
-  'Coffee Roaster': {
-    ...gamesList['Coffee Roaster'],
-    badgeText: '#15 • 2023',
+  'Raiders of Scythia': {
+    ...gamesList['Raiders of Scythia'],
+    badgeText: 'New to List',
     sequence: 7,
   },
-  'Numbsters': {
-    ...gamesList['Numbsters'],
-    badgeText: 'New to List',
+  'A Gentle Rain': {
+    ...gamesList['A Gentle Rain'],
+    badgeText: '#5 • 2024',
     sequence: 8,
   },
-  'Onirim': {
-    ...gamesList['Onirim'],
+  'Flip 7': {
+    ...gamesList['Flip 7'],
     badgeText: 'New to List',
     sequence: 9,
   },
-  'Fliptown': {
-    ...gamesList['Fliptown'],
-    badgeText: 'New to List',
+  'Numbsters': {
+    ...gamesList['Numbsters'],
+    badgeText: '#8 • 2024',
     sequence: 10,
-  },
-  "Kinfire Delve: Vainglory's Grotto": {
-    ...gamesList["Kinfire Delve: Vainglory's Grotto"],
-    badgeText: 'New to List',
-    sequence: 11,
-  },
-  'Astro Knights': {
-    ...gamesList['Astro Knights'],
-    badgeText: '#12 • 2023',
-    sequence: 12,
   },
   'For Northwood! A Solo Trick-Taking Game': {
     ...gamesList['For Northwood! A Solo Trick-Taking Game'],
+    badgeText: '#13 • 2024',
+    crossover: {
+      Anthony: 19
+    },
+    sequence: 11,
+  },
+  'Symbiose': {
+    ...gamesList['Symbiose'],
+    badgeText: 'New to List',
+    sequence: 12,
+  },
+  'Legendary: A Marvel Deck Building Game': {
+    ...gamesList['Legendary: A Marvel Deck Building Game'],
     badgeText: 'New to List',
     sequence: 13,
   },
-  'Marvel Champions: The Card Game': {
-    ...gamesList['Marvel Champions: The Card Game'],
+  '51st State: Ultimate Edition': {
+    ...gamesList['51st State: Ultimate Edition'],
     badgeText: 'New to List',
     sequence: 14,
   },
-  'The Castles of Burgundy': {
-    ...gamesList['The Castles of Burgundy'],
+  'Neon Reign': {
+    ...gamesList['Neon Reign'],
     badgeText: 'New to List',
     sequence: 15,
   },
-  'UNO Ultimate Marvel': {
-    ...gamesList['UNO Ultimate Marvel'],
+  'Finspan': {
+    ...gamesList['Finspan'],
     badgeText: 'New to List',
     sequence: 16,
   },
-  'Eila and Something Shiny': {
-    ...gamesList['Eila and Something Shiny'],
+  'Fromage': {
+    ...gamesList['Fromage'],
     badgeText: 'New to List',
+    crossover: {
+      Anthony: 10,
+      Arwen: 20
+    },
     sequence: 17,
   },
-  'Sea Salt & Paper': {
-    ...gamesList['Sea Salt & Paper'],
-    badgeText: 'New to List',
+  'Tiny Epic Galaxies': {
+    ...gamesList['Tiny Epic Galaxies'],
+    badgeText: '#17 • 2023',
     sequence: 18,
   },
-  "Tumblin' Dice": {
-    ...gamesList["Tumblin' Dice"],
+  'A Nice Cuppa': {
+    ...gamesList['A Nice Cuppa'],
     badgeText: 'New to List',
     sequence: 19,
   },
-  'Wingspan': {
-    ...gamesList['Wingspan'],
-    badgeText: '#13 • 2023',
+  "Kinfire Delve: Vainglory's Grotto": {
+    ...gamesList["Kinfire Delve: Vainglory's Grotto"],
+    badgeText: '#11 • 2024',
     sequence: 20,
   }
 }

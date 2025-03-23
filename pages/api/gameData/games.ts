@@ -21,6 +21,13 @@ const gamesList: GameList = {
     gamePublisher: 'All-Aboard Games',
     yearPublished: '2020',
   },
+  '51st State: Ultimate Edition': {
+    gameArtists: 'Mateusz Bielski, Grzegorz Bobrowski, Piotr Foksowicz, M81 Studio',
+    gameDesigners: 'Ignacy Trzewiczek',
+    gameImageName: '51st-state-ultimate-edition',
+    gamePublisher: 'Portal Games',
+    yearPublished: '2023',
+  },
   'Abandon All Artichokes': {
     gameArtists: 'Bonnie Pang',
     gameDesigners: 'Emma Larkins',
@@ -97,6 +104,13 @@ const gamesList: GameList = {
     gameImageName: 'aquamarine',
     gamePublisher: 'Postmark Games',
     yearPublished: '2022',
+  },
+  'Aquatica': {
+    gameArtists: 'Irina Kuzmina, Andrew Modestov, Oleg Proshin, Artur Varenyev, Marat Zakirov',
+    gameDesigners: 'Ivan Tuzovsky',
+    gameImageName: 'aquatica',
+    gamePublisher: 'Cosmodrome Games',
+    yearPublished: '2019',
   },
   'Architects of the West Kingdom': {
     gameArtists: 'Mihajlo Dimitrievski',
@@ -630,6 +644,13 @@ const gamesList: GameList = {
     gamePublisher: 'Mandoo Games',
     yearPublished: '2023',
   },
+  'Draft & Write Records': {
+    gameArtists: 'Pedro A. Alberto',
+    gameDesigners: 'Bruno Maciel',
+    gameImageName: 'draft-and-write-records',
+    gamePublisher: 'Inside Up Games',
+    yearPublished: '2024',
+  },
   'Draftosaurus': {
     gameArtists: 'Jiahui Eva Gao, Vipin Alex Jacob, Roman Kucharski, TANSAN Inc.',
     gameDesigners: 'Antoine Bauza, Corentin Lebrat, Ludovic Maublanc, Théo Rivière',
@@ -811,6 +832,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2014',
   },
+  'Finspan': {
+    gameArtists: 'Ana Maria Martinez Jaramillo, Mesa Schumacher',
+    gameDesigners: "David Gordon, Michael O'Connell",
+    gameImageName: 'finspan',
+    gamePublisher: 'Stonemaier Games',
+    yearPublished: '2025',
+  },
   'Five Tribes': {
     gameArtists: 'Clément Masson',
     gameDesigners: 'Bruno Cathala',
@@ -845,6 +873,13 @@ const gamesList: GameList = {
     gameImageName: 'fleet-the-dice-game',
     gamePublisher: 'Eagle-Gryphon Games',
     yearPublished: '2018',
+  },
+  'Flip 7': {
+    gameArtists: "O'Neil Mabile",
+    gameDesigners: 'Eric Olsen',
+    gameImageName: 'flip-7',
+    gamePublisher: 'The Op Games',
+    yearPublished: '2024',
   },
   'Fliptown': {
     gameArtists: 'Naomi Ferrall',
@@ -1014,6 +1049,12 @@ const gamesList: GameList = {
     gameImageName: 'green-team-wins-holiday-party',
     gamePublisher: '25th Century Games',
     yearPublished: '2024',
+  },
+  'GrumbleStone': {
+    gameDesigners: 'Josh McBride',
+    gameImageName: 'grumblestone',
+    gamePublisher: 'Blue Fox Games',
+    yearPublished: '2025',
   },
   'The Guild of Merchant Explorers': {
     gameArtists: 'Gerralt Landman',
@@ -1526,12 +1567,26 @@ const gamesList: GameList = {
     gamePublisher: 'Victory Point Games',
     yearPublished: '2017',
   },
+  'Neon Reign': {
+    gameArtists: 'Manny Trembley',
+    gameDesigners: 'Aaron Hein, Manny Trembley',
+    gameImageName: 'neon-reign',
+    gamePublisher: 'Neon Knight Games',
+    yearPublished: '2024',
+  },
   'New York Slice': {
     gameArtists: 'John Kaufmann',
     gameDesigners: 'Jeffrey D. Allers',
     gameImageName: 'new-york-slice',
     gamePublisher: 'Bézier Games',
     yearPublished: '2017',
+  },
+  'A Nice Cuppa': {
+    gameArtists: 'Andrea Ivetic Vicai',
+    gameDesigners: 'Scott Almes',
+    gameImageName: 'a-nice-cuppa',
+    gamePublisher: 'Button Shy',
+    yearPublished: '2024',
   },
   'Nidavellir': {
     gameArtists: 'Jean-Marie Minguez',
@@ -2310,6 +2365,13 @@ const gamesList: GameList = {
     gamePublisher: 'KOSMOS',
     yearPublished: '2020',
   },
+  'Symbiose': {
+    gameArtists: 'Baptiste Perez',
+    gameDesigners: 'Jérémy Partinico, Christelle Partinico',
+    gameImageName: 'symbiose',
+    gamePublisher: 'Subverti',
+    yearPublished: '2025',
+  },
   'Takenoko': {
     gameArtists: 'Nicolas Fructus, Picksel, Yuio',
     gameDesigners: 'Antoine Bauza',
@@ -2525,6 +2587,13 @@ const gamesList: GameList = {
     gameImageName: 'uno-ultimate-marvel',
     gamePublisher: 'Mattel, Inc.',
     yearPublished: '2022',
+  },
+  'Urbion (Second Edition)': {
+    gameArtists: 'Élise Plessis',
+    gameDesigners: 'Shadi Torbey',
+    gameImageName: 'urbion-second-edition',
+    gamePublisher: 'InPatience',
+    yearPublished: '2024',
   },
   'Vagrantsong': {
     gameArtists: 'Nguyen Mai Diem',
