@@ -4,120 +4,118 @@ import { gamesList } from "../../gameData";
 export const chrisList: GameList = {
   'Targi': {
     ...gamesList['Targi'],
-    badgeText: '#1 • 2023',
+    badgeText: '#1 • 2024',
     crossover: {
-      "Mista Rau": 2
+      Anthony: 12
     },
     sequence: 1,
   },
   'Scythe': {
     ...gamesList['Scythe'],
-    badgeText: '#2 • 2023',
+    badgeText: '#2 • 2024',
     crossover: {
-      "Mista Rau": 8
+      Olivia: 18
     },
     sequence: 2,
   },
   'The Quacks of Quedlinburg': {
     ...gamesList['The Quacks of Quedlinburg'],
-    badgeText: '#8 • 2023',
-    sequence: 3,
-  },
-  'Cascadia': {
-    ...gamesList['Cascadia'],
-    badgeText: '#3 • 2023',
-    sequence: 4,
-  },
-  'Raiders of the North Sea': {
-    ...gamesList['Raiders of the North Sea'],
-    badgeText: '#5 • 2023',
-    sequence: 5,
-  },
-  'Imperial Settlers: Empires of the North': {
-    ...gamesList['Imperial Settlers: Empires of the North'],
-    badgeText: '#6 • 2023',
+    badgeText: '#3 • 2024',
     crossover: {
-      Danielle: 2,
+      Arwen: 3,
+      Olivia: 14
     },
-    sequence: 6,
-  },
-  'Battlestar Galactica': {
-    ...gamesList['Battlestar Galactica'],
-    badgeText: '#4 • 2023',
-    sequence: 7,
-  },
-  'Fantastic Factories': {
-    ...gamesList['Fantastic Factories'],
-    badgeText: '#20 • 2023',
-    sequence: 8,
+    sequence: 3,
   },
   'War Chest': {
     ...gamesList['War Chest'],
-    badgeText: 'New to List',
-    sequence: 9,
-  },
-  'Azul': {
-    ...gamesList['Azul'],
-    badgeText: '#9 • 2023',
-    sequence: 10,
+    badgeText: '#9 • 2024',
+    sequence: 4,
   },
   'Watergate': {
     ...gamesList['Watergate'],
-    badgeText: '#14 • 2023',
-    sequence: 11,
-  },
-  'Lost Ruins of Arnak': {
-    ...gamesList['Lost Ruins of Arnak'],
-    badgeText: '#7 • 2023',
-    sequence: 12,
-  },
-  'That Time You Killed Me': {
-    ...gamesList['That Time You Killed Me'],
-    badgeText: '#10 • 2023',
-    sequence: 13,
-  },
-  'Vagrantsong': {
-    ...gamesList['Vagrantsong'],
-    badgeText: '#15 • 2023',
-    sequence: 14,
-  },
-  'Unmatched Game System': {
-    ...gamesList['Unmatched Game System'],
-    badgeText: 'New to List',
-    sequence: 15,
+    badgeText: '#11 • 2024',
+    sequence: 5,
   },
   'Undaunted: Stalingrad': {
     ...gamesList['Undaunted: Stalingrad'],
-    badgeText: 'New to List',
-    crossover: { 'Ryan': 12 },
-    sequence: 16,
+    badgeText: '#16 • 2024',
+    crossover: { 'Ryan': 10 },
+    sequence: 6,
   },
-  'The Taverns of Tiefenthal': {
-    ...gamesList['The Taverns of Tiefenthal'],
+  'Unmatched Game System': {
+    ...gamesList['Unmatched Game System'],
+    badgeText: '#15 • 2024',
+    sequence: 7,
+  },
+  'Raiders of the North Sea': {
+    ...gamesList['Raiders of the North Sea'],
+    badgeText: '#5 • 2024',
+    sequence: 8,
+  },
+  'Betrayal Legacy': {
+    ...gamesList['Betrayal Legacy'],
     badgeText: 'New to List',
+    sequence: 9,
+  },
+  'Heat: Pedal to the Metal': {
+    ...gamesList['Heat: Pedal to the Metal'],
+    badgeText: 'New to List',
+    sequence: 10,
+  },
+  'Imperial Settlers: Empires of the North': {
+    ...gamesList['Imperial Settlers: Empires of the North'],
+    badgeText: '#6 • 2024',
+    sequence: 11,
+  },
+  'Harmonies': {
+    ...gamesList['Harmonies'],
+    badgeText: 'New to List',
+    crossover: {
+      Anthony: 4
+    },
+    sequence: 12
+  },
+  'Rebel Princess': {
+    ...gamesList['Rebel Princess'],
+    badgeText: 'New to List',
+    sequence: 13
+  },
+  'That Time You Killed Me': {
+    ...gamesList['That Time You Killed Me'],
+    badgeText: '#13 • 2024',
+    sequence: 14,
+  },
+  'The Field of the Cloth of Gold': {
+    ...gamesList['The Field of the Cloth of Gold'],
+    badgeText: 'New to List',
+    sequence: 15
+  },
+  'Naishi': {
+    ...gamesList['Naishi'],
+    badgeText: 'New to List',
+    sequence: 16
+  },
+  'Vagrantsong': {
+    ...gamesList['Vagrantsong'],
+    badgeText: '#14 • 2024',
     sequence: 17,
   },
-  'Ticket to Ride: Europe': {
-    ...gamesList['Ticket to Ride: Europe'],
-    badgeText: '#13 • 2023',
+  'Agricola': {
+    ...gamesList['Agricola'],
+    badgeText: '#19 • 2023',
+    crossover: { Ryan: 5 },
     sequence: 18,
-  },
-  'The Castles of Burgundy': {
-    ...gamesList['The Castles of Burgundy'],
-    badgeText: '#17 • 2023',
-    crossover: {
-      "Mista Rau": 11,
-      Danielle: 15,
-    },
-    sequence: 19,
   },
   'Marvel Champions: The Card Game': {
     ...gamesList['Marvel Champions: The Card Game'],
-    badgeText: '#12 • 2023',
-    crossover: {
-      "Mista Rau": 10,
-      Danielle: 14,
-    },
+    badgeText: '#20 • 2024',
+    sequence: 19,
+  },
+  'Azul': {
+    ...gamesList['Azul'],
+    badgeText: '#10 • 2024',
+    crossover: { Anthony: 6 },
     sequence: 20,
   },
 }

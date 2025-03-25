@@ -185,7 +185,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                         return 'brian-chandler-2024'
                       };
                       if (crossoverName === 'Chris') {
-                        return 'chris-barrows-2024'
+                        return 'chris-2025'
                       };
                       if (crossoverName === 'Mista Rau') {
                         return 'mista-rau'
@@ -311,7 +311,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                             return 'brian-chandler-2024'
                           };
                           if (crossoverName === 'Chris') {
-                            return 'chris-barrows-2024'
+                            return 'chris-2025'
                           };
                           if (crossoverName === 'Mista Rau') {
                             return 'mista-rau'
