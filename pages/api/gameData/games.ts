@@ -221,6 +221,13 @@ const gamesList: GameList = {
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2017',
   },
+  'Betrayal Legacy': {
+    gameArtists: 'Scott Okumura, Ben Oliver',
+    gameDesigners: 'Rob Daviau, Noah Cohen, JR Honeycutt, Ryan Miller, Brian Neff, Andrew Veen',
+    gameImageName: 'betrayal-legacy',
+    gamePublisher: 'Avalon Hill',
+    yearPublished: '2018',
+  },
   'Beyond the Sun': {
     gameArtists: 'Franz Vohwinkel',
     gameDesigners: 'Dennis K. Chan',
@@ -1559,6 +1566,13 @@ const gamesList: GameList = {
     gameImageName: 'my-first-castle-panic',
     gamePublisher: 'Fireside Games',
     yearPublished: '2019',
+  },
+  'Naishi': {
+    gameArtists: 'Marine Losekoot',
+    gameDesigners: 'Mathieu Bieri, Alex Fortineau',
+    gameImageName: 'naishi',
+    gamePublisher: 'Merle éditions',
+    yearPublished: '2024',
   },
   "Nemo's War (Second Edition)": {
     gameArtists: "Ian O'Toole",
