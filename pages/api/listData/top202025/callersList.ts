@@ -11,6 +11,9 @@ export const callersList: GameList = {
   'Wingspan': {
     ...gamesList['Wingspan'],
     badgeText: 'New to List',
+    crossover: {
+      Anthony: 1
+    },
     sequence: 2,
     title: "RachelDav's #2"
   },
@@ -23,18 +26,30 @@ export const callersList: GameList = {
   'Azul': {
     ...gamesList['Azul'],
     badgeText: 'New to List',
+    crossover: {
+      Anthony: 6,
+      Chris: 20
+    },
     sequence: 4,
     title: "bmalkin1's #18"
   },
   'The Castles of Burgundy': {
     ...gamesList['The Castles of Burgundy'],
     badgeText: 'New to List',
+    crossover: {
+      Anthony: 7,
+      Arwen: 8,
+      Olivia: 2
+    },
     sequence: 5,
     title: "Buckaroo's #2"
   },
   'Heat: Pedal to the Metal': {
     ...gamesList['Heat: Pedal to the Metal'],
     badgeText: 'New to List',
+    crossover: {
+      Chris: 10
+    },
     sequence: 6,
     title: "RMCSquirrel's #13"
   },
@@ -59,18 +74,29 @@ export const callersList: GameList = {
   'Dice Throne': {
     ...gamesList['Dice Throne'],
     badgeText: 'New to List',
+    crossover: {
+      Danielle: 1
+    },
     sequence: 10,
     title: "Ongo_gablogian_'s #9"
   },
   'Cascadia': {
     ...gamesList['Cascadia'],
     badgeText: '#11 • 2024',
+    crossover: {
+      Anthony: 5,
+      Arwen: 10,
+      Olivia: 3
+    },
     sequence: 11,
     title: "The D.J. Dan's #6"
   },
   'Marvel Champions: The Card Game': {
     ...gamesList['Marvel Champions: The Card Game'],
     badgeText: 'New to List',
+    crossover: {
+      Chris: 19
+    },
     sequence: 12,
     title: "Epigone's #4"
   },
@@ -83,6 +109,9 @@ export const callersList: GameList = {
   'Age of Steam': {
     ...gamesList['Age of Steam'],
     badgeText: '#7 • 2024',
+    crossover: {
+      Ryan: 13
+    },
     sequence: 14,
     title: "tlance8's #3"
   },
@@ -101,24 +130,38 @@ export const callersList: GameList = {
   'Spirit Island': {
     ...gamesList['Spirit Island'],
     badgeText: 'New to List',
+    crossover: {
+      Ryan: 11
+    },
     sequence: 17,
     title: "Skye Larsen's #1"
   },
   'Brass: Birmingham': {
     ...gamesList['Brass: Birmingham'],
     badgeText: '#4 • 2024',
+    crossover: {
+      Arwen: 19,
+      Ryan: 3
+    },
     sequence: 18,
     title: "peloquin17's #10"
   },
   'Flip 7': {
     ...gamesList['Flip 7'],
     badgeText: 'New to List',
+    crossover: {
+      Danielle: 9
+    },
     sequence: 19,
     title: "bruinsbuzz's #5"
   },
   'Carcassonne': {
     ...gamesList['Carcassonne'],
     badgeText: 'New to List',
+    crossover: {
+      Anthony: 15,
+      Olivia: 6
+    },
     sequence: 20,
     title: "aerials' #2"
   },
