@@ -147,6 +147,13 @@ const gamesList: GameList = {
     gamePublisher: 'Indie Boards & Cards',
     yearPublished: '2023',
   },
+  'Astro Knights: Eternity': {
+    gameArtists: 'Gong Studios',
+    gameDesigners: 'Sydney Engelstein, Nick Little, Will Sobel',
+    gameImageName: 'astro-knights-eternity',
+    gamePublisher: 'Indie Boards & Cards',
+    yearPublished: '2024',
+  },
   'Atiwa': {
     gameArtists: 'Andy Elkerton',
     gameDesigners: 'Uwe Rosenberg',
@@ -430,6 +437,13 @@ const gamesList: GameList = {
     gameImageName: 'chronicles-of-crime',
     gamePublisher: 'Lucky Duck Games',
     yearPublished: '2018',
+  },
+  'Cities': {
+    gameArtists: 'Jorge Tabanera Redondo',
+    gameDesigners: 'Steve Finn, Phil Walker-Harding',
+    gameImageName: 'cities',
+    gamePublisher: 'Devir',
+    yearPublished: '2024',
   },
   'Clank!: A Deck-Building Adventure': {
     gameArtists: 'Rayph Beisner, Raul Ramos, Nate Storm',
@@ -994,6 +1008,13 @@ const gamesList: GameList = {
     gamePublisher: 'Incredible Dream Studios',
     yearPublished: '2021',
   },
+  'A Gest of Robin Hood': {
+    gameArtists: 'Robert Altbauer, Terry Leeds, Chechu Nieto',
+    gameDesigners: 'Fred Serval',
+    gameImageName: 'a-gest-of-robin-hood',
+    gamePublisher: 'GMT Games',
+    yearPublished: '2024',
+  },
   "Ghost Fightin' Treasure Hunters": {
     gameArtists: 'Pierô',
     gameDesigners: 'Brian Yu',
@@ -1022,12 +1043,26 @@ const gamesList: GameList = {
     gamePublisher: 'Cephalofair Games',
     yearPublished: '2017',
   },
+  'Gloomhaven: Buttons & Bugs': {
+    gameArtists: 'Yanis Cardin, Mofei Wang',
+    gameDesigners: 'Joe Klipfel, Nikki Valens',
+    gameImageName: 'gloomhaven-buttons-and-bugs',
+    gamePublisher: 'Cephalofair Games',
+    yearPublished: '2024',
+  },
   'Gloomhaven: Jaws of the Lion': {
     gameArtists: 'Francesca Baerald, David Demaret, Alexandr Elichev',
     gameDesigners: 'Isaac Childress',
     gameImageName: 'gloomhaven-jaws-of-the-lion',
     gamePublisher: 'Cephalofair Games',
     yearPublished: '2020',
+  },
+  'Gnome Hollow': {
+    gameArtists: 'Ammon Anderson, Patrick Spaziante',
+    gameDesigners: 'Ammon Anderson',
+    gameImageName: 'gnome-hollow',
+    gamePublisher: 'Levity Games',
+    yearPublished: '2024',
   },
   'El Grande': {
     gameArtists: 'Doris Matthäus',
@@ -1230,6 +1265,13 @@ const gamesList: GameList = {
     gamePublisher: 'Osprey Games',
     yearPublished: '2021',
   },
+  'Imperium: Horizons': {
+    gameArtists: 'Mihajlo Dimitrievski',
+    gameDesigners: 'Nigel Buckle, Dávid Turczi',
+    gameImageName: 'imperium-horizons',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2024',
+  },
   'The Isle of Cats': {
     gameArtists: 'Dragolisco, Frank West',
     gameDesigners: 'Frank West',
@@ -1312,6 +1354,13 @@ const gamesList: GameList = {
     gameImageName: 'kinfire-delve-vainglorys-grotto',
     gamePublisher: 'Incredible Dream Studios',
     yearPublished: '2023',
+  },
+  'King of Tokyo: Duel': {
+    gameArtists: 'Quentin Regnes',
+    gameDesigners: 'Richard Garfield',
+    gameImageName: 'king-of-tokyo-duel',
+    gamePublisher: 'IELLO',
+    yearPublished: '2024',
   },
   'Kingdomino Duel': {
     gameArtists: 'Cyril Bouquet',
@@ -1512,6 +1561,13 @@ const gamesList: GameList = {
     gamePublisher: 'Devious Weasel Games',
     yearPublished: '2022',
   },
+  'MLEM: Space Agency': {
+    gameArtists: 'Joanna Rzepecka',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'mlem-space-agency',
+    gamePublisher: 'Rebel Studio',
+    yearPublished: '2024',
+  },
   'Molly House': {
     gameArtists: 'Rachel Ford',
     gameDesigners: 'Jo Kelly, Cole Wehrle',
@@ -1545,6 +1601,12 @@ const gamesList: GameList = {
     gameImageName: 'mr-president',
     gamePublisher: 'GMT Games',
     yearPublished: '2023',
+  },
+  'Murray the A**hole Frog': {
+    gameDesigners: 'Jenna Felli',
+    gameImageName: 'murray-the-ahole-frog',
+    gamePublisher: 'Devious Weasel Games',
+    yearPublished: '2024',
   },
   'My City': {
     gameArtists: 'Michael Menzel',
@@ -1720,6 +1782,13 @@ const gamesList: GameList = {
     gameImageName: 'paladins-of-the-west-kingdom',
     gamePublisher: 'Garphill Games, Renegade Game Studios',
     yearPublished: '2019',
+  },
+  'Panda Panda': {
+    gameArtists: '別府さい (Sai Beppu)',
+    gameDesigners: '宮野 華也 (Kaya Miyano)',
+    gameImageName: 'panda-panda',
+    gamePublisher: 'Mob+ (Mob Plus)',
+    yearPublished: '2024',
   },
   'Pandemic': {
     gameArtists: 'Josh Cappel, Christian Hanisch, Régis Moulun, Chris Quilliams, Tom Thiel',
@@ -2131,6 +2200,13 @@ const gamesList: GameList = {
     gamePublisher: 'Rock Manor Games',
     yearPublished: '2023',
   },
+  'Seaside': {
+    gameArtists: 'Fanny Saulnier',
+    gameDesigners: 'Bryan Burgoyne',
+    gameImageName: 'seaside',
+    gamePublisher: 'Randolph',
+    yearPublished: '2024',
+  },
   'Shadows of Malice': {
     gameArtists: 'Jenna Felli',
     gameDesigners: 'Jenna Felli',
@@ -2179,6 +2255,13 @@ const gamesList: GameList = {
     gameImageName: 'skyrockets-festivals-of-fire',
     gamePublisher: 'Floodgate Games',
     yearPublished: '2023',
+  },
+  'Slay the Spire: The Board Game': {
+    gameArtists: 'Bruce Brenneise, Jose David Lanza Cebrian, Anailis Dorta',
+    gameDesigners: 'Gary Dworetsky, Anthony Giovannetti, Casey Yano',
+    gameImageName: 'slay-the-spire-the-board-game',
+    gamePublisher: 'Contention Games',
+    yearPublished: '2024',
   },
   'Snap Ships Tactics': {
     gameArtists: 'Gino Stratolat',
@@ -2727,6 +2810,13 @@ const gamesList: GameList = {
     gameImageName: 'white-castle',
     gamePublisher: 'Devir',
     yearPublished: '2023',
+  },
+  'Windmill Valley': {
+    gameArtists: 'Pedro Codeço, Zbigniew Umgelter',
+    gameDesigners: 'Dani Garcia',
+    gameImageName: 'windmill-valley',
+    gamePublisher: 'Board&Dice',
+    yearPublished: '2024',
   },
   'Wingspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Natalia Rojas, Beth Sobel',

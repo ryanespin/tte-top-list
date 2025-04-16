@@ -131,7 +131,7 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
     >
       <CardBody display="flex">
         <Box flex={1}>
-          <HStack alignItems={isOpen ? 'flex-start' : 'center'} width="100%">
+          <HStack alignItems={isOpen ? 'flex-start' : 'center'} gap={1} width="100%">
             <IconButton
               aria-label={`Open ${sequence}`}
               borderRadius="full"
