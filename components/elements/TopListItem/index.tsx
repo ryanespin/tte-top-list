@@ -385,6 +385,14 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                         alt={`Picture of ${itemName}`}
                         src={`./gameImages/${gameImageName}-10.${imageExtension}`}
                       />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-11.${imageExtension}`}
+                      />
+                      <ImageWithHideOnError
+                        alt={`Picture of ${itemName}`}
+                        src={`./gameImages/${gameImageName}-12.${imageExtension}`}
+                      />
                     </SimpleGrid>
                   )}
                   {itemType === 'person' && games && (
