@@ -9,6 +9,7 @@ export interface ItemBaseProps {
     'Anthony'?: number,
     'Arwen'?: number,
     'Brian'?: number,
+    'Callers'?: number,
     'Chris'?: number,
     'Danielle'?: number,
     'Mista Rau'?: number,
@@ -168,9 +169,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       }
                       if (crossoverName === 'Olivia') {
                         return 'green'
-                      };
+                      }
                       if (crossoverName === 'Ryan') {
                         return 'red'
+                      }
+                      if (crossoverName === 'Callers') {
+                        return 'teal'
                       }
                       return 'purple'
                     }
@@ -196,7 +200,10 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Ryan') {
                         return 'ryan-2025'
                       }
-                      return 'danielle-2024'
+                      if (crossoverName === 'Callers') {
+                        return 'callers-2025'
+                      }
+                      return 'danielle-2025'
                     }
                     return (
                       <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} variant="solid">
@@ -322,7 +329,10 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           if (crossoverName === 'Ryan') {
                             return 'ryan-2025'
                           }
-                          return 'danielle-2024'
+                          if (crossoverName === 'Callers') {
+                            return 'callers-2025'
+                          }
+                          return 'danielle-2025'
                         }
                         return (
                           <Badge borderRadius="full" colorScheme={getColor()} key={crossoverName} fontSize="md" variant="solid">
