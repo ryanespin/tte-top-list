@@ -853,6 +853,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2014',
   },
+  'Final Girl': {
+    gameArtists: 'Tyler Johnson, Roland MacDonald',
+    gameDesigners: 'Evan Derrick, A. J. Porfirio',
+    gameImageName: 'final-girl',
+    gamePublisher: 'Van Ryder Games',
+    yearPublished: '2021',
+  },
   'Finspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Mesa Schumacher',
     gameDesigners: "David Gordon, Michael O'Connell",
@@ -1029,6 +1036,13 @@ const gamesList: GameList = {
     gamePublisher: 'Repos Production',
     yearPublished: '2008',
   },
+  'Ghostbusters x Men in Black: Ecto-terrestrial Invasion': {
+    gameArtists: 'Jose David Lanza Cebrian, Chris Fenoglio, Derek Laufman, Jack Lawrence',
+    gameDesigners: 'Jonathan Phillips-Bradford',
+    gameImageName: 'ghostbusters-x-men-in-black-ecto-terrestrial-invas',
+    gamePublisher: 'IDW Games, Panda Cult Games LLC',
+    yearPublished: '2021',
+  },
   'Gizmos': {
     gameArtists: 'Hannah Cardoso, Júlia Ferrari, Giovanna BC Guimarães, Mathieu Harlaut, Saeed Jalabi',
     gameDesigners: 'Phil Walker-Harding',
@@ -1063,6 +1077,13 @@ const gamesList: GameList = {
     gameImageName: 'gnome-hollow',
     gamePublisher: 'Levity Games',
     yearPublished: '2024',
+  },
+  'The Goonies: Never Say Die': {
+    gameArtists: 'Damon S. Brown, Eric Hibbeler, Henning Ludvigsen',
+    gameDesigners: 'Matt Christianson, Prospero Hall, Chris Rowlands',
+    gameImageName: 'the-goonies-never-say-die',
+    gamePublisher: 'Funko Games',
+    yearPublished: '2021',
   },
   'El Grande': {
     gameArtists: 'Doris Matthäus',
@@ -1154,6 +1175,13 @@ const gamesList: GameList = {
     gamePublisher: 'Garphill Games',
     yearPublished: '2021',
   },
+  'Haunt the House': {
+    gameArtists: 'Josh Cappel, Apolline Etienne',
+    gameDesigners: 'Josh Cappel, Helaina Cappel',
+    gameImageName: 'haunt-the-house',
+    gamePublisher: 'KTBG',
+    yearPublished: '2018',
+  },
   'Hawaii': {
     gameArtists: 'Dennis Lohausen',
     gameDesigners: 'Greg Daigle',
@@ -1173,6 +1201,13 @@ const gamesList: GameList = {
     gameImageName: 'heat',
     gamePublisher: 'Days of Wonder',
     yearPublished: '2022',
+  },
+  'Hellboy: The Board Game': {
+    gameArtists: 'Jose David Lanza Cebrian, Mike Mignola',
+    gameDesigners: 'James M. Hewitt, Sophie Williams',
+    gameImageName: 'hellboy-the-board-game',
+    gamePublisher: 'Mantic Games',
+    yearPublished: '2019',
   },
   'Honey Buzz': {
     gameArtists: 'Anne Heidsieck',
@@ -1810,6 +1845,13 @@ const gamesList: GameList = {
     gameImageName: 'papageno',
     gamePublisher: 'Helvetiq',
     yearPublished: '2020',
+  },
+  'Paranormal Detectives': {
+    gameArtists: 'JocArt, Mateusz Komada, Katarzyna Kosobucka',
+    gameDesigners: 'Marcin Łączyński, Szymon Maliński, Adrian Orzechowski',
+    gameImageName: 'paranormal-detectives',
+    gamePublisher: 'Lucky Duck Games',
+    yearPublished: '2019',
   },
   'Patchwork': {
     gameArtists: 'Klemens Franz, Rex Lee, Jolanta Lendzioszek, Gru Tsow',
