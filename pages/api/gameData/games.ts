@@ -1,6 +1,13 @@
 import { GameList } from "@/components/elements/TopListItem";
 
 const gamesList: GameList = {
+  '3 Witches': {
+    gameArtists: '別府さい (Sai Beppu)',
+    gameDesigners: 'Corey Young',
+    gameImageName: '3-witches',
+    gamePublisher: 'Allplay',
+    yearPublished: '2025',
+  },
   '7 Wonders': {
     gameArtists: 'Dimitri Chappuis, Miguel Coimbra, Etienne Hebinger, Cyril Nouvel',
     gameDesigners: 'Antoine Bauza',
@@ -27,6 +34,13 @@ const gamesList: GameList = {
     gameImageName: '51st-state-ultimate-edition',
     gamePublisher: 'Portal Games',
     yearPublished: '2023',
+  },
+  '20,000 Leagues Under the Sea': {
+    gameArtists: 'Pedro Soto',
+    gameDesigners: 'Alberto Millán',
+    gameImageName: '20000-leagues-under-the-sea',
+    gamePublisher: 'Looping Games',
+    yearPublished: '2025',
   },
   'Abandon All Artichokes': {
     gameArtists: 'Bonnie Pang',
@@ -76,6 +90,13 @@ const gamesList: GameList = {
     gameImageName: 'alhambra',
     gamePublisher: 'Queen Games',
     yearPublished: '2003',
+  },
+  'Alibis': {
+    gameArtists: 'Albert Monteys',
+    gameDesigners: '佐藤 雄介 (Yusuke Sato)',
+    gameImageName: 'alibis',
+    gamePublisher: 'Allplay',
+    yearPublished: '2025',
   },
   'Anachrony': {
     gameArtists: 'Villő Farkas, László Fejes, Laslo Forgach, Márton Gyula Kiss, Péter Meszlényi',
@@ -132,6 +153,12 @@ const gamesList: GameList = {
     gameImageName: 'arkham-horror-lcg',
     gamePublisher: 'Fantasy Flight Games',
     yearPublished: '2016',
+  },
+  'Ascension Tactics: Miniatures Deckbuilding Game': {
+    gameDesigners: 'Justin Gary, Ryan Sutherland',
+    gameImageName: 'ascension-tactics-miniatures-deckbuilding-game',
+    gamePublisher: 'Stone Blade Entertainment',
+    yearPublished: '2022',
   },
   'Ashes Reborn: Rise of the Phoenixborn': {
     gameArtists: 'Thander Lin, David Richards, Fernanda Suárez',
@@ -241,6 +268,13 @@ const gamesList: GameList = {
     gameImageName: 'beyond-sun',
     gamePublisher: 'Rio Grande Games',
     yearPublished: '2020',
+  },
+  'Big Sur': {
+    gameArtists: 'Tristam Rossin',
+    gameDesigners: 'Mondo Davis',
+    gameImageName: 'big-sur',
+    gamePublisher: '25th Century Games',
+    yearPublished: '2025',
   },
   'Black Forest': {
     gameArtists: 'Lukas Siegmon',
@@ -445,6 +479,13 @@ const gamesList: GameList = {
     gamePublisher: 'Devir',
     yearPublished: '2024',
   },
+  'Circus Flohcati': {
+    gameArtists: 'Heiko Günther, JBJ, Yusuke Mamada, Łukasz Silski, Franz Vohwinkel',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'circus-flohcati',
+    gamePublisher: 'AMIGO',
+    yearPublished: '1998',
+  },
   'Clank!: A Deck-Building Adventure': {
     gameArtists: 'Rayph Beisner, Raul Ramos, Nate Storm',
     gameDesigners: 'Paul Dennen',
@@ -554,6 +595,13 @@ const gamesList: GameList = {
     gameImageName: 'darwins-journey',
     gamePublisher: 'ThunderGryph Games',
     yearPublished: '2023',
+  },
+  'Dawn of the Zeds (Third Edition)': {
+    gameArtists: 'Clark Miller',
+    gameDesigners: 'Hermann Luttmann',
+    gameImageName: 'dawn-of-the-zeds-third-edition',
+    gamePublisher: 'Victory Point Games',
+    yearPublished: '2016',
   },
   'Dead Reckoning': {
     gameArtists: "Ian O'Toole",
@@ -853,6 +901,13 @@ const gamesList: GameList = {
     gamePublisher: 'Feuerland Spiele',
     yearPublished: '2014',
   },
+  'Figment': {
+    gameArtists: 'SMLXL',
+    gameDesigners: 'Wolfgang Warsch',
+    gameImageName: 'figment',
+    gamePublisher: 'CMYK',
+    yearPublished: '2025',
+  },
   'Final Girl': {
     gameArtists: 'Tyler Johnson, Roland MacDonald',
     gameDesigners: 'Evan Derrick, A. J. Porfirio',
@@ -888,6 +943,13 @@ const gamesList: GameList = {
     gamePublisher: 'Indie Boards & Cards',
     yearPublished: '2011',
   },
+  'Flatiron': {
+    gameArtists: 'Weberson Santiago',
+    gameDesigners: 'Isra C., Shei S.',
+    gameImageName: 'flatiron',
+    gamePublisher: 'Ludonova',
+    yearPublished: '2024',
+  },
   'Fleet': {
     gameArtists: 'Eric J. Carter',
     gameDesigners: 'Ben Pinchback, Matt Riddle',
@@ -908,6 +970,13 @@ const gamesList: GameList = {
     gameImageName: 'flip-7',
     gamePublisher: 'The Op Games',
     yearPublished: '2024',
+  },
+  'FlipToons': {
+    gameArtists: 'Diego Sá',
+    gameDesigners: 'Jordy Adan, Renato Simões',
+    gameImageName: 'fliptoons',
+    gamePublisher: 'Thunderworks Games',
+    yearPublished: '2025',
   },
   'Fliptown': {
     gameArtists: 'Naomi Ferrall',
@@ -943,6 +1012,13 @@ const gamesList: GameList = {
     gameImageName: 'fromage',
     gamePublisher: 'Road To Infamy Games (R2i Games)',
     yearPublished: '2024',
+  },
+  'Frosthaven': {
+    gameArtists: 'Francesca Baerald, David Demaret, Alexandr Elichev, Josh T. McDowell',
+    gameDesigners: 'Isaac Childres',
+    gameImageName: 'frosthaven',
+    gamePublisher: 'Cephalofair Games',
+    yearPublished: '2022',
   },
   'Fury of Dracula (Third/Fourth Edition)': {
     gameArtists: 'Chris Beck, Samuel R. Shimota',
@@ -1070,6 +1146,13 @@ const gamesList: GameList = {
     gameImageName: 'gloomhaven-jaws-of-the-lion',
     gamePublisher: 'Cephalofair Games',
     yearPublished: '2020',
+  },
+  'Glory to Rome': {
+    gameArtists: 'Ed Carter (III), Valerio Cioni, Klemens Franz, Felix Girke, Heiko Günther, Igor Wolski',
+    gameDesigners: 'Ed Carter (III), Carl Chudyk',
+    gameImageName: 'glory-to-rome',
+    gamePublisher: 'Cambridge Games Factory',
+    yearPublished: '2005',
   },
   'Gnome Hollow': {
     gameArtists: 'Ammon Anderson, Patrick Spaziante',
@@ -1209,6 +1292,20 @@ const gamesList: GameList = {
     gamePublisher: 'Mantic Games',
     yearPublished: '2019',
   },
+  'Hercules and the 12 Labors': {
+    gameArtists: 'DavidSchneiderArt',
+    gameDesigners: 'Tyler J. Brown',
+    gameImageName: 'hercules-and-the-12-labors',
+    gamePublisher: 'Envy Born Games',
+    yearPublished: '2025',
+  },
+  'The Hobbit: There and Back Again': {
+    gameArtists: 'Lorenzo Colangeli',
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'the-hobbit-there-and-back-again',
+    gamePublisher: 'Office Dog',
+    yearPublished: '2025',
+  },
   'Honey Buzz': {
     gameArtists: 'Anne Heidsieck',
     gameDesigners: 'Paul Salomon',
@@ -1230,12 +1327,26 @@ const gamesList: GameList = {
     gamePublisher: 'Ravensburger',
     yearPublished: '2019',
   },
+  'Horrified: Dungeons & Dragons': {
+    gameArtists: 'Nathan Anderson (I), James Bousema, Sam Dawson, Johanna Rupprecht',
+    gameDesigners: 'Peter Lee',
+    gameImageName: 'horrified-dungeons-and-dragons',
+    gamePublisher: 'Ravensburger',
+    yearPublished: '2025',
+  },
   'Horrified: Greek Monsters': {
     gameArtists: 'Victor Maristane',
     gameDesigners: 'Michael Mulvihill',
     gameImageName: 'horrified-greek-monsters',
     gamePublisher: 'Ravensburger',
     yearPublished: '2023',
+  },
+  'Hot Streak': {
+    gameArtists: 'Cécile Gariépy',
+    gameDesigners: 'Jon Perry',
+    gameImageName: 'hot-streak',
+    gamePublisher: 'CMYK',
+    yearPublished: '2025',
   },
   'How to Save a World': {
     gameArtists: 'Fahed Alrajil, Tithi Luadthong',
@@ -1244,12 +1355,26 @@ const gamesList: GameList = {
     gamePublisher: 'Burnt Island Games',
     yearPublished: '2025',
   },
+  'The Hunt': {
+    gameArtists: 'Albert Monteys',
+    gameDesigners: 'Matthias Cramer, Engin Cramer',
+    gameImageName: 'the-hunt',
+    gamePublisher: 'Salt & Pepper Games',
+    yearPublished: '2023',
+  },
   'Hunted: Kobayashi Tower': {
     gameArtists: 'Drew Corkill, Jorge M. Velez',
     gameDesigners: 'Gabe Barrett',
     gameImageName: 'hunted-kobayashi-tower',
     gamePublisher: 'Barrett Publishing',
     yearPublished: '2021',
+  },
+  'I Made You a Mixtape': {
+    gameArtists: 'Gary King',
+    gameDesigners: 'Mike DiLisio, Dan Hughes',
+    gameImageName: 'i-made-you-a-mixtape',
+    gamePublisher: 'Massive Asterisk',
+    yearPublished: '2025',
   },
   'Iberia': {
     gameArtists: 'Atha Kanaani, Chris Quilliams',
@@ -1453,6 +1578,20 @@ const gamesList: GameList = {
     gamePublisher: 'Upper Deck',
     yearPublished: '2012',
   },
+  'Leviathan Wilds': {
+    gameArtists: 'Samuel R. Shimota',
+    gameDesigners: 'Justin Kemppainen',
+    gameImageName: 'leviathan-wilds',
+    gamePublisher: 'Moon Crab Games',
+    yearPublished: '2024',
+  },
+  'Light Speed: Arena': {
+    gameArtists: 'Marco Salogni',
+    gameDesigners: 'Leonardo Alese, James Ernest, Tom Jolly, Emanuele Santellani',
+    gameImageName: 'light-speed-arena',
+    gamePublisher: 'Tablescope',
+    yearPublished: '2025',
+  },
   'Little Alchemists': {
     gameArtists: 'David Cochard, Štěpán Drašťák, Dávid Jablonovský, František Sedláček',
     gameDesigners: 'Matúš Kotry',
@@ -1485,6 +1624,13 @@ const gamesList: GameList = {
     gameImageName: 'the-lord-of-the-rings-duel-for-middle-earth',
     gamePublisher: 'Repos Production',
     yearPublished: '2024',
+  },
+  'The Lord of the Rings: Fate of the Fellowship': {
+    gameArtists: 'Jared Blando, Cory Godbey',
+    gameDesigners: 'Matt Leacock',
+    gameImageName: 'the-lord-of-the-rings-fate-of-the-fellowship',
+    gamePublisher: 'Z-Man Games',
+    yearPublished: '2025',
   },
   'Lost Cities': {
     gameArtists: 'Vincent Dutrait, Michaela Kienle, Anke Pohl, Thilo Rick',
@@ -1727,6 +1873,13 @@ const gamesList: GameList = {
     gamePublisher: 'Game Brewer',
     yearPublished: '2022',
   },
+  'Oathsworn: Into the Deepwood': {
+    gameArtists: 'Francesca Baerald, Vladimir Buchyk, Sean Jackson, Dongjun Lu, Dongbiao Lu',
+    gameDesigners: 'Jamie Jolly',
+    gameImageName: 'oathsworn-into-the-deepwood',
+    gamePublisher: 'Shadowborne Games',
+    yearPublished: '2022',
+  },
   'Obsession': {
     gameArtists: 'Dan Hallagan',
     gameDesigners: 'Dan Hallagan',
@@ -1789,6 +1942,13 @@ const gamesList: GameList = {
     gameImageName: 'onitama',
     gamePublisher: 'conception',
     yearPublished: '2014',
+  },
+  'Oranienburger Kanal': {
+    gameArtists: 'Harald Lieske',
+    gameDesigners: 'Uwe Rosenberg',
+    gameImageName: 'oranienburger-kanal',
+    gamePublisher: 'Spielworxx',
+    yearPublished: '2023',
   },
   'Orchard: A 9 card solitaire game': {
     gameArtists: 'Mark Tuck',
@@ -2083,6 +2243,13 @@ const gamesList: GameList = {
     gamePublisher: 'Salt & Pepper Games',
     yearPublished: '2022',
   },
+  'River Valley Glassworks': {
+    gameArtists: 'Andrew Bosley',
+    gameDesigners: 'Adam Hill, Ben Pinchback, Matt Riddle',
+    gameImageName: 'river-valley-glassworks',
+    gamePublisher: 'Allplay',
+    yearPublished: '2024',
+  },
   'Robinson Crusoe: Adventures on the Cursed Island': {
     gameArtists: 'Tomasz Bentkowski, Mateusz Bielski, Vincent Dutrait, Jerzy Ferdyn, Mateusz Kopacz, Mateusz Lenart, Dominic Mayer, Maciej Mutwil, Zhao Run Quan, Piotr Słaby, Rafał Szyma, Ignacy Trzewiczek, Michał J. Zieliński',
     gameDesigners: 'Joanna Kijanka, Ignacy Trzewiczek',
@@ -2144,6 +2311,13 @@ const gamesList: GameList = {
     gameImageName: 'root',
     gamePublisher: 'Leder Games',
     yearPublished: '2018',
+  },
+  'Rowdy Partners': {
+    gameArtists: 'Amelia Sales',
+    gameDesigners: 'Jason Hager, Darren Reckner',
+    gameImageName: 'rowdy-partners',
+    gamePublisher: 'Capstone Games',
+    yearPublished: '2025',
   },
   'Rummikub': {
     gameArtists: 'Micha Hertzano, Ephraim Hertzano, Michael Rüttinger, Sławek Wiechowski',
@@ -2367,6 +2541,13 @@ const gamesList: GameList = {
     gamePublisher: 'Space Cowboys',
     yearPublished: '2022',
   },
+  'Spooktacular': {
+    gameArtists: 'Javier Roa González',
+    gameDesigners: 'D. Brad Talton, Jr.',
+    gameImageName: 'spooktacular',
+    gamePublisher: 'Level 99 Games',
+    yearPublished: '2025',
+  },
   'Spots': {
     gameArtists: 'John Bond',
     gameDesigners: 'Alex Hague, Jon Perry, Justin Vickers',
@@ -2580,6 +2761,13 @@ const gamesList: GameList = {
     gamePublisher: 'Pandasaurus Games',
     yearPublished: '2021',
   },
+  'Things in Rings': {
+    gameArtists: 'Snow Conrad',
+    gameDesigners: 'Peter C. Hayward',
+    gameImageName: 'things-in-rings',
+    gamePublisher: 'Allplay',
+    yearPublished: '2024',
+  },
   'Three Sisters': {
     gameArtists: 'Marlies Barends, Beth Sobel',
     gameDesigners: 'Ben Pinchback, Matt Riddle',
@@ -2642,6 +2830,20 @@ const gamesList: GameList = {
     gameImageName: 'too-many-bones',
     gamePublisher: 'Chip Theory Games',
     yearPublished: '2017',
+  },
+  'Torchlit': {
+    gameArtists: 'Harry Conway, Phil Rynda, David Spalinski',
+    gameDesigners: 'David Spalinski',
+    gameImageName: 'torchlit',
+    gamePublisher: 'Allplay',
+    yearPublished: '2024',
+  },
+  'Toy Battle': {
+    gameArtists: 'Paul Mafayon',
+    gameDesigners: 'Paolo Mori, Alessandro Zucchini',
+    gameImageName: 'toy-battle',
+    gamePublisher: 'Repos Production',
+    yearPublished: '2025',
   },
   'Trek 12: Himalaya': {
     gameArtists: 'Jonathan Aucomte, Olivier Derouetteau',
@@ -2746,6 +2948,13 @@ const gamesList: GameList = {
     gameDesigners: 'Ole Steiness',
     gameImageName: 'valheim-the-board-game',
     gamePublisher: 'MOOD Publishing',
+    yearPublished: '2025',
+  },
+  'Vantage': {
+    gameArtists: 'Valentina Filic, Sören Meding, Emilien Rotival',
+    gameDesigners: 'Jamey Stegmaier',
+    gameImageName: 'vantage',
+    gamePublisher: 'Stonemaier Games',
     yearPublished: '2025',
   },
   'Verdant': {
@@ -2860,6 +3069,13 @@ const gamesList: GameList = {
     gamePublisher: 'Board&Dice',
     yearPublished: '2024',
   },
+  'Wine Cellar': {
+    gameArtists: 'Vincent Dutrait',
+    gameDesigners: 'Andrew Stiles',
+    gameImageName: 'wine-cellar',
+    gamePublisher: '25th Century Games',
+    yearPublished: '2025',
+  },
   'Wingspan': {
     gameArtists: 'Ana Maria Martinez Jaramillo, Natalia Rojas, Beth Sobel',
     gameDesigners: 'Elizabeth Hargrave',
@@ -2899,6 +3115,20 @@ const gamesList: GameList = {
     gameImageName: 'wyrmspan',
     gamePublisher: 'Stonemaier Games',
     yearPublished: '2024',
+  },
+  'Xylotar': {
+    gameArtists: 'Davi Comodo, 別府さい (Sai Beppu)',
+    gameDesigners: 'Christopher Wray',
+    gameImageName: 'xylotar',
+    gamePublisher: 'Bézier Games',
+    yearPublished: '2024',
+  },
+  'Zenith': {
+    gameArtists: 'Xavier Gueniffey Durin',
+    gameDesigners: 'Grégory Grard, Mathieu Roussel',
+    gameImageName: 'zenith',
+    gamePublisher: 'PlayPunk',
+    yearPublished: '2025',
   },
   'Zimby Mojo': {
     gameArtists: 'Jenna Felli, Tani Pettit, Naomi Robinson',
