@@ -1119,6 +1119,13 @@ const gamesList: GameList = {
     gamePublisher: 'IDW Games, Panda Cult Games LLC',
     yearPublished: '2021',
   },
+  'Gingham': {
+    gameArtists: 'A. Giroux',
+    gameDesigners: 'Robert Hovakimyan',
+    gameImageName: 'gingham',
+    gamePublisher: 'Bitewing Games',
+    yearPublished: '2025',
+  },
   'Gizmos': {
     gameArtists: 'Hannah Cardoso, Júlia Ferrari, Giovanna BC Guimarães, Mathieu Harlaut, Saeed Jalabi',
     gameDesigners: 'Phil Walker-Harding',

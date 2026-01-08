@@ -78,8 +78,8 @@ export const anthonysList: GameList = {
     ...gamesList['Molly House'],
     sequence: 19,
   },
-  'Finspan': {
-    ...gamesList['Finspan'],
+  'Gingham': {
+    ...gamesList['Gingham'],
     sequence: 20,
   },
 }
