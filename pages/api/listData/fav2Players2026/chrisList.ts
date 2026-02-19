@@ -27,7 +27,7 @@ export const chrisList: GameList = {
     sequence: 6
   },
   'Undaunted: Stalingrad': {
-    ...gamesList['Stalingrad'],
+    ...gamesList['Undaunted: Stalingrad'],
     sequence: 7
   },
   'Dracula vs Van Helsing': {
