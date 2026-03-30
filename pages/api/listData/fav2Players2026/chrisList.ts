@@ -42,4 +42,8 @@ export const chrisList: GameList = {
     ...gamesList['Beer & Bread'],
     sequence: 10
   },
+  'Splendor Duel': {
+    ...gamesList['Splendor Duel'],
+    sequence: 11
+  },
 }

@@ -42,4 +42,8 @@ export const ryansList: GameList = {
     ...gamesList['Watergate'],
     sequence: 10
   },
+  'A Gest of Robin Hood': {
+    ...gamesList['A Gest of Robin Hood'],
+    sequence: 11
+  },
 }
