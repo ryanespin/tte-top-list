@@ -685,6 +685,13 @@ const gamesList: GameList = {
     gamePublisher: 'Libellud',
     yearPublished: '2008',
   },
+  'Dog Lover': {
+    gameArtists: 'Caravan Studio',
+    gameDesigners: 'David Short',
+    gameImageName: 'dog-lover',
+    gamePublisher: 'Alderac Entertainment Group',
+    yearPublished: '2022',
+  },
   'Dominion': {
     gameArtists: 'Matthias Catrein, Julien Delval, Tomasz Jedruszek, Ryan Laukat, Harald Lieske, Michael Menzel, Marcel-André Casasola Merkle, Claus Stephan, Christof Tisch',
     gameDesigners: 'Donald X. Vaccarino',
@@ -1292,6 +1299,13 @@ const gamesList: GameList = {
     gamePublisher: 'Days of Wonder',
     yearPublished: '2022',
   },
+  'Hegemony: Lead Your Class to Victory': {
+    gameArtists: 'Jakub Skop',
+    gameDesigners: 'Vangelis Bagiartakis, Varnavas Timotheou',
+    gameImageName: 'hegemony-lead-your-class-to-victory',
+    gamePublisher: 'Hegemonic Project Games',
+    yearPublished: '2022',
+  },
   'Hellboy: The Board Game': {
     gameArtists: 'Jose David Lanza Cebrian, Mike Mignola',
     gameDesigners: 'James M. Hewitt, Sophie Williams',
@@ -1439,6 +1453,12 @@ const gamesList: GameList = {
     gamePublisher: 'Osprey Games',
     yearPublished: '2024',
   },
+  'In Vino Morte': {
+    gameDesigners: 'Chris Anderson',
+    gameImageName: 'in-vino-morte',
+    gamePublisher: 'Button Shy',
+    yearPublished: '2016',
+  },
   'The Isle of Cats': {
     gameArtists: 'Dragolisco, Frank West',
     gameDesigners: 'Frank West',
@@ -1452,6 +1472,13 @@ const gamesList: GameList = {
     gameImageName: 'isle-of-cats-boat-pack',
     gamePublisher: 'The City of Games',
     yearPublished: '2022',
+  },
+  'Istanbul': {
+    gameArtists: 'Andreas Resch, Hans-Georg Schneider',
+    gameDesigners: 'Rüdiger Dorn',
+    gameImageName: 'istanbul',
+    gamePublisher: 'Pegasus Spiele',
+    yearPublished: '2014',
   },
   'Jaipur': {
     gameArtists: 'Vincent Dutrait, Alexandre Roche',
@@ -1866,6 +1893,12 @@ const gamesList: GameList = {
     gamePublisher: 'Z-Man Games',
     yearPublished: '2017',
   },
+  'Nucleum': {
+    gameDesigners: 'Simone Luciani, Dávid Turczi',
+    gameImageName: 'nucleum',
+    gamePublisher: 'Board&Dice',
+    yearPublished: '2023',
+  },
   'Numbsters': {
     gameArtists: 'Luke Flowers',
     gameDesigners: 'Milan Zivkovic',
@@ -2243,6 +2276,12 @@ const gamesList: GameList = {
     gamePublisher: 'Badgers from Mars',
     yearPublished: '2020',
   },
+  'Res Arcana': {
+    gameDesigners: 'Tom Lehmann',
+    gameImageName: 'res-arcana',
+    gamePublisher: 'Sand Castle Games',
+    yearPublished: '2019',
+  },
   'Resist!': {
     gameArtists: 'Albert Monteys',
     gameDesigners: 'Trevor Benjamin, Roger Tankersley, David Thompson',
@@ -2382,6 +2421,12 @@ const gamesList: GameList = {
     gamePublisher: 'Devir',
     yearPublished: '2023',
   },
+  'Schotten Totten': {
+    gameDesigners: 'Reiner Knizia',
+    gameImageName: 'schotten-totten',
+    gamePublisher: 'IELLO',
+    yearPublished: '1999',
+  },
   'SCOUT': {
     gameArtists: 'Rie Komatsuzaki, Jun Sasaki',
     gameDesigners: 'Kei Kajino',
@@ -2429,6 +2474,12 @@ const gamesList: GameList = {
     gameImageName: 'seaside',
     gamePublisher: 'Randolph',
     yearPublished: '2024',
+  },
+  'Secret Hitler': {
+    gameDesigners: 'Mike Boxleiter, Tommy Maranges, Max Temkin',
+    gameImageName: 'secret-hitler',
+    gamePublisher: 'Goat Wolf & Cabbage',
+    yearPublished: '2016',
   },
   'Shadows of Malice': {
     gameArtists: 'Jenna Felli',
@@ -2810,6 +2861,12 @@ const gamesList: GameList = {
     gamePublisher: 'Hans im Glück',
     yearPublished: '1997',
   },
+  "Time's Up! Title Recall!": {
+    gameDesigners: 'Peter Sarrett, Michael Adams',
+    gameImageName: 'times-up-title-recall',
+    gamePublisher: 'R&R Games',
+    yearPublished: '2008',
+  },
   'Tiny Epic Galaxies': {
     gameArtists: 'William Bricker',
     gameDesigners: 'Scott Almes',
@@ -2900,6 +2957,13 @@ const gamesList: GameList = {
     gameImageName: 'undaunted-battle-of-britain',
     gamePublisher: 'Osprey Games',
     yearPublished: '2023',
+  },
+  'Undaunted: Normandy': {
+    gameArtists: 'Roland MacDonald',
+    gameDesigners: 'Trevor Benjamin, David Thompson',
+    gameImageName: 'undaunted-normandy',
+    gamePublisher: 'Osprey Games',
+    yearPublished: '2019',
   },
   'Undaunted: Stalingrad': {
     gameArtists: 'Roland MacDonald',
@@ -3129,6 +3193,12 @@ const gamesList: GameList = {
     gameImageName: 'xylotar',
     gamePublisher: 'Bézier Games',
     yearPublished: '2024',
+  },
+  'Yokohama': {
+    gameDesigners: 'Hisashi Hayashi',
+    gameImageName: 'yokohama',
+    gamePublisher: 'OKAZU Brand',
+    yearPublished: '2016',
   },
   'Zenith': {
     gameArtists: 'Xavier Gueniffey Durin',

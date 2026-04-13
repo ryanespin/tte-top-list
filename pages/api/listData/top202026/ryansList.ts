@@ -55,11 +55,17 @@ export const ryansList: GameList = {
   'Undaunted: Stalingrad': {
     ...gamesList['Undaunted: Stalingrad'],
     badgeText: '#10 • 2025',
+    crossover: {
+      Dan: 10,
+    },
     sequence: 11,
   },
   'Spirit Island': {
     ...gamesList['Spirit Island'],
     badgeText: '#11 • 2025',
+    crossover: {
+      Tyler: 11,
+    },
     sequence: 12,
   },
   "Star Trek: Captain's Chair": {
@@ -75,11 +81,17 @@ export const ryansList: GameList = {
   'Age of Steam': {
     ...gamesList['Age of Steam'],
     badgeText: '#13 • 2025',
+    crossover: {
+      Tyler: 5,
+    },
     sequence: 15,
   },
   'Orléans': {
     ...gamesList['Orléans'],
     badgeText: '#19 • 2025',
+    crossover: {
+      Tyler: 17,
+    },
     sequence: 16,
   },
   'Mage Knight Board Game': {

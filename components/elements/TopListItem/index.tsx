@@ -11,10 +11,12 @@ export interface ItemBaseProps {
     'Brian'?: number,
     'Callers'?: number,
     'Chris'?: number,
+    'Dan'?: number,
     'Danielle'?: number,
     'Mista Rau'?: number,
     'Olivia'?: number,
-    'Ryan'?: number
+    'Ryan'?: number,
+    'Tyler'?: number
   },
   sequence?: number;
 }
@@ -176,6 +178,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       if (crossoverName === 'Callers') {
                         return 'teal'
                       }
+                      if (crossoverName === 'Dan') {
+                        return 'green'
+                      }
+                      if (crossoverName === 'Tyler') {
+                        return 'orange'
+                      }
                       return 'purple'
                     }
                     function getImage() {
@@ -202,6 +210,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                       }
                       if (crossoverName === 'Callers') {
                         return 'callers-2025'
+                      }
+                      if (crossoverName === 'Dan') {
+                        return 'dan-2026'
+                      }
+                      if (crossoverName === 'Tyler') {
+                        return 'tyler-2026'
                       }
                       return 'danielle-2025'
                     }
@@ -305,6 +319,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           if (crossoverName === 'Ryan') {
                             return 'red'
                           }
+                          if (crossoverName === 'Dan') {
+                            return 'blue'
+                          }
+                          if (crossoverName === 'Tyler') {
+                            return 'purple'
+                          }
                           return 'purple'
                         }
                         function getImage() {
@@ -331,6 +351,12 @@ export const TopListItem: React.FC<TopListItemProps> = (props: TopListItemProps)
                           }
                           if (crossoverName === 'Callers') {
                             return 'callers-2025'
+                          }
+                          if (crossoverName === 'Dan') {
+                            return 'dan-2026'
+                          }
+                          if (crossoverName === 'Tyler') {
+                            return 'tyler-2026'
                           }
                           return 'danielle-2025'
                         }
