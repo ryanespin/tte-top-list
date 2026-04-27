@@ -4,119 +4,116 @@ import { gamesList } from "../../gameData";
 export const arwenList: GameList = {
   'Orléans': {
     ...gamesList['Orléans'],
-    badgeText: '#2 • 2024',
+    badgeText: '#1 • 2025',
     crossover: {
-      Ryan: 19
+      Ryan: 16,
+      Tyler: 17,
     },
     sequence: 1,
   },
   'Space Base': {
     ...gamesList['Space Base'],
-    badgeText: '#1 • 2024',
+    badgeText: '#2 • 2025',
     sequence: 2,
   },
   'The Quacks of Quedlinburg': {
     ...gamesList['The Quacks of Quedlinburg'],
-    badgeText: '#4 • 2024',
+    badgeText: '#3 • 2025',
     crossover: {
-      Olivia: 14
+      Chris: 3,
+      Dan: 9,
+      Olivia: 6,
     },
     sequence: 3,
   },
+  'The Castles of Burgundy': {
+    ...gamesList['The Castles of Burgundy'],
+    badgeText: '#8 • 2025',
+    crossover: {
+      Dan: 3,
+    },
+    sequence: 4,
+  },
   'Obsession': {
     ...gamesList['Obsession'],
-    badgeText: '#3 • 2024',
-    sequence: 4,
+    badgeText: '#4 • 2025',
+    sequence: 5,
   },
   'Endeavor: Deep Sea': {
     ...gamesList['Endeavor: Deep Sea'],
-    badgeText: 'New to List',
-    sequence: 5,
+    badgeText: '#5 • 2025',
+    sequence: 6,
   },
   'Concordia': {
     ...gamesList['Concordia'],
-    badgeText: '#5 • 2024',
-    sequence: 6,
+    badgeText: '#6 • 2025',
+    sequence: 7,
   },
   'The Elder Scrolls: Betrayal of the Second Era': {
     ...gamesList['The Elder Scrolls: Betrayal of the Second Era'],
-    badgeText: 'New to List',
-    sequence: 7,
-  },
-  'The Castles of Burgundy': {
-    ...gamesList['The Castles of Burgundy'],
-    badgeText: '#6 • 2024',
-    crossover: {
-      Anthony: 7
-    },
+    badgeText: '#7 • 2025',
     sequence: 8,
-  },
-  'Apiary': {
-    ...gamesList['Apiary'],
-    badgeText: 'New to List',
-    sequence: 9,
   },
   'Cascadia': {
     ...gamesList['Cascadia'],
+    badgeText: '#10 • 2025',
+    sequence: 9,
+  },
+  'Chicken Fried Dice': {
+    ...gamesList['Chicken Fried Dice'],
     badgeText: 'New to List',
-    crossover: {
-      Anthony: 5
-    },
     sequence: 10,
   },
-  'Russian Railroads': {
-    ...gamesList['Russian Railroads'],
-    badgeText: '#12 • 2024',
+  'Moon Colony Bloodbath': {
+    ...gamesList['Moon Colony Bloodbath'],
+    badgeText: 'New to List',
     sequence: 11,
   },
-  'Rococo: Deluxe Edition': {
-    ...gamesList['Rococo: Deluxe Edition'],
-    badgeText: '#14 • 2024',
+  'Logic & Lore': {
+    ...gamesList['Logic & Lore'],
+    badgeText: 'New to List',
     sequence: 12,
-  },
-  'Cartographers': {
-    ...gamesList['Cartographers'],
-    badgeText: '#9 • 2024',
-    sequence: 13,
-  },
-  'Star Wars: Rebellion': {
-    ...gamesList['Star Wars: Rebellion'],
-    badgeText: '#16 • 2024',
-    sequence: 14,
   },
   'The Gang': {
     ...gamesList['The Gang'],
+    badgeText: '#15 • 2025',
+    sequence: 13,
+  },
+  'Tabriz': {
+    ...gamesList['Tabriz'],
+    badgeText: 'New to List',
+    sequence: 14,
+  },
+  'Foundations of Rome': {
+    ...gamesList['Foundations of Rome'],
     badgeText: 'New to List',
     sequence: 15,
   },
-  "Darwin's Journey": {
-    ...gamesList["Darwin's Journey"],
-    badgeText: 'New to List',
+  'Cartographers': {
+    ...gamesList['Cartographers'],
+    badgeText: '#13 • 2025',
     sequence: 16,
-  },
-  'Nidavellir': {
-    ...gamesList['Nidavellir'],
-    badgeText: 'New to List',
-    sequence: 17,
-  },
-  'Twilight Imperium: Fourth Edition': {
-    ...gamesList['Twilight Imperium: Fourth Edition'],
-    badgeText: '#7 • 2024',
-    sequence: 18,
-  },
-  'Brass: Birmingham': {
-    ...gamesList['Brass: Birmingham'],
-    badgeText: '#17 • 2024',
-    crossover: {
-      Ryan: 3
-    },
-    sequence: 19,
   },
   'Fromage': {
     ...gamesList['Fromage'],
-    badgeText: 'New to List',
+    badgeText: '#20 • 2025',
+    sequence: 17,
+  },
+  'Russian Railroads': {
+    ...gamesList['Russian Railroads'],
+    badgeText: '#11 • 2025',
+    sequence: 18,
+  },
+  "Darwin's Journey": {
+    ...gamesList["Darwin's Journey"],
+    badgeText: '#16 • 2025',
+    sequence: 19,
+  },
+  'Brass: Birmingham': {
+    ...gamesList['Brass: Birmingham'],
+    badgeText: '#19 • 2025',
     crossover: {
-      Anthony: 10
+      Ryan: 3,
     },
     sequence: 20,
   },

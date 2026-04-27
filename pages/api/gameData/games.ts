@@ -160,6 +160,13 @@ const gamesList: GameList = {
     gamePublisher: 'Stone Blade Entertainment',
     yearPublished: '2022',
   },
+  'Ashes Reborn: Red Rains – The Corpse of Viros': {
+    gameArtists: 'Barbara Lucas, Fajareka Setiawan, Fernanda Suárez, Jen Santos',
+    gameDesigners: 'Isaac Vega',
+    gameImageName: 'ashes-reborn-red-rains-corpse-of-viros',
+    gamePublisher: 'Plaid Hat Games',
+    yearPublished: '2023',
+  },
   'Ashes Reborn: Rise of the Phoenixborn': {
     gameArtists: 'Thander Lin, David Richards, Fernanda Suárez',
     gameDesigners: 'Isaac Vega',
@@ -289,6 +296,13 @@ const gamesList: GameList = {
     gameImageName: 'blood-bowl-2016-edition',
     gamePublisher: 'Games Workshop Ltd.',
     yearPublished: '2016',
+  },
+  'Blood Bowl (Third Season Edition)': {
+    gameArtists: 'Games Workshop',
+    gameDesigners: 'Games Workshop',
+    gameImageName: 'blood-bowl-third-season-edition',
+    gamePublisher: 'Games Workshop',
+    yearPublished: '2025',
   },
   'Blood on the Clocktower': {
     gameArtists: 'Micaela Dawn, Aidan Roberts, John Van Fleet, Grace VanFleet',
@@ -436,6 +450,13 @@ const gamesList: GameList = {
     gameImageName: 'cascadia-landmarks',
     gamePublisher: 'Flatout, AEG',
     yearPublished: '2023',
+  },
+  'Castle Combo': {
+    gameArtists: 'Stéphane Escapa',
+    gameDesigners: 'Grégory Grard, Mathieu Roussel',
+    gameImageName: 'castle-combo',
+    gamePublisher: 'Catch Up Games',
+    yearPublished: '2024',
   },
   'The Castles of Burgundy': {
     gameArtists: 'Julien Delval, Harald Lieske',
@@ -1005,6 +1026,13 @@ const gamesList: GameList = {
     gameImageName: 'for-northwood',
     gamePublisher: 'Side Room Games',
     yearPublished: '2021',
+  },
+  'Foundations of Rome': {
+    gameArtists: 'Damien Mammoliti',
+    gameDesigners: 'Emerson Matsuuchi',
+    gameImageName: 'foundations-of-rome',
+    gamePublisher: 'Arcane Wonders',
+    yearPublished: '2022',
   },
   'The Fox Experiment': {
     gameArtists: 'Joe Shawcross',
@@ -1633,6 +1661,13 @@ const gamesList: GameList = {
     gamePublisher: 'Czech Games Edition',
     yearPublished: '2024',
   },
+  'Logic & Lore': {
+    gameArtists: 'Jason Hager',
+    gameDesigners: 'Darren Reckner, Jason Hager',
+    gameImageName: 'logic-and-lore',
+    gamePublisher: 'Weird Giraffe Games',
+    yearPublished: '2024',
+  },
   'The LOOP': {
     gameArtists: 'Simon Caruso',
     gameDesigners: 'Maxime Rambourg, Théo Rivière',
@@ -1721,6 +1756,13 @@ const gamesList: GameList = {
     gamePublisher: 'The Op, Roxley',
     yearPublished: '2022',
   },
+  'Marvel Dice Throne: Missions': {
+    gameArtists: 'Gavan Brown, Gui Landgraf, Manny Trembley, Pat Spaziante',
+    gameDesigners: 'Nate Chatellier, Manny Trembley',
+    gameImageName: 'marvel-dice-throne-missions',
+    gamePublisher: 'Roxley',
+    yearPublished: '2023',
+  },
   'Marvel Dice Throne: X-Men': {
     gameArtists: 'Manny Trembley',
     gameDesigners: 'Gavan Brown, Nate Chatellier, Manny Trembley',
@@ -1808,6 +1850,13 @@ const gamesList: GameList = {
     gameDesigners: 'Pauline Kong, Marie Wong',
     gameImageName: 'moon-bunny',
     gamePublisher: 'Hot Banana Games',
+    yearPublished: '2025',
+  },
+  'Moon Colony Bloodbath': {
+    gameArtists: 'Franz Vohwinkel',
+    gameDesigners: 'Donald X. Vaccarino',
+    gameImageName: 'moon-colony-bloodbath',
+    gamePublisher: 'Rio Grande Games',
     yearPublished: '2025',
   },
   'Mr. President: The American Presidency, 2001-2020': {
@@ -2144,12 +2193,25 @@ const gamesList: GameList = {
     gamePublisher: '(Self-Published)',
     yearPublished: '2019',
   },
+  'Q-less': {
+    gameDesigners: 'Tom Sturdevant',
+    gameImageName: 'q-less',
+    gamePublisher: 'Grand Isle Games',
+    yearPublished: '2022',
+  },
   'The Quacks of Quedlinburg': {
     gameArtists: 'Dennis Lohausen, Wolfgang Warsch',
     gameDesigners: 'Wolfgang Warsch',
     gameImageName: 'quacks-of-quedlinburg',
     gamePublisher: 'Schmidt Spiele',
     yearPublished: '2018',
+  },
+  'Quartz': {
+    gameArtists: 'Luis Francisco',
+    gameDesigners: 'Sérgio Halaban, André Zatz',
+    gameImageName: 'quartz',
+    gamePublisher: 'Passport Game Studios',
+    yearPublished: '2015',
   },
   'Queendomino': {
     gameArtists: 'Cyril Bouquet',
@@ -2694,6 +2756,13 @@ const gamesList: GameList = {
     gamePublisher: 'Renegade Game Studios',
     yearPublished: '2020',
   },
+  'Street Masters': {
+    gameArtists: 'Gong Studios',
+    gameDesigners: 'Adam Sadler, Brady Sadler',
+    gameImageName: 'street-masters',
+    gamePublisher: 'Blacklist Games',
+    yearPublished: '2018',
+  },
   'A Study in Emerald': {
     gameArtists: 'Geof Banyard, Peter Dennis, Anne Stokes',
     gameDesigners: 'Martin Wallace',
@@ -2756,6 +2825,13 @@ const gamesList: GameList = {
     gameImageName: 'takenoko',
     gamePublisher: 'Bombyx, Matagot',
     yearPublished: '2011',
+  },
+  'Tabriz': {
+    gameArtists: 'Syd Fini',
+    gameDesigners: 'Randy Flynn, John Brieger',
+    gameImageName: 'tabriz',
+    gamePublisher: 'Crafty Games',
+    yearPublished: '2025',
   },
   'Tapestry': {
     gameArtists: 'Andrew Bosley, Rom Brown',
