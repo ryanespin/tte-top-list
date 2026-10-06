@@ -1027,6 +1027,13 @@ const gamesList: GameList = {
     gamePublisher: 'Side Room Games',
     yearPublished: '2021',
   },
+  'Forest Shuffle': {
+    gameArtists: 'Toni Llobet',
+    gameDesigners: 'Kosch',
+    gameImageName: 'forest-shuffle',
+    gamePublisher: 'Lookout Games',
+    yearPublished: '2023',
+  },
   'Foundations of Rome': {
     gameArtists: 'Damien Mammoliti',
     gameDesigners: 'Emerson Matsuuchi',

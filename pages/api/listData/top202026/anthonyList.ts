@@ -2,104 +2,136 @@ import { GameList } from "@/components/elements/TopListItem";
 import { gamesList } from "../../gameData";
 
 export const anthonysList: GameList = {
-  'Wingspan': {
-    ...gamesList['Wingspan'],
-    badgeText: '#2 • 2024',
-    sequence: 1,
-  },
-  'Patchwork': {
-    ...gamesList['Patchwork'],
-    badgeText: '#9 • 2024',
-    sequence: 2,
-  },
   'Horrified': {
     ...gamesList['Horrified'],
-    badgeText: '#5 • 2024',
-    sequence: 3,
-  },
-  'Harmonies': {
-    ...gamesList['Harmonies'],
-    badgeText: 'New to List',
-    sequence: 4
-  },
-  'Cascadia': {
-    ...gamesList['Cascadia'],
-    badgeText: '#1 • 2024',
-    sequence: 5,
-  },
-  'Azul': {
-    ...gamesList['Azul'],
-    badgeText: '#14 • 2024',
-    sequence: 6,
+    badgeText: '#3 • 2025',
+    sequence: 1,
   },
   'The Castles of Burgundy': {
     ...gamesList['The Castles of Burgundy'],
-    badgeText: '#3 • 2024',
+    badgeText: '#7 • 2025',
+    crossover: {
+      Dan: 3,
+      Arwen: 4,
+    },
+    sequence: 2,
+  },
+  'Wingspan': {
+    ...gamesList['Wingspan'],
+    badgeText: '#1 • 2025',
+    crossover: {
+      Danielle: 4,
+    },
+    sequence: 3,
+  },
+  'Forest Shuffle': {
+    ...gamesList['Forest Shuffle'],
+    badgeText: 'New to List',
+    sequence: 4,
+  },
+  'Cascadia': {
+    ...gamesList['Cascadia'],
+    badgeText: '#5 • 2025',
+    crossover: {
+      Olivia: 1,
+      Arwen: 9,
+    },
+    sequence: 5,
+  },
+  'Patchwork': {
+    ...gamesList['Patchwork'],
+    badgeText: '#2 • 2025',
+    crossover: {
+      Dan: 15,
+    },
+    sequence: 6,
+  },
+  'Fromage': {
+    ...gamesList['Fromage'],
+    badgeText: '#10 • 2025',
+    crossover: {
+      Arwen: 17,
+    },
     sequence: 7,
   },
   'Fleet: The Dice Game': {
     ...gamesList['Fleet: The Dice Game'],
-    badgeText: '#4 • 2024',
+    badgeText: '#8 • 2025',
     sequence: 8,
-  },
-  'Survive: Escape from Atlantis!': {
-    ...gamesList['Survive: Escape from Atlantis!'],
-    badgeText: '#7 • 2024',
-    sequence: 9
-  },
-  'Fromage': {
-    ...gamesList['Fromage'],
-    badgeText: 'New to List',
-    sequence: 10
-  },
-  'Santa Monica': {
-    ...gamesList['Santa Monica'],
-    badgeText: '#6 • 2024',
-    sequence: 11
-  },
-  'Targi': {
-    ...gamesList['Targi'],
-    badgeText: 'New to List',
-    sequence: 12
-  },
-  'The Downfall of Pompeii': {
-    ...gamesList['The Downfall of Pompeii'],
-    badgeText: '#10 • 2024',
-    sequence: 13
-  },
-  'Rear Window': {
-    ...gamesList['Rear Window'],
-    badgeText: 'New to List',
-    sequence: 14
   },
   'Carcassonne': {
     ...gamesList['Carcassonne'],
-    badgeText: '#19 • 2024',
-    sequence: 15
+    badgeText: '#15 • 2025',
+    crossover: {
+      Olivia: 9,
+    },
+    sequence: 9,
   },
-  'Pandemic': {
-    ...gamesList['Pandemic'],
+  'The White Castle': {
+    ...gamesList['The White Castle'],
     badgeText: 'New to List',
-    sequence: 16
+    crossover: {
+      Tyler: 8,
+    },
+    sequence: 10,
   },
-  'Sea of Clouds': {
-    ...gamesList['Sea of Clouds'],
-    badgeText: '#18 • 2023',
-    sequence: 17
-  },
-  'Takenoko': {
-    ...gamesList['Takenoko'],
-    badgeText: '#12 • 2023',
-    sequence: 18
-  },
-  'For Northwood! A Solo Trick-Taking Game': {
-    ...gamesList['For Northwood! A Solo Trick-Taking Game'],
+  'Wine Cellar': {
+    ...gamesList['Wine Cellar'],
     badgeText: 'New to List',
+    sequence: 11,
+  },
+  'Azul': {
+    ...gamesList['Azul'],
+    badgeText: '#6 • 2025',
+    crossover: {
+      Dan: 14,
+    },
+    sequence: 12,
+  },
+  'Santa Monica': {
+    ...gamesList['Santa Monica'],
+    badgeText: '#11 • 2025',
+    sequence: 13,
+  },
+  'Frosthaven': {
+    ...gamesList['Frosthaven'],
+    badgeText: 'New to List',
+    sequence: 14,
+  },
+  'Harmonies': {
+    ...gamesList['Harmonies'],
+    badgeText: '#4 • 2025',
+    crossover: {
+      Chris: 15,
+    },
+    sequence: 15,
+  },
+  'King of Tokyo: Duel': {
+    ...gamesList['King of Tokyo: Duel'],
+    badgeText: 'New to List',
+    sequence: 16,
+  },
+  'Rear Window': {
+    ...gamesList['Rear Window'],
+    badgeText: '#14 • 2025',
+    sequence: 17,
+  },
+  'Hot Streak': {
+    ...gamesList['Hot Streak'],
+    badgeText: 'New to List',
+    crossover: {
+      Ryan: 20,
+    },
+    sequence: 18,
+  },
+  'The Downfall of Pompeii': {
+    ...gamesList['The Downfall of Pompeii'],
+    badgeText: '#13 • 2025',
     sequence: 19,
   },
-  'Alhambra': {
-    ...gamesList['Alhambra'],
+  'The Guild of Merchant Explorers': {
+    ...gamesList['The Guild of Merchant Explorers'],
     badgeText: 'New to List',
-    sequence: 20
-  }
+    sequence: 20,
+  },
 }
